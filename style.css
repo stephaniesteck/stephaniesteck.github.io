@@ -1,0 +1,24 @@
+body {
+    font-size: 16 px;
+    font-family: san-serif; 
+    width: 50%;
+}
+header img {
+    float: right;
+    width: 250px;
+    height: auto;
+}
+
+header, footer{
+    background-color: aqua;
+    border: 1px solid white;
+    padding: 1rem;
+}
+a:hover {
+    color:chartreuse;
+}
+a:visited{
+    color:darkslategray;
+} 
+
+
