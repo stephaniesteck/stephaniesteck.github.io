@@ -1,8 +1,6 @@
 font-family: 'Covered By Your Grace', cursive;
 font-family: 'Englebert', sans-serif;
 body {
-    font-size: 16 px;
-    font-family: san-serif; 
     width: 50%;
 }
 header img {
@@ -23,9 +21,9 @@ a:visited{
     color:darkslategray;
 } 
 h1, h2, h3 {
-    font-family: 'Covered By Your Grace', cursive
+    font-family: 'Covered By Your Grace', cursive;
 }
 p{
-    font-family: 'Englebert', san-serif
+    font-family: 'Englebert', san-serif;
 }
 
