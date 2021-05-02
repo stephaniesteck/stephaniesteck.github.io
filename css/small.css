@@ -10,7 +10,7 @@ a {
     border-radius: 15px;
   }
   body{
-      background-color:darkseagreen
+      background-color:aqua;
   }
   h1 {
     font-family: 'Abril Fatface', cursive;
@@ -42,6 +42,7 @@ a {
     font-size: 1em;
     font-weight: bold;
     color:	black;
+    font-family: 'Fjalla One', sans-serif;
   }
   
   section {
