@@ -1,0 +1,90 @@
+.menu{
+    background-color: #5DD5FD;
+    color: #FFB347;
+    text-shadow: 1px 1px #555358;
+    list-style-type: none;
+    margin: 20px 20px 20px 20px;
+    padding: 0px;
+    display: inline-flex;
+    flex-direction: column;
+    grid-template-columns: auto;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+}
+h1, h2, h3 {
+    font-family: 'Mali', cursive;
+    color: #5DD5FD;
+    background-color: #297A44;
+    text-align: left;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-color: #FBF8B2;
+}
+
+a:visited, a:hover, a{
+    color: #FFB347;
+    text-shadow: 1px 1px #555358;
+    text-decoration: none;
+    padding: 70px;
+    text-align: right;
+}
+
+
+p{
+    font-family: 'PT Sans', sans-serif;
+    color: #555358;
+    padding: 20px 20px 20px 20px;
+    margin: 20px 20px 20px 20px;
+    font-size: 20px;
+}
+footer{
+    background-color: #297A44;
+    text-align: center;
+}
+.lastmod{
+    background-color: #297A44;
+}
+table, th, td{
+    border: 1px solid black;
+    margin-left: 200px;
+}
+th{
+    font-family: 'Mali', cursive;
+}
+td{
+    font-family: 'PT Sans', sans-serif; 
+}
+#site{
+    text-align: justify;
+    font-size: 40px;
+}
+#grey{
+    background-color: #555358;
+}
+#yellow{
+    background-color: #FBF8B2;
+}
+#blue{
+    background-color: #5DB5FD;
+}
+#orange{
+    background-color: #FFB347;
+}
+#green{
+    background-color: #297A44;
+}
+#scheme{
+    margin-left: 200px;
+}
+#logo, #website{
+    padding: 0;
+    margin-left: 300px;
+}
