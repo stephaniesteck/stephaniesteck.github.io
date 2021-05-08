@@ -12,3 +12,4 @@ function writedate() {
     document.getElementById("copyright").innerHTML = date.getFullYear();
     document.getElementById("lastUpdate").innerHTML = document.lastModified;
 }
+document.querySelector('#lastmod').textContent = document.lastModified
