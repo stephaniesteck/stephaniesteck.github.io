@@ -9,7 +9,8 @@ function writedate() {
         hourText = hour - 12;
         timeOfDay = 'PM';
     }
-    document.getElementById("copyright").innerHTML = date.getFullYear();
+    
+document.querySelector('#copyright-year').innerHTML = new Date().getFullYear();
     document.getElementById("lastUpdate").innerHTML = document.lastModified;
 }
 document.querySelector('#lastmod').textContent = document.lastModified

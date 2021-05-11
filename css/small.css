@@ -25,6 +25,9 @@ h1{
 h2{
     font-size: 1rem;
 }
+body{
+    margin: auto;
+}
 h1, h2, h3 {
     font-family: 'Abril Fatface', cursive;
 }
