@@ -1,6 +1,6 @@
 .menu{
-    background-color: #297A44;
-    color: #FFB347;
+    background-color: #66CC88;
+    color: #FFFF00;
     text-shadow: 1px 1px #555358;
     display:inline-flex;
     margin: 0;
@@ -14,7 +14,7 @@ footer {
 	align-items: center;
 	justify-content: center;
 	padding: 10px;
-    background-color: #297A44;
+    background-color: #66CC88;
 }
 header,
 nav,
@@ -37,7 +37,7 @@ nav ul{
 
 h1, h2, h3 {
     font-family: 'Mali', cursive;
-    color: #5DD5FD;
+    color: #56B0E1;
     background-color: #297A44;
     text-align: left;
     margin: 0;
@@ -52,7 +52,7 @@ body{
 }
 
 a:visited, a:hover, a{
-    color: #FFB347;
+    color: #FFFF00;
     text-shadow: 1px 1px #555358;
     text-decoration: none;
     padding: 70px;
@@ -67,8 +67,8 @@ p{
     margin: 0;
 }
 .lastmod{
-    background-color: #297A44;
-    color: #FFB347;
+    background-color: #66CC88;
+    color: #FFFF00;
 }
 table, th, td{
     border: 1px solid black;
@@ -91,16 +91,16 @@ footer {
     background-color: #555358;
 }
 #yellow{
-    background-color: #FBF8B2;
+    background-color: #FDFCD8;
 }
 #blue{
-    background-color: #5DB5FD;
+    background-color: #56B0E1;
 }
 #orange{
-    background-color: #FFB347;
+    background-color: #FFFF00;
 }
 #green{
-    background-color: #297A44;
+    background-color: #66CC88;
 }
 #scheme{
     margin-left: 200px;
@@ -117,24 +117,24 @@ footer {
 }
 .winter{
     font-family: 'Mali', cursive;
-    background-color: #5DB5FD;
+    background-color: #56B0E1;
     color: #555358;
     margin: 0;
 }
 .spring{
     font-family: 'Mali', cursive;
-    background-color: #FBF8B2;
+    background-color: #FDFCD8;
     margin: 0;
 }
 .summer{
     font-family: 'Mali', cursive;
-    background-color: #297A44;
+    background-color: #66CC88;
     margin: 0;
-    color: #FFB347;
+    color: #FFFF00;
 }
 .fall{
     font-family: 'Mali', cursive;
-    background-color: #FFB347;
-    color: #297A44;
+    background-color: #FFDDAD;
+    color: #66CC88;
     margin: 0;
 }

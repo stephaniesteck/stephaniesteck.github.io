@@ -1,0 +1,28 @@
+@media screen and (min-width: 80em) {
+    nav ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+    nav ul li a{
+        text-align: center;
+        width: 1rem;
+    }
+    nav li:first-child{
+        display: none;
+    }
+    .menu {
+            list-style-type: none;
+            justify-content: center;
+            background-color: #FFFF00;
+        }
+    footer {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 190px;
+        padding-right: 190px;
+        margin-bottom: 25px;
+    }
+}
+    
+    
