@@ -58,7 +58,7 @@ main{
 .headermenu li:first-child {
     display: block;
 }
-.headermenu li {
+.headermenu ham li {
     display: none;
 }
 .responsive li {

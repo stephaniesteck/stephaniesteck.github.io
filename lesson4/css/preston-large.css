@@ -8,13 +8,22 @@
         text-align: center;
         width: 1rem;
     }
-    nav li:first-child{
+    .headermenu ham li:first-child{
         display: none;
+    }
+    .headermenu ham li{
+        display: block;
     }
     .menu {
             list-style-type: none;
             justify-content: center;
             background-color: #FFFF00;
+        }
+        .button{
+            margin: 20px;
+            background-color: transparent;
+            border: none;
+            display: none;
         }
     footer {
         padding-top: 15px;
