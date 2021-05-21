@@ -1,0 +1,66 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    color: #E6BEAE;
+    text-shadow: #BB4430 2px 2px;
+}
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 18px;
+	font-family: Acme, Arial, sans-serif;
+    background-color: #ECF8F8;
+}
+
+main {
+	margin: 0.5rem;
+	border: 1px solid #E7D8C9;
+	padding: 0.5rem;
+	display: grid;
+	grid-template-columns: 1;
+}
+.books{
+    background-color: #BB4430;
+    margin-right: auto;
+    margin-left: auto;
+}
+input,
+button {
+	padding: 0.5rem;
+}
+.button{
+    font-family: 'Didact Gothic', sans-serif;
+}
+label {
+	font-size: 0.8rem;
+}
+.listcontainer {
+	border: 1px solid #EEE4E1;
+	margin: 1rem;
+	padding: 1rem;
+}
+
+.list {
+	margin: 0.2rem;
+}
+p{
+    font-family: 'Didact Gothic', sans-serif;
+}
+ul {
+	margin: 1rem;
+	list-style: none;
+}
+
+li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 0.5rem;
+}
