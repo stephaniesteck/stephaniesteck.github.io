@@ -12,12 +12,14 @@ header {
 
 header img {
     width: 300px;
-    
+    position: absolute;
 }
 
 header h1 {
     text-shadow: #FFFF00 2px 2px;
     font-size: 1.8em;
+    position: relative;
+    left: 10px;
 }
 
 header p {
