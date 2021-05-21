@@ -12,6 +12,7 @@ header {
 
 header img {
     width: 300px;
+    
 }
 
 header h1 {
@@ -73,6 +74,7 @@ main {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 .headermenu li:first-child {

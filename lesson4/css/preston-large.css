@@ -21,7 +21,11 @@
     .headermenu li:first-child {
         display: none;
     }
-
+    header h1 {
+        font-size: 50px;
+        margin-bottom: 0;
+        margin-top: -150px;
+    }
 }
     
     
