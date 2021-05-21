@@ -1,3 +1,3 @@
 function toggleMenu() {
-    document.getElementsByClassName('ham')[0].classList.toggle('responsive');
+    document.getElementsByClassName('headermenu')[0].classList.toggle('responsive');
 }
