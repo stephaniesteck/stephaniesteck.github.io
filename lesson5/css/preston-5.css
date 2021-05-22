@@ -50,6 +50,10 @@ main {
     overflow: hidden;
 }
 
+h3 {
+    border-bottom: 1px solid #555;
+}
+
 .button{
     background-color: transparent;
     border: none;
@@ -124,10 +128,58 @@ main {
     background-color: #555;
 }
 
-.weathersummary, .fiveday, .article, .contactinfo{
+.weathersummary {
+    display: inline-block;
+    width: 100%;
+    
+}
+.lake-weather {
+    background-color: #FFFF00;
+    opacity: 0.5;
+    width: 300px;
+    z-index: 2;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+
+ .lake-main {
+    margin-right: auto;
+    margin-left: auto;
+    width: 800px;
+    height: 300px;
+    margin-top: 20px; 
+    display: block;
+}
+
+.lake-main img  {
+    position: relative;
+}
+
+ div .lake-weather {
+    float: right;
+     display: inline-table;
+     top: 50%;
+     bottom: 50%;
+     position: absolute;
+ }
+
+.info {
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.data {
+    color: blue;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+.fiveday, .article, .contactinfo{
     min-height: 50px;
     display: block;
-    width: 100%;
     border: 1px solid #666666;
     margin-top: 10px;
     padding: 0;
