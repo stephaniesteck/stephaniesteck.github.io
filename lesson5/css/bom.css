@@ -7,6 +7,7 @@ h1 {
     text-align: center;
     font-family: 'Courgette', cursive;
     color: #E6BEAE;
+	padding-top: 100px;
     
 }
 body {
@@ -21,7 +22,6 @@ body {
 }
 
 main {
-    align-items: center;
 	margin: 0.5rem;
 	border: 1px solid #E7D8C9;
 	padding: 0.5rem;
@@ -37,6 +37,7 @@ main {
     background-color: #BB4430;
     margin-right: auto;
     margin-left: auto;
+	margin-bottom: auto;
 }
 input,
 button {
