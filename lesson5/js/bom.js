@@ -1,12 +1,11 @@
-const input = document.querySelector('input');
-const button = document.querySelector('button');
-const list = document.querySelector('ul');
 
-button.addEventListener('click', function(){
+
+function addChapter(){
+    let chapterNum = document.querySelector('#input').value;
+    const list = document.querySelector('ul');
+    console.log('There');
     //store input value
-    let value = input.value;
-    //shows total number
-    letliCount =  document.getElementsByTagName('li').length+1;
+    console.log(chapterNum);
     //verify a value was added
     if (!value.trim()){
         console.log('nothing entered try again');
@@ -20,10 +19,5 @@ button.addEventListener('click', function(){
         liNew.textContent = value;
         btnNew.textContent = 'X';
 
-        btnNew.onClick = function() {
-            list.removeChild(liNew);
-        };
     }
-    input.focus();
-    input.value();
-});
+}

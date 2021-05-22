@@ -1,0 +1,134 @@
+* {box-sizing: border-box;}
+
+body {
+    background-color: #FDFCD8;
+    max-width: 2000px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+header img {
+    width: 300px;
+    position: absolute;
+}
+
+header h1 {
+    text-shadow: #FFFF00 2px 2px;
+    font-size: 1.8em;
+    position: relative;
+    left: 10px;
+}
+
+header p {
+    margin-top: 0;
+    width: 100%;
+    padding: 0 8px 0 8px;
+}
+
+header, footer{
+    background-color: #66CC88;
+    color: #666666;
+    text-align: center;
+    min-height: 250px;
+}
+
+h1, h2, h3{
+    font-family: 'Mali', cursive;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    color: #666666;
+    text-shadow: #56B0E1 2px 2px;
+}
+
+main {
+    overflow: hidden;
+}
+
+.button{
+    background-color: transparent;
+    border: none;
+    padding-left: 17px;
+}
+
+.responsive li a:hover{
+
+}
+
+.responsive li a:active{
+
+}
+
+.full-width{
+    max-width: 2000px;
+}
+
+.headermenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.headermenu li:first-child {
+    display: block;
+    padding: 10px 0 10px 0;
+}
+
+.headermenu li {
+    text-decoration: none;
+    list-style-type: none;
+    text-shadow: #666666 1px 1px;
+    font-size: 20px;
+    display: none;
+    width: 100%;
+}
+
+.headermenu li a {
+    color: #56B0E1;
+    text-decoration: none;
+    padding: 10px;
+    width: 100%;
+    display: block;
+}
+
+.headermenu li a:hover {
+    text-decoration: none;
+    list-style-type: none;
+    float: left;
+    color: #56B0E1;
+    background-color: #777;
+}
+
+.responsive li {
+	display: block;
+} 
+
+.header {
+    text-align: center;
+    width: 760px;
+    margin: 0 auto;
+}
+
+.menu {
+    font-size: 20px;
+    padding: 0px;
+    background-color: #555;
+}
+
+.weathersummary, .fiveday, .article, .contactinfo{
+    min-height: 50px;
+    display: block;
+    width: 100%;
+    border: 1px solid #666666;
+    margin-top: 10px;
+    padding: 0;
+}

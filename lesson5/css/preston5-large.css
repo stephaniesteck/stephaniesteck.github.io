@@ -1,0 +1,30 @@
+@media only screen and (min-width: 47.5em) {
+
+    footer {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 190px;
+        padding-right: 190px;
+        margin-bottom: 25px;
+    }
+
+    .headermenu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .headermenu li {
+        display: block;
+    }
+
+    .headermenu li:first-child {
+        display: none;
+    }
+    header h1 {
+        font-size: 50px;
+        margin-bottom: 0;
+    }
+}
+    
+    
