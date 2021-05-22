@@ -54,6 +54,10 @@ h3 {
     border-bottom: 1px solid #555;
 }
 
+table {
+    width: 100%;
+}
+
 .button{
     background-color: transparent;
     border: none;
@@ -126,24 +130,38 @@ h3 {
     font-size: 20px;
     padding: 0px;
     background-color: #555;
+    font-family: 'PT Sans', sans-serif;;
+}
+
+#preston {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'PT Sans', sans-serif;
+    color: #56B0E1;
+    background-color: #555;
+    padding: 0;
+    position: relative;
+    width: 60%;
 }
 
 .weathersummary {
     display: inline-block;
     width: 100%;
-    
+    min-height: 50px;
+    margin-right: auto;
+    margin-left: auto;
 }
 .lake-weather {
     background-color: #FFFF00;
+    text-align: center;
     opacity: 0.5;
     width: 300px;
     z-index: 2;
-    padding: 0;
-    display: inline-block;
-    text-align: center;
     
 }
-
 
  .lake-main {
     margin-right: auto;
@@ -151,7 +169,7 @@ h3 {
     width: 800px;
     height: 300px;
     margin-top: 20px; 
-    display: block;
+    display: inline-block;
 }
 
 .lake-main img  {
@@ -159,11 +177,10 @@ h3 {
 }
 
  div .lake-weather {
-    float: right;
-     display: inline-table;
-     top: 50%;
-     bottom: 50%;
+     display: inline-block;
      position: absolute;
+     margin-top: 20px;
+     padding: 15px;
  }
 
 .info {
@@ -176,8 +193,20 @@ h3 {
     font-family: 'PT Sans', sans-serif;
 }
 
+table img {
+    width: 100px;
+    
+}
 
-.fiveday, .article, .contactinfo{
+.fiveday {
+    width: 60%;
+    background-color: #66CC88;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'PT Sans', sans-serif;;
+}
+
+.article, .contactinfo{
     min-height: 50px;
     display: block;
     border: 1px solid #666666;
