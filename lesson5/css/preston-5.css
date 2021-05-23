@@ -284,10 +284,27 @@ p .contactinfo {
 }
 .social img {
     display: inline-block;
-    
+}
+
+#facebook {
+    height: 40px;
+}
+
+#instagram {
+    height: 40px;
+}
+
+#linkedin {
+    height: 40px;
+}
+
+#twitter {
+    height: 40px;
+}
+#pinterest {
+    height: 40px;
 }
 .social {
-    height: 40px;
     grid-column: auto;
     float: right;
     background-color: white;
