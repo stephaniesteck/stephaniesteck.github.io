@@ -197,13 +197,30 @@ table img {
     width: 100px;
     
 }
-
-.fiveday {
-    width: 60%;
-    background-color: #66CC88;
+#summary {
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
     margin-right: auto;
     margin-left: auto;
-    font-family: 'PT Sans', sans-serif;;
+    font-family: 'PT Sans', sans-serif;
+    color: #555;
+    padding: 0;
+    position: relative;
+    width: 60%;
+}
+
+.days {
+    color: white;
+    background-color: #555;
+}
+
+.fiveday {
+    border: 1px solid #555; 
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'PT Sans', sans-serif;
 }
 
 .article, .contactinfo{
