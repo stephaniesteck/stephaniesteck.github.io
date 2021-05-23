@@ -148,7 +148,7 @@ table {
 }
 
 .weathersummary {
-    display: block;
+    display: inline-block;
     width: 100%;
     min-height: 50px;
     margin-right: auto;
@@ -162,6 +162,7 @@ table {
     z-index: 2;
     margin-right: auto;
     margin-left: auto;
+    display: block;
 }
 
  .lake-main {
@@ -170,22 +171,28 @@ table {
     width: 800px;
     height: 300px;
     margin-top: 20px; 
-    display: inline-block;
+    display: block;
     
 }
 
 table .lake-weather {
+    display: inline-block;
     
 }
 
- div .lake-weather {
-     display: inline-block;
-     position: absolute;
-     margin-top: 20px;
-     padding: 15px;
- }
+#lake-im {
+    margin-right: auto;
+    margin-left: auto;
+    z-index: -1;
+    display: inline-block;
+}
 
-
+div .lake-weather {
+    display: inline-block;
+    position: absolute;
+    margin-top: 20px;
+    padding: 15px;
+}
 
 .info {
     color: black;
@@ -196,11 +203,8 @@ table .lake-weather {
     color: blue;
     font-family: 'PT Sans', sans-serif;
 }
-
 table img {
     width: 100px;
-    
-    
 }
 #summary {
     margin-top: 20px;
