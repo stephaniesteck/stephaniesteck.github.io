@@ -239,6 +239,7 @@ table img {
     color: white;
     float: left;
     display: inline-block;
+    margin-bottom: 10px;
 }
 
 .article p {
@@ -252,10 +253,42 @@ table img {
     display: inline-block;
 }
 
-.contactinfo{
-    min-height: 50px;
+#map {
+    width: 300px;
     display: block;
-    border: 1px solid #666666;
-    margin-top: 10px;
-    padding: 0;
+}
+
+#map img {
+    float: right;
+    height: 200px;
+    float: right;
+}
+
+.contactinfo{
+    background-color: white;
+    min-height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+p .contactinfo {
+    display: inline-grid;
+    margin: 0;
+}
+
+#phone {
+    text-shadow: none;
+    text-align: right;
+}
+.social img {
+    display: inline-block;
+    
+}
+.social {
+    height: 40px;
+    grid-column: auto;
+    float: right;
+    background-color: white;
 }
