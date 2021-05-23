@@ -148,7 +148,7 @@ table {
 }
 
 .weathersummary {
-    display: inline-block;
+    display: block;
     width: 100%;
     min-height: 50px;
     margin-right: auto;
@@ -168,12 +168,10 @@ table {
     width: 800px;
     height: 300px;
     margin-top: 20px; 
-    display: inline-block;
+    display: block;
 }
 
-.lake-main img  {
-    position: relative;
-}
+
 
  div .lake-weather {
      display: inline-block;
