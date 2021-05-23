@@ -35,7 +35,7 @@ header, footer{
     min-height: 250px;
 }
 
-h1, h2, h3{
+h1, h2, h3, h5{
     font-family: 'Mali', cursive;
 }
 
@@ -182,6 +182,10 @@ table {
      padding: 15px;
  }
 
+ table .lake-weather {
+    
+ }
+
 .info {
     color: black;
     font-family: 'PT Sans', sans-serif;
@@ -194,6 +198,7 @@ table {
 
 table img {
     width: 100px;
+    
     
 }
 #summary {
@@ -222,7 +227,27 @@ table img {
     font-family: 'PT Sans', sans-serif;
 }
 
-.article, .contactinfo{
+.article {
+    text-shadow: none;
+    font-family: 'PT Sans', sans-serif;
+    background-color: #56B0E1;
+    color: white;
+    float: left;
+    display: inline-block;
+}
+
+.article p {
+    max-width: 550px;
+}
+
+.article img {
+    float: right;
+    object-fit: contain;
+    margin: 0;
+    display: inline-block;
+}
+
+.contactinfo{
     min-height: 50px;
     display: block;
     border: 1px solid #666666;
