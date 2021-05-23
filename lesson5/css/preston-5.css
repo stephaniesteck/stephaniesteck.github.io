@@ -160,6 +160,8 @@ table {
     opacity: 0.5;
     width: 300px;
     z-index: 2;
+    margin-right: auto;
+    margin-left: auto;
 }
 
  .lake-main {
