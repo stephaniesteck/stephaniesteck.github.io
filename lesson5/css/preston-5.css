@@ -170,10 +170,13 @@ table {
     width: 800px;
     height: 300px;
     margin-top: 20px; 
-    display: block;
+    display: inline-block;
+    
 }
 
-
+table .lake-weather {
+    display:inline-block;
+}
 
  div .lake-weather {
      display: inline-block;
@@ -182,9 +185,7 @@ table {
      padding: 15px;
  }
 
- table .lake-weather {
-    
- }
+
 
 .info {
     color: black;
