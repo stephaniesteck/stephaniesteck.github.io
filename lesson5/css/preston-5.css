@@ -144,11 +144,11 @@ table {
     color: white;
     background-color: #555;
     padding: 0;
-    width: 60%;
+    width: 100%;
 }
 
 .weathersummary {
-    display: inline-block;
+    display: block;
     width: 100%;
     min-height: 50px;
     margin-right: auto;
@@ -176,7 +176,7 @@ table {
 }
 
 table .lake-weather {
-    display: inline-block;
+    display: block;
     
 }
 
@@ -184,12 +184,12 @@ table .lake-weather {
     margin-right: auto;
     margin-left: auto;
     z-index: -1;
-    display: inline-block;
+    display: block;
+    width: 100%;
 }
 
 div .lake-weather {
-    display: inline-block;
-    position: absolute;
+    display: block;
     margin-top: 20px;
     padding: 15px;
 }
@@ -226,7 +226,7 @@ table img {
 
 .fiveday {
     border: 1px solid #555; 
-    width: 60%;
+    width: 100%;
     margin-right: auto;
     margin-left: auto;
     font-family: 'PT Sans', sans-serif;
