@@ -134,7 +134,8 @@ table {
 }
 
 #preston {
-    margin-top: 20px;
+    margin-top: 0;
+    border: 1px solid white;
     margin-bottom: 20px;
     text-align: center;
     margin-right: auto;
@@ -143,7 +144,6 @@ table {
     color: white;
     background-color: #555;
     padding: 0;
-    position: relative;
     width: 60%;
 }
 
@@ -160,7 +160,6 @@ table {
     opacity: 0.5;
     width: 300px;
     z-index: 2;
-    
 }
 
  .lake-main {
