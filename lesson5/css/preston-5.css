@@ -287,23 +287,24 @@ p .contactinfo {
 }
 
 #facebook {
-    height: 40px;
+    height: 20px;
 }
 
 #instagram {
-    height: 40px;
+    height: 20px;
 }
 
 #linkedin {
-    height: 40px;
+    height: 20px;
 }
 
 #twitter {
-    height: 40px;
+    height: 20px;
 }
 #pinterest {
-    height: 40px;
+    height: 20px;
 }
+
 .social {
     grid-column: auto;
     float: right;
