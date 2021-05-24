@@ -1,10 +1,31 @@
+img {
+    float: right;
+    display: block;
+    width: 200px;
+    
+}
+
+header {
+    text-align: left;
+    margin-bottom: 10px;
+    height: 55px;
+    clear: both;
+    display: block;
+}
+
+#name {
+    padding-right: 122px;
+    padding-left: 122px; 
+    font-size: 2rem;
+}
+
 body {
     width: 50%;
 }
-header img {
-    float: right;
-    max-width: 100%;
-    height: auto;
+
+#bodydiv {
+    width: 800px;
+    margin: auto;
 }
 
 header, footer{
@@ -19,8 +40,11 @@ a:visited{
     color:darkslategray;
 } 
 h1{
+    margin: 0;
+    padding: 0;
+    border: 0;
     font-size: 1.5rem;
-    margin: 0.15rem;
+    float: left;
 }
 h2{
     font-size: 1rem;
