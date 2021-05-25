@@ -1,3 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #FBF8B2;
+    margin: 0;
+    width: 100%;
+}
+
 .menu{
     background-color: #66CC88;
     color: #FFFF00;
@@ -6,7 +15,22 @@
     margin: 0;
     border: 0;
     text-decoration: none;
+    width: 100%;
+    text-align: center;
+    justify-content: space-between;
 }
+
+a{
+    font-size: 20px;
+}
+
+header,
+nav,
+main,
+footer {
+	margin: 0;
+}
+
 header,
 footer {
 	display: flex;
@@ -16,17 +40,17 @@ footer {
 	padding: 10px;
     background-color: #66CC88;
 }
-header,
-nav,
-main,
-footer {
-	margin: 0;
-    flex: 1;
+
+h2 {
+    text-align: center;
 }
+
 main{
-    grid-template-columns: 1fr 1fr 1fr;
     margin: 0;
+    border: 0;
+    border: 0;
 }
+
 nav ul{
     list-style-type: none;
 	margin: 0;
@@ -41,15 +65,24 @@ h1, h2, h3 {
     background-color: #297A44;
     text-align: left;
     margin: 0;
+    width: 100%;
 }
+
 h1{
     text-align: center;
     margin: 0;
 }
-body{
-    background-color: #FBF8B2;
+
+#plan {
+    width: 100%;
     margin: 0;
 }
+
+
+#bodydiv {
+    width: 100%;
+}
+
 
 a:visited, a:hover, a{
     color: #FFFF00;
@@ -59,6 +92,7 @@ a:visited, a:hover, a{
     text-align: right;
     margin: 0;
 }
+
 p{
     font-family: 'PT Sans', sans-serif;
     color: #555358;
@@ -66,72 +100,91 @@ p{
     font-size: 20px;
     margin: 0;
 }
+
 .lastmod{
     background-color: #66CC88;
     color: #FFFF00;
 }
+
 table, th, td{
     border: 1px solid black;
     margin-left: 200px;
 }
+
 th{
     font-family: 'Mali', cursive;
 }
+
 td{
     font-family: 'PT Sans', sans-serif; 
 }
+
 footer {
 	flex: 1;
 }
+
 #site{
     text-align: justify;
-    font-size: 40px;
+    font-size: 30px;
 }
+
 #grey{
     background-color: #555358;
 }
+
 #yellow{
+   
     background-color: #FDFCD8;
 }
 #blue{
     background-color: #56B0E1;
 }
+
 #orange{
     background-color: #FFFF00;
 }
+
 #green{
     background-color: #66CC88;
 }
+
 #scheme{
     margin-left: 200px;
 }
+
 #logo, #website{
     padding: 0;
     margin-left: 300px;
 }
+
 #logo{
     width: 500px;
 }
+
 #website{
     width: 700px;
 }
+
 .winter{
     font-family: 'Mali', cursive;
     background-color: #56B0E1;
     color: #555358;
     margin: 0;
 }
+
 .spring{
     font-family: 'Mali', cursive;
     background-color: #FDFCD8;
     margin: 0;
 }
+
 .summer{
     font-family: 'Mali', cursive;
     background-color: #66CC88;
     margin: 0;
     color: #FFFF00;
 }
+
 .fall{
     font-family: 'Mali', cursive;
     background-color: #FFDDAD;
