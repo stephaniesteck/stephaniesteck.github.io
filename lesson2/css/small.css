@@ -50,7 +50,6 @@ a {
     display: grid;
     grid-template-columns: repeat(3x, 1fr);
     margin: auto;
-    margin-left: 0;
   }
   
   p {
