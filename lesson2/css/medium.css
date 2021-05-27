@@ -1,12 +1,8 @@
 @media only screen and (min-width: 32.5em){
-    h1{
-        font-size: 2.5rem;
-    }
-    h2{
-        font-size: 1.5rem;
-    }
-    .steck {
-        width: 250px;
-        float: right;
+   
+    
+    #content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }

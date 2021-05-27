@@ -1,6 +1,7 @@
 @media only screen and (min-width: 60em) {
-	main {
-		grid-template-columns: 1fr 1fr 1fr;
+	#content {
+    display: grid;
+		grid-template-columns: repeat(3, 1fr) ;
 		max-width: 1300px;
   }
 
