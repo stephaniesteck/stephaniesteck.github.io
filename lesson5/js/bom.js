@@ -3,9 +3,9 @@ const button = document.querySelector('button');
 const list = document.querySelector('ul');
 
 button.addEventListener('click', function() {
-    const liNew = document.createElement('li');
-    const listText = document.createElement('span');
-    const btnNew = document.createElement('button');
+    const liNew = document.innerHTML('li');
+    const listText = document.innerHTML('span');
+    const btnNew = document.innerHTML('button');
 
     liNew.appendChild(liNew);
     listText.textContent = liNew;

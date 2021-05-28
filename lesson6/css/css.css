@@ -5,6 +5,12 @@ body {
     max-width: 2000px;
 }
 
+.banner {
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    color: #666;
+}
+
 header {
     display: flex;
     flex-direction: column;
