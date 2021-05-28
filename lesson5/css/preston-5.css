@@ -154,6 +154,15 @@ table {
     margin-right: auto;
     margin-left: auto;
 }
+
+.hidden {
+    display: none;
+}
+
+section .five {
+    display: hidden;
+}
+
 .lake-weather {
     background-color: #FFFF00;
     text-align: center;
