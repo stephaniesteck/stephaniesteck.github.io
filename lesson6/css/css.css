@@ -1,0 +1,312 @@
+* {box-sizing: border-box;}
+
+body {
+    background-color: #FDFCD8;
+    max-width: 2000px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+header img {
+    width: 300px;
+    position: absolute;
+}
+
+header h1 {
+    text-shadow: #FFFF00 2px 2px;
+    font-size: 1.8em;
+    position: relative;
+    left: 10px;
+}
+
+header p {
+    margin-top: 0;
+    width: 100%;
+    padding: 0 8px 0 8px;
+}
+
+header, footer{
+    background-color: #66CC88;
+    color: #666666;
+    text-align: center;
+    min-height: 250px;
+}
+
+h1, h2, h3, h5{
+    font-family: 'Mali', cursive;
+}
+
+p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    color: #666666;
+    text-shadow: #56B0E1 2px 2px;
+}
+
+main {
+    overflow: hidden;
+}
+
+h3 {
+    border-bottom: 1px solid #555;
+}
+
+table {
+    width: 100%;
+}
+
+.button{
+    background-color: transparent;
+    border: none;
+    padding-left: 17px;
+}
+
+.responsive li a:hover{
+
+}
+
+.responsive li a:active{
+
+}
+
+.full-width{
+    max-width: 2000px;
+}
+
+.headermenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.headermenu li:first-child {
+    display: block;
+    padding: 10px 0 10px 0;
+}
+
+.headermenu li {
+    text-decoration: none;
+    list-style-type: none;
+    text-shadow: #666666 1px 1px;
+    font-size: 20px;
+    display: none;
+    width: 100%;
+}
+
+.headermenu li a {
+    color: #56B0E1;
+    text-decoration: none;
+    padding: 10px;
+    width: 100%;
+    display: block;
+}
+
+.headermenu li a:hover {
+    text-decoration: none;
+    list-style-type: none;
+    float: left;
+    color: #56B0E1;
+    background-color: #777;
+}
+
+.responsive li {
+	display: block;
+} 
+
+.header {
+    text-align: center;
+    width: 760px;
+    margin: 0 auto;
+}
+
+.menu {
+    font-size: 20px;
+    padding: 0px;
+    background-color: #555;
+    font-family: 'PT Sans', sans-serif;;
+}
+
+#preston {
+    margin-top: 0;
+    border-top: 1px solid white;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    background-color: #555;
+    padding: 0;
+    width: 100%;
+}
+
+.weathersummary {
+    display: block;
+    width: 100%;
+    min-height: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.lake-weather {
+    background-color: #FFFF00;
+    text-align: center;
+    opacity: 0.5;
+    width: 300px;
+    z-index: 2;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+ .lake-main {
+    margin-right: auto;
+    margin-left: auto;
+    width: 800px;
+    height: 300px;
+    margin-top: 20px; 
+    display: block;
+    
+}
+
+table .lake-weather {
+    display: block;
+    
+}
+
+#lake-im {
+    margin-right: auto;
+    margin-left: auto;
+    z-index: -1;
+    display: block;
+    width: 100%;
+}
+
+div .lake-weather {
+    display: block;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.info {
+    color: black;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.data {
+    color: blue;
+    font-family: 'PT Sans', sans-serif;
+}
+table img {
+    width: 100px;
+}
+#summary {
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'PT Sans', sans-serif;
+    color: #555;
+    padding: 0;
+    position: relative;
+    width: 60%;
+}
+
+.days {
+    color: white;
+    background-color: #555;
+}
+
+.fiveday {
+    border: 1px solid #555; 
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.article {
+    text-shadow: none;
+    font-family: 'PT Sans', sans-serif;
+    background-color: #56B0E1;
+    color: white;
+    float: left;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.article p {
+    max-width: 550px;
+}
+
+.article img {
+    float: right;
+    object-fit: contain;
+    margin: 0;
+    display: inline-block;
+}
+
+#map {
+    width: 300px;
+    display: block;
+}
+
+#map img {
+    float: right;
+    height: 200px;
+    float: right;
+}
+
+.contactinfo{
+    background-color: white;
+    min-height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+p .contactinfo {
+    display: inline-grid;
+    margin: 0;
+}
+
+#phone {
+    text-shadow: none;
+    text-align: right;
+}
+.social img {
+    display: inline-block;
+}
+
+#facebook {
+    height: 20px;
+}
+
+#instagram {
+    height: 20px;
+}
+
+#linkedin {
+    height: 20px;
+}
+
+#twitter {
+    height: 20px;
+}
+#pinterest {
+    height: 20px;
+}
+
+.social {
+    grid-column: auto;
+    float: right;
+    background-color: white;
+}
