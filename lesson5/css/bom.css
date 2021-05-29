@@ -11,7 +11,8 @@ h1 {
     
 }
 body {
-	height: 200px;
+	margin-right: auto;
+    margin-left: auto;
     width: 700px;
 	display: flex;
 	flex-direction: column;

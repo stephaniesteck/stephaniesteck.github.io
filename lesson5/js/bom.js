@@ -3,15 +3,14 @@ const button = document.querySelector('button');
 const list = document.querySelector('ul');
 
 button.addEventListener('click', function() {
-    const liNew = document.innerHTML('li');
-    const listText = document.innerHTML('span');
-    const btnNew = document.innerHTML('button');
+    const liNew = document.createElement('li');
+    const btnNew = document.createElement('button');
 
-    liNew.appendChild(liNew);
-    listText.textContent = liNew;
-    liNew.appendChild(liNew);
+    let value = input.value;
+    
+    
     btnNew.textContent = 'X';
-    list.appendChild(liNew);
+    list.appendChild(liNew).appendChild(newBtn);
 
     btnNew.onclick =function() {
         list.removeChild(liNew);
