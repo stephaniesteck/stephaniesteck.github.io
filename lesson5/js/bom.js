@@ -8,7 +8,7 @@ button.addEventListener('click', function() {
 
     let value = input.value;
     
-    
+    liNew.textContent = value;
     btnNew.textContent = 'X';
     list.appendChild(liNew).appendChild(newBtn);
 
