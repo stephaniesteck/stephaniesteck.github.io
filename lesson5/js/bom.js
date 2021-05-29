@@ -13,8 +13,8 @@ button.addEventListener('click', function() {
     btnNew.textContent = 'X';
     list.appendChild(liNew);
 
-    btnNew.onclick =function(e) {
+    btnNew.onclick =function() {
         list.removeChild(liNew);
-    }
+    };
     input.focus();
 });

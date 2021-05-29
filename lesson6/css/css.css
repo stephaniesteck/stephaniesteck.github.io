@@ -186,6 +186,10 @@ table .lake-weather {
     
 }
 
+.daily {
+    display: none;
+}
+
 #lake-im {
     margin-right: auto;
     margin-left: auto;
