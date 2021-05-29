@@ -7,6 +7,10 @@ body{
     width: 100%;
 }
 
+#stephanie {
+    text-align: center;
+}
+
 .menu{
     background-color: #66CC88;
     color: #FFFF00;
@@ -22,6 +26,7 @@ body{
 
 a{
     font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
 }
 
 header,
@@ -41,14 +46,14 @@ footer {
     background-color: #66CC88;
 }
 
-h2 {
+#purpose {
     text-align: center;
 }
 
 main{
-    margin: 0;
     border: 0;
-    border: 0;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 nav ul{
@@ -63,7 +68,7 @@ h1, h2, h3 {
     font-family: 'Mali', cursive;
     color: #56B0E1;
     background-color: #297A44;
-    text-align: left;
+    text-align: center;
     margin: 0;
     width: 100%;
 }
@@ -80,9 +85,22 @@ h1{
 
 
 #bodydiv {
-    width: 100%;
+    align-items: center;
 }
 
+.color {
+    margin: 0;
+    text-align: center;
+}
+
+.target {
+    margin: 0;
+    text-align: center;
+}
+
+.typography {
+    margin: 0;
+}
 
 a:visited, a:hover, a{
     color: #FFFF00;
