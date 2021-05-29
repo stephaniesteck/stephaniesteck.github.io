@@ -194,6 +194,11 @@ table .lake-weather {
     width: 100%;
 }
 
+#lake-im img {
+    width: 100%;
+    object-fit: contain;
+}
+
 div .lake-weather {
     display: block;
     margin-top: 20px;

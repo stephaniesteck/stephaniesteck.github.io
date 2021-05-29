@@ -39,7 +39,13 @@
     <main class="full-width">
         <h2 id="preston">Preston Idaho</h2>
         <section class="weathersummary">
-            <div id="lake-im"><img src="images/lake.jpg" alt="lake with weather summary" class="lake-main"></div>
+            <div id="lake-im">
+                <picture>
+                    <source media="(min-width: 650px)" srcset="./images/preston.jpeg">
+                    <source media="(min-width: 420px)" srcset="./images/preston-m.png">
+                    <img src="images/preston-s.png" alt="sample image lesson6">
+                </picture>
+            </div>
             <div class="lake-weather">
                 <h3>Weather Summary</h3> 
                 <table> 
