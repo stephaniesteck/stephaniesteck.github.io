@@ -6,11 +6,12 @@ button.addEventListener('click', function() {
     const liNew = document.createElement('li');
     const btnNew = document.createElement('button');
 
+
     let value = input.value;
     
     liNew.textContent = value;
     btnNew.textContent = 'X';
-    list.appendChild(liNew).appendChild(newBtn);
+    list.appendChild(liNew).appendChild(btnNew);
 
     btnNew.onclick =function() {
         list.removeChild(liNew);
