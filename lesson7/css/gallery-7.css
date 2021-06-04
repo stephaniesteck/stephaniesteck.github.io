@@ -338,11 +338,18 @@ p .contactinfo {
 }
 
 .gallery img {
-    margin: 20px;
+    margin: 0;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
 }
 
 figcaption {
-    text-align: justify;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+figure {
+    justify-items: center;
+    margin: 0;
 }
