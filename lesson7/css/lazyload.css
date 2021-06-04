@@ -15,9 +15,9 @@ h1 {
 
 img[data-src] {
     filter: drop-shadow(0 0 5px #000);
-    transition: filter 3s transform 3s;
+    transition: filter 4s transform 4s;
     transition-duration: 4s;
-    transition-delay: 2s;
+    transition-delay: 4s;
 }
 
 img {
