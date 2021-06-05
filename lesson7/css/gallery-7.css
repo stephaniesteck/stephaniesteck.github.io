@@ -6,6 +6,10 @@ body {
     max-width: 2000px;
 }
 
+#logo {
+    filter: none;
+}
+
 .banner {
     text-align: center;
     font-family: 'PT Sans', sans-serif;
@@ -335,21 +339,31 @@ p .contactinfo {
 }
 .gallery {
     display: block;
+    
 }
 
 .gallery img {
     margin: 0;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
-}
-
-figcaption {
-    font-family: 'PT Sans', sans-serif;
-    font-weight: bold;
-    margin-bottom: 20px;
+    border: #000 5px;
 }
 
 figure {
-    justify-items: center;
-    margin: 0;
+    
+}
+
+figcaption  {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+img {
+    filter: blur(1px);
+        transition: filter 4s;
+}
+
+img[data-src] {
+    filter: drop-shadow(0 0 5px #000) blur(0px);
 }

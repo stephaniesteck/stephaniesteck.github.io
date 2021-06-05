@@ -16,7 +16,7 @@
 </head>
 <body>
     <header>
-        <img src="./images/weathersunshinelogo.jpg" alt="weathersunshinelogo">
+        <img src="./images/weathersunshinelogo.jpg" alt="weathersunshinelogo" id="logo">
         <h1>WeatherSunshine</h1>
         <p> Weather or not it's sunny or cold, <br>you are prepared for your trip.</p><br>
     </header>
@@ -35,57 +35,76 @@
     <h1 id="gallery-h1">Gallery</h1>
     <div class="gallery">
         <figure class="img1">
-            <img src="./images/placeholder.jpg" data-src="./images/largeimages/large-cabin-jpg" alt="snowy cabin"
-            srcset="./images/imagessmall/cabin.jpg">
-            <figcaption>Snowy comfy cabin</figcaption>
+            <picture >
+                <source media="(min-width: 650px)" srcset="./images/largeimages/large-cabin.jpg">
+                <source media="(min-width: 420px)"srcset="./images/largeimages/large-cabin.jpg">
+                <img src="images/placeholder.jpg" data-src="images/largeimages/large-cabin.jpg" alt="snowy cabin" width="300px" height="200px">
+                <figcaption class="image-cap">Snowy comfy cabin</figcaption>
+            </picture>
         </figure>
-
         <figure class="img2">
-            <img src="./images/placeholder.jpg" data-src="./images/largeimages/large-cloudy.jpg" alt="cloudy sky"
-            srcset="./images/imagessmall/cloudy.jpg">
-            <figcaption>Cloudy Day</figcaption>
+            <picture >
+                <source media="(min-width: 650px)" srcset="./images/largeimages/large-cloudy.jpg">
+                <source media="(min-width: 420px)"srcset="./images/largeimages/large-cloudy.jpg">
+                <img src="images/placeholder.jpg" data-src="images/largeimages/large-cloudy.jpg" alt="cloudy day" width="300px" height="200px">
+                <figcaption class="image-cap">Cloudy Day</figcaption>
+            </picture>
         </figure>
-
         <figure class="img3">
-            <img src="./images/placeholder.jpg" data-src="./images/largeimages/large-field.jpg" alt="field of plants"
-            srcset="./images/imagessmall/field.jpg">
-            <figcaption>Sunny Field</figcaption>
+            <picture >
+                <source media="(min-width: 650px)" srcset="./images/largeimages/large-field.jpg">
+                <source media="(min-width:420px)"srcset="./images/largeimages/large-field.jpg">
+                <img src="images/placeholder.jpg" data-src="images/largeimages/large-field.jpg" alt="sunny field" width="300px" height="200px">
+                <figcaption class="image-cap">Sunny Field</figcaption>
+            </picture>
         </figure>
-
         <figure class="img4">
-            <img src="./images/placeholder.jpg" data-src="./images/largeimages/large-flowers.jpg" alt="flowers"
-            srcset="./images/imagessmall/flowers.jpg">
-            <figcaption>Yellow Flowers</figcaption>
+            <picture >
+                <source media="(min-width: 650px)" srcset="./images/largeimages/large-flowers.jpg">
+                <source media="(min-width: 420px)" srcset="./images/largeimages/large-flowers.jpg">
+                <img src="images/placeholder.jpg" data-src="images/largeimages/large-flowers.jpg" alt="yellow flowers" width="300px" height="200px">
+                <figcaption class="image-cap">Yellow Flowers</figcaption>
+            </picture>
         </figure>
-
         <figure class="img5">
-            <img src="./images/placeholder.jpg" data-src="./images/largesimages/large-kid.jpg" alt="kid playing in leaves"
-            srcset="./images/imagessmall/kidleaves.jpg">
-            <figcaption>Kid Playing In Leaves</figcaption>
+            <picture >
+                <source media="(min-width: 650px)" srcset="./images/largeimages/large-kid.jpg">
+                <source media="(min-width: 420px)"srcset="./images/largeimages/large-kid.jpg">
+                <img src="images/placeholder.jpg" data-src="images/largeimages/large-kid.jpg" alt="kid playing in leaves" width="300px" height="200px">
+                <figcaption class="image-cap">Kid Playing In Leaves</figcaption>
+            </picture>
         </figure>
-
         <figure class="img6">
-            <img src="./images/placeholder.jpg" data-src="./images/largeimages/large-lightning" alt="lightning storm"
-            srcset="./images/imagessmall/lightning.jpg">
-            <figcaption>Lightning Fast</figcaption>
+            <picture >
+                <source media="(min-width: 650px)" srcset="./images/largeimages/large-lightning.jpg">
+                <source media="(min-width: 420px)" srcset="./images/largeimages/large-lightning.jpg">
+                <img src="images/placeholder.jpg" data-src="images/largeimages/large-lightning.jpg" alt="lightning storm" width="300px" height="200px">
+                <figcaption class="image-cap">Lightning Fast</figcaption>
+            </picture>
         </figure>
-
         <figure class="img7">
-            <img src="./images/placeholder.jpg" data-src="./images/largeimages/large-orangeleaves.jpg" alt="orange leaves"
-            srcset="./images/imagessmall/orangeleaves.jpg">
-            <figcaption>Orange Leaves</figcaption>
+            <picture >
+                <source media="(min-width: 650px)" srcset="./images/largeimages/large-orangeleaves.jpg">
+                <source media="(min-width: 420px)" srcset="./images/largeimages/large-orangeleaves.jpg">
+                <img src="images/placeholder.jpg" data-src="images/largeimages/large-orangeleaves.jpg" alt="Orange leaves in fall" width="300px" height="200px">
+                <figcaption class="image-cap">Orange Leaves</figcaption>
+            </picture>
         </figure>
-
         <figure class="img8">
-            <img src="./images/placeholder.jpg" data-src="./images/largeimages/large-rainy.jpg" alt="rainy day"
-            srcset="./images/imagessmall/rain.jpg">
-            <figcaption>Rainy Sunny Day</figcaption>
+            <picture >
+                <source media="(min-width: 650px)" srcset="./images/largeimages/large-rainy.jpg">
+                <source media="(min-width: 420px)" srcset="./images/largeimages/large-rainy.jpg">
+                <img src="images/placeholder.jpg" data-src="images/placeholder.jpg" data-src="images/largeimages/large-rainy.jpg" alt="snowy cabin" width="300px" height="200px">
+                <figcaption class="image-cap">Rainy Sunny Day</figcaption>
+            </picture>
         </figure>
-
         <figure class="img9">
-            <img src="./images/placeholder.jpg" data-src="./images/largeimages/large-relax.jpg" alt="relaxing by the lake"
-            srcset="./images/imagessmall/relax.jpg">
-        <figcaption>Relaxing by the Lake Reading</figcaption> 
+            <picture >
+                <source media="(min-width: 650px)" srcset="./images/largeimages/large-relax.jpg">
+                <source media="(min-width: 420px)" srcset="./images/largeimages/large-relax.jpg">
+                <img src="images/placeholder.jpg" data-src="images/largeimages/large-relax.jpg" alt="reading by a lake" width="300px" height="200px">
+            <figcaption class="image-cap">Relaxing by the Lake Reading</figcaption> 
+            </picture>
         </figure>
     </div>
     <footer>

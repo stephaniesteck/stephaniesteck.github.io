@@ -14,13 +14,11 @@ h1 {
 }
 
 img[data-src] {
-    filter: drop-shadow(0 0 5px #000);
-    transition: filter 4s transform 4s;
-    transition-duration: 4s;
-    transition-delay: 4s;
+    filter: blur(0px);
 }
 
 img {
-    filter: blur(2px);
     margin: 20px;
+    filter: drop-shadow(0 0 5px #000) blur(2px);
+        transition: filter 4s;
 }
