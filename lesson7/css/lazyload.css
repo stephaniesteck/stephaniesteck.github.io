@@ -13,12 +13,12 @@ h1 {
     text-align: center;
 }
 
-img[data-src] {
-    filter: blur(0px);
+img [data-src] {
+    filter: blur(2px);
+        transition: filter .10s;
 }
 
 img {
     margin: 20px;
-    filter: drop-shadow(0 0 5px #000) blur(2px);
-        transition: filter 4s;
+    filter: drop-shadow(0 0 5px #000) blur(0px);
 }
