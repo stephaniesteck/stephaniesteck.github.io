@@ -15,7 +15,7 @@ h1 {
 
 img [data-src] {
     filter: blur(2px);
-        transition: filter .10s;
+        transition: filter 4s;
 }
 
 img {
