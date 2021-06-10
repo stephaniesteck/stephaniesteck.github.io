@@ -366,3 +366,25 @@ img {
 img[data-src] {
     filter: drop-shadow(0 0 5px #000) blur(0px);
 }
+
+/* Storm Center */
+
+.personal {
+    display: grid;
+    grid-template-columns: 1;
+    background-color: #56B0E1;
+    color: white;
+    text-align: center;
+}
+
+.storm {
+    display: inline-grid;
+    grid-template-columns: 1;
+    background-color: #56B0E1;
+    color: white;
+    text-align: center;
+}
+
+.button {
+    justify-content: center;
+}
