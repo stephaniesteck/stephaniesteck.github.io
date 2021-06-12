@@ -41,4 +41,10 @@
     .img7, img8, img9 {
         grid-row: 3;
     }
+    /* storm center */
+
+    .personal {
+        display: grid;
+        max-width: inherit;
+    }
 }

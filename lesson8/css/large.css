@@ -50,6 +50,12 @@
         grid-template-rows: auto;
     }
 
+    /* storm center */
+    .personal {
+        display: grid;
+        max-width: 1000px;
+    }
+
 }
     
     
