@@ -447,6 +447,7 @@ label#storm {
 
 input#submit {
     align-self: center;
+    cursor: pointer;
 }
 
  input {
