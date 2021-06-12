@@ -31,18 +31,18 @@
     </ul>
 </nav>
 <body>
+    <h2 id="form">Contact Form</h2>
     <form>
     <div class="personal">
-        <label>Full Name</label>
-        <input type="text" id="name" required minlength="4" maxlength="20" placeholder="John Doe"> 
+        <label class="info">Full Name</label>
+        <input type="text" id="name" required minlength="4" maxlength="20"> 
         <label>Email Address</label>
         <input type="text" placeholder="someone@email.com">
         <label>Phone Number</label>
-        <input type="tel" placeholder="(800)123-4567">
+        <input type="tel">
         <label>Zip Code</label>
         <input type="number">
-    </div><br>
-    <div class="storm">
+        <br>
         <label>Storm Date</label>
         <input type="date">
         <label>Storm Type</label>
@@ -54,8 +54,8 @@
                 <option value="Thunderstorm">
                 <option value="Tornado">
             </datalist>
-            <label>Storm Severity
-            <input id="stormseverity" type="range" value="5" min="1" max="10" step="1"
+            <label id="storm">Storm Severity
+            <br><input id="stormseverity" type="range" value="5" min="1" max="10" step="1"
             list="tickmarks" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
         <span id="ratingvalue">5</span></label>
             <datalist id="severity">
@@ -71,38 +71,38 @@
                 <option value="10">
             </datalist>
         <label for="stormRegion">Storm Region
-            <select name="regions" id="regionSelect" onchange="selectResponses()">
+            <br><select name="regions" id="regionSelect" onchange="selectResponses()">
             <option value="" disabled selected>Select Region</option>
             <option value="preston">Preston</option>
             <option value="soda_springs">Soda Springs</option>
             <option value="fish_haven">Fish Haven</option>
             </select>
         </label>
-        <label for="userDanger">User in Danger
+        <label for="userDanger" class="check">User in Danger
             <div class="radioSelector">
-                <input type="radio" id="danger" name="user_danger" value="yes" checked>
-                <label for="danger">yes</label>
-                <input type="radio" id="danger" name="user_danger" value="maybe">
-                <label for="danger"> maybe</label>
-                <input type="radio" id="danger" name="user_danger" value="no">
-                <label for="danger">no</label>
+                <input type="radio" id="danger" name="user_danger" value="yes" checked class="check">
+                <label for="danger" class="check">yes</label>
+                <input type="radio" id="danger" name="user_danger" value="maybe" class="check">
+                <label for="danger" class="check"> maybe</label>
+                <input type="radio" id="danger" name="user_danger" value="no" class="check">
+                <label for="danger" class="check">no</label>
             </div>
         </label>
         <label for="additionalInfo">Additional information or Comments
-            <input type="textarea"></label>
+           <br><input type="textarea"></label>
 
-    </div>
-    <br>
-    <div class="button">
-        <a href="thanks.html">
-            <input type="submit" id="submit" value="Submit"/>
-        </a>
-    </div>
-</form>
-    <script src="./js/stormcenter.js"></script>
+        </div>
+        <br>
+        <div class="button">
+            <a href="thanks.html">
+                <input type="submit" id="submit" value="Submit"/>
+            </a>
+         </div>
+    </form>    
 </body>
 <footer>
-    <p>Copyright &copy; <span id="copyright-year"> &#169; 2021</span>| Stephanie Steck | Utah | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+    <p>Copyright <span id="copyright-year"> &#169; 2021</span>| Stephanie Steck | Utah | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
     <p>Last Updated: <span id="lastmod"></span></p>
+    <script src="./js/stormcenter.js"></script>
     </footer>
 </html>
