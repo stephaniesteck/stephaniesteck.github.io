@@ -1,0 +1,61 @@
+@media only screen and (min-width: 47.5em) {
+
+    footer {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 190px;
+        padding-right: 190px;
+        margin-bottom: 25px;
+    }
+
+    header h1 {
+        font-size: 50px;
+        margin-bottom: 0;
+    }
+
+    .full-width {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .headermenu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .headermenu li {
+        display: block;
+    }
+
+    .headermenu li:first-child {
+        display: none;
+    }
+
+    .weathersummary {
+        position: relative;
+    }
+
+    .lake-weather {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    /*Gallery CSS*/
+
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+    }
+
+    /* storm center */
+    .personal {
+        display: grid;
+        max-width: 1000px;
+    }
+
+}
+    
+    

@@ -1,13 +1,76 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css"/>
+    <link rel="stylesheet" href="./css/home.css"/>
+    <link rel="stylesheet" href="./css/medium.css"/> 
+    <link rel="stylesheet" href="./css/large.css"/> 
+    <link rel="shortcut icon" href="./images/favicon.ico">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Mali:wght@600&family=PT+Sans&display=swap" rel="stylesheet">
     <title>Home Page</title>
 </head>
 <body>
-    
+    <header>
+        <img src="./images/weathersunshinelogo.jpg" alt="weathersunshinelogo" id="logo">
+        <h1>WeatherSunshine</h1>
+        <p> Weather or not it's sunny or cold, <br>you are prepared for your trip.</p><br>
+    </header>
+        <nav class="menu">
+            <ul class="headermenu">
+                <li><a href="#" onclick="toggleMenu()">
+                    <span class="button">&#9776; MENU</span></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Preston</a></li>
+                <li><a href="#">Soda Springs</a></li>
+                <li><a href="#">Fish Haven</a></li>
+                <li><a href="#">Storm Center</a></li>
+                <li><a href="/lesson7/gallery-7.html">Gallery</a></li>
+            </ul>
+        </nav>
+            <main class="full-width">
+                <h2 class="home-title">Home</h2>
+                <section class="hero-img">
+                    <picture>
+                        <source media="(min-width: 650px)" srcset="./images/hero.jpg">
+                        <source media="(min-width: 420px)" srcset="./images/hero-m.jpg">
+                        <img src="./images/hero-s.jpg" alt="sample picture">
+                    </picture>
+
+                    
+                </section>
+                
+                <section class="home-article">
+                    <h2 class="home-main-h2">News</h2>
+                    <div class="home-news"></div>
+                </section>
+
+                <div class="cards">
+
+                </div>
+                <div class="contactinfo">
+                    <p id="phone">WeatherSunshine<br>
+                        123 Main Street
+                       Manti, Utah 84640<br>
+                       Phone Number: 888.888.8888<br>
+                       Email Address: stephanie@weathersunshine.sun</p>
+                       
+                       <img src="images/manti-map.png" alt="map of Manti" id="map">
+                       <img src="images/facebook.png" alt="facebook" class="social" id="facebook">
+                       <img src="images/instagram.png" alt="instagram" class="social" id="instagram">
+                       <img src="images/linkedin.png" alt="linkedin" class="social" id="linkedin">
+                       <img src="images/pinterest.png" alt="pinterest" class="social" id="pinterest">
+                       <img src="images/twitter.png" alt="twitter" class="social" id="twitter">
+                </div>
+            </main>
+        <footer>
+            <p>Copyright &copy; <span id="copyright-year"> 2021</span>| Stephanie Steck | Utah | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+            <p>Last Updated: <span id="lastmod"></span></p>
+        </footer>
+        <script src="./js/home.js"></script>
+        <script src="js/article.js"></script>
 </body>
 </html>
