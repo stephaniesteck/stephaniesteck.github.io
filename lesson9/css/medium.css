@@ -47,4 +47,15 @@
         display: grid;
         max-width: inherit;
     }
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .cards:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
 }

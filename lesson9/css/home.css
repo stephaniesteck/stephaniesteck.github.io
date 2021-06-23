@@ -56,9 +56,6 @@ p {
     text-shadow: #56B0E1 2px 2px;
 }
 
-main {
-    overflow: hidden;
-}
 
 h3 {
     border-bottom: 1px solid #555;
@@ -298,13 +295,12 @@ p .contactinfo {
 .social {
     display: flex;
     flex-direction: row;
-    
+    margin-right: auto;
 }
 
 #facebook, #instagram, #linkedin, #twitter, #pinterest {
     height: 20px;
     display: inline-flex;
-    margin-right: auto;
 }
 
 
@@ -468,6 +464,7 @@ div.cards p {
 div.cards img {
     width: 300px;
     height: 200px;
+    padding-top: 20px;
 }
 
 div section{
@@ -475,12 +472,26 @@ div section{
     margin: 20px;
     width: 400px;
     text-align: center;
+    height: 500px;
 }
 
 .cards {
     display: flex; 
     flex-direction: row-reverse;
-    align-items: flex-end;
-    margin: auto;
-    width: 100%;
+    align-items: flex-start;
+    width: 200px;
+    margin-right: 20px;
 } 
+
+.article {
+    width: 800px;
+}
+
+.clear {
+    text-align: justify;
+    margin-right: 0;
+}
+
+p {
+    margin-right: 0;
+}
