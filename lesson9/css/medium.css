@@ -47,15 +47,21 @@
         display: grid;
         max-width: inherit;
     }
+    /* home page */
 
-    .cards {
+    .home-towns {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         align-items: flex-start;
     }
 
-    .cards:nth-child(odd) {
+    .home-towns:nth-child(odd) {
         flex-direction: row-reverse;
+    } 
+
+    .home-towns img {
+        padding: 0;
+        filter: drop-shadow(0 0 0 #000);
     }
 }

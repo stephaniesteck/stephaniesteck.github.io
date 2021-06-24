@@ -33,7 +33,7 @@ fetch(requestURL)
             let yearFounded = document.createElement('p');
             let currentPopulation = document.createElement('p');
             let averageRainfall = document.createElement('p');
-            let details = document.createElement('div');
+            let details = document.createElement('section');
             name.textContent = towns[i].name;
             motto.textContent = towns[i].motto;
             currentPopulation.textContent = 'Population: ' + towns[i].currentPopulation;
@@ -49,7 +49,7 @@ fetch(requestURL)
             details.appendChild(yearFounded);
             details.appendChild(currentPopulation);
             details.appendChild(averageRainfall);
-            document.querySelector('div.cards').appendChild(card);
+            document.querySelector('section.home-towns').appendChild(card);
         }
     }
 });

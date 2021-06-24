@@ -52,7 +52,7 @@ h1, h2, h3, h5, h4{
 p {
     font-family: 'PT Sans', sans-serif;
     font-size: 20px;
-    color: #666666;
+    color: white;
     text-shadow: #56B0E1 2px 2px;
 }
 
@@ -168,7 +168,7 @@ table {
  .lake-main {
     margin-right: auto;
     margin-left: auto;
-    width: 800px;
+    max-width: 800px;
     height: 300px;
     margin-top: 20px; 
     display: block;
@@ -189,7 +189,7 @@ table .lake-weather {
     margin-left: auto;
     z-index: -1;
     display: block;
-    width: 100%;
+    max-width: 100%;
 }
 
 #lake-im img {
@@ -213,7 +213,7 @@ div .lake-weather {
     font-family: 'PT Sans', sans-serif;
 }
 table img {
-    width: 100px;
+    max-width: 100px;
 }
 #summary {
     margin-top: 20px;
@@ -261,7 +261,7 @@ table img {
 }
 
 #map {
-    width: 300px;
+    max-width: 300px;
     display: block;
 }
 
@@ -287,6 +287,7 @@ p .contactinfo {
 #phone {
     text-shadow: none;
     text-align: right;
+    color: #666;
 }
 .social img {
     display: inline-flex;
@@ -455,43 +456,144 @@ input#submit {
 
 /* Home page */
 
-div.cards p {
-    color: black;
-    text-decoration: none;
-    font-size: 16px;
+.home-article {
+    background-color: #56B0E1;
+    padding: 10px;
 }
 
-div.cards img {
+#details {
+    border: none;
+}
+
+.home-article h3 {
+    color: white;
+    text-align: center;
+    height: 20px;
+}
+
+.home-main-h2 {
+    text-align: center;
+    color: white;
+}
+
+.home-article h2 h3 {
+    margin-top: 16px;
+    text-align: center;
+    color: white;
+}
+
+.home-article-div {
+    line-height: 1.2em;
+    margin-top: 20px;
+}
+
+.home-news {
+    height: 400px;
+    overflow: auto;
+}
+
+.home-headline {
+    background-color: #56B0E1;
+    padding: 12px;
+    font-size: 14px;
+}
+
+.home-p {
+    padding: 12px;
+}
+
+.home-article-url {
+    text-decoration: none;
+    font-weight: 700;
+    padding-left: 8px;
+    color: white;
+}
+
+section {
+    background-color: #56B0E1;
+    border: 2px solid #666;
+}
+
+.home-towns p, h4 {
+    margin: 0;
+}
+
+.home-towns {
+    background-color: transparent;
+    border: none;
+    height: 478px;
+    margin-top: 20px;
+    margin-right: auto;
+    text-align: center;
+    margin-left: -100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 1000px;
+}
+
+.home-towns img {
     width: 300px;
     height: 200px;
-    padding-top: 20px;
+    padding-top: 15px;
+    filter: drop-shadow(0px 0px 3px #444);
 }
 
-div section{
-    background-color: #56B0E1;
-    margin: 20px;
-    width: 400px;
+.home-towns h2, h4 {
+    color: white;
+    width: 300px;
+    font-size: 20px;
     text-align: center;
-    height: 500px;
+    margin-bottom: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
 
-.cards {
-    display: flex; 
-    flex-direction: row-reverse;
-    align-items: flex-start;
-    width: 200px;
-    margin-right: 20px;
-} 
-
-.article {
-    width: 800px;
+.town-div {
+    border: 2px solid #666;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 
-.clear {
-    text-align: right;
-    margin-right: 0;
+.town-img {
+    width: 100%;
+    max-width: 350px;
+    padding: 15px;
+    filter: drop-shadow(0px 0px 3px #444);
 }
 
-p {
-    margin-right: 0;
+.text-div {
+    width: 100%;
+}
+
+.town-p {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.town-h2 {
+    color: white;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.town-motto {
+    text-align: center;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 12px;
+
 }
