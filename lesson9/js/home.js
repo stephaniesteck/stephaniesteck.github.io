@@ -49,7 +49,7 @@ fetch(requestURL)
             details.appendChild(yearFounded);
             details.appendChild(currentPopulation);
             details.appendChild(averageRainfall);
-            document.querySelector('section.home-towns').appendChild(card);
+            document.querySelector('section.home-towns').appendChild(home-towns);
         }
     }
 });
