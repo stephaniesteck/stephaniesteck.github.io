@@ -267,7 +267,8 @@ table img {
 
 #map img {
     height: 200px;
-    float: right;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .contactinfo{
@@ -299,12 +300,8 @@ table img {
     height: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: end;
 }
-
-
-
-
 
 /* Gallery CSS */
 
@@ -595,3 +592,5 @@ h2 {
     margin-bottom: 12px;
 
 }
+
+/* Preston Week 10 */

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <meta name="description" content="Weather for your everyday life">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Mali:wght@600&family=PT+Sans&display=swap" rel="stylesheet">
+    
+    
+    <title>Weather Sunshine Stephanie Steck</title>
+</head>
+<body>
+    <div class="banner hidden">
+        Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.
+    </div>
+    <header>
+        <img src="images/weathersunshinelogo.jpg" alt="weathersunshinelogo">
+        <h1>WeatherSunshine</h1>
+        <p> Weather or not it's sunny or cold, <br>you are prepared for your trip.</p><br>
+    </header>
+    <nav class="menu">
+        <ul class="headermenu">
+            <li><a href="#" onclick="toggleMenu()">
+                <span class="button">&#9776; MENU</span></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="#">Gallery</a></li>
+        </ul>
+    </nav>
+    <main class="full-width">
+        <h2 id="preston">Preston Idaho</h2>
+        <section class="weathersummary">
+            <div id="lake-im"><img src="images/lake.jpg" alt="lake with weather summary" class="lake-main"></div>
+            <div class="lake-weather">
+                <h3>Weather Summary</h3> 
+                <table> 
+                    <tbody>
+                        <tr>
+                            <td class="info"> Currently: </td>
+                            <td class="data"> Sunny</td>
+                        </tr>
+                        <tr>
+                            <td class="info">High: </td>
+                            <td class="data">96 *F</td>
+                        </tr>
+                        <tr>
+                            <td class="info">Wind Chill: </td>
+                            <td class="data">90 *F</td>
+                        </tr>
+                        <tr>
+                            <td class="info">Humidity: </td>
+                            <td class="data"> 25%</td>
+                        </tr>
+                        <tr>
+                            <td class="info">Wind Speed: </td>
+                            <td class="data"> 20 mph</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+        <section class="daily"> <br>
+            <h2 id="summary">5 Day Summary</h2>
+            <table class="fiveday">
+                <tr>
+                    <td class="days">Wednesday</td>
+                    <td class="days">Thursday</td>
+                    <td class="days">Friday</td>
+                    <td class="days">Saturday</td>
+                    <td class="days">Sunday</td>
+                </tr>
+                <tr>
+                    <td><img src="images/lightning.svg" alt="lightning"></td>
+                    <td><img src="images/rainy.svg" alt="rainy"></td>
+                    <td><img src="images/cloudy.svg" alt="cloudy"></td>
+                    <td><img src="images/partlycloudy.svg" alt="partlycloudy"></td>
+                    <td><img src="images/sunny.svg" alt="sunny"></td>
+                </tr>
+            </table>
+        </section>
+        <br>
+        <section class="article">
+            <h3>Sunshine is good for the soul</h3>
+            <h5>By Preston Bennett</h5>
+            <img src="images/spring.jpg" alt="spring" >
+            <p class="article">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum in saepe aliquam libero illum veritatis, adipisci magni, atque voluptatibus at, ut sit asperiores? Doloribus, esse magnam? Aperiam qui rem minus?</p>
+            <p class="article">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem quo repudiandae asperiores iusto sint tempore nesciunt amet, possimus accusamus rem aliquid sapiente dolores quos earum eaque consectetur eligendi velit minus!</p>
+            <p class="article">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, repellat fugit, aut eligendi temporibus minus id doloremque asperiores, saepe voluptatem officiis! Dicta mollitia ad nemo minima, itaque fuga saepe exercitationem.</p>
+        </section>
+        <br>
+        <section class="contactinfo">
+            <p id="phone">WeatherSunshine<br>
+             123 Main Street
+            Manti, Utah 84640<br>
+            Phone Number: 888.888.8888<br>
+            Email Address: stephanie@weathersunshine.sun</p>
+
+            <img src="images/facebook.png" alt="facebook" class="social" id="facebook">
+            <img src="images/instagram.png" alt="instagram" class="social" id="instagram">
+            <img src="images/linkedin.png" alt="linkedin" class="social" id="linkedin">
+            <img src="images/pinterest.png" alt="pinterest" class="social" id="pinterest">
+            <img src="images/twitter.png" alt="twitter" class="social" id="twitter">
+            <img src="images/manti-map.png" alt="map of Manti" id="map">
+            
+        </section> 
+    </main>
+    <footer>
+        <p>Copyright &copy; <span id="copyright-year"> 2021</span>| Stephanie Steck | Utah | <a href="https://www.byui.edu/online" target="_blank">BYUI Online Learning</a></p>
+<p>Last Updated: <span id="lastmod"></span></p>
+    </footer>
+    <script src="js/preston-5.js"> </script>
+    <script src="js/year-5.js"> </script>
+</body>
+</html>
