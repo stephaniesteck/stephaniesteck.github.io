@@ -84,7 +84,7 @@ fetch(fiveDayRequestURL)
         //loops through response
         for(let i = 0; i < forecast.length; i++) {
             //isolate time
-            let time = parseInt(forecast[i].dt.txt.slice(10, 13));
+            let time = parseInt(forecast[i].dt_txt.slice(10, 13));
             //if time is 18:00 then add to 5 day array
             if(time == 18) {
                 //icon and temp obj
