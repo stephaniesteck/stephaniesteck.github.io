@@ -27,7 +27,7 @@ function toggleMenu() {
 }
 
 const currentRequestURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=b71ce55e24508e70ddc75b03913dddc2';
-const fiveDayRequestURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=b71ce55e24508e70ddc75b03913dddc2';
+const fiveDayRequestURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=b71ce55e24508e70ddc75b03913dddc2';
 
 fetch(currentRequestURL)
 .then((response) => response.json())
@@ -84,7 +84,7 @@ fetch(fiveDayRequestURL)
         //loops through response
         for(let i = 0; i < forecast.length; i++) {
             //isolate time
-            let time = parseInt(forecast[i].dt+txt.slice(10, 13));
+            let time = parseInt(forecast[i].dt.txt.slice(10, 13));
             //if time is 18:00 then add to 5 day array
             if(time == 18) {
                 //icon and temp obj
@@ -101,7 +101,7 @@ fetch(fiveDayRequestURL)
         //loops through 5 day array outputs data on page
         for(let i = 0; i < fiveDay.length; i++) {
             //set value for content output
-            let o_icon =   `https://openweathermap.org/img/w/${fiveDate[i].wIcon}.png`;
+            let o_icon =   `https://openweathermap.org/img/w/${fiveDay[i].wIcon}.png`;
             let o_desc = fiveDay[i].wDesc;
             let o_temp = fiveDay[i].wTemp;
             let o_date = fiveDay[i].wDate;
