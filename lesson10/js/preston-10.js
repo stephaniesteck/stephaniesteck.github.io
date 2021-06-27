@@ -30,8 +30,8 @@ const currentRequestURL = 'https://api.openweathermap.org/data/2.5/weather?id=56
 const fiveDayRequestURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=b71ce55e24508e70ddc75b03913dddc2';
 
 fetch(currentRequestURL)
-.then((response) = response.json())
-.then((jsObject) = {
+.then((response) => response.json())
+.then((jsObject) => {
     //current codition
     let current = jsObject.weather[0].main;
     let c = document.getElementById('d-current');
@@ -55,7 +55,7 @@ fetch(currentRequestURL)
 });
 
 //calucate wind-chill
-fuction windChill() {
+function windChill() {
     //create let for the temp and wind speed
     let temp = parseInt(document.querySelector('#d-temp').textContent);
     let windSpeed =parseInt(document.querySelector('#d-wind-s').textContent);
@@ -75,8 +75,8 @@ fuction windChill() {
 
 //five day forecast
 fetch(fiveDayRequestURL)
-    .then((response) =. response.json())
-    .then((jsObject) =.{
+    .then((response) => response.json())
+    .then((jsObject) => {
         let forecast =jsObject.list;
         //holds icon &temp objects for the five day
         let fiveDay = [];
@@ -101,7 +101,7 @@ fetch(fiveDayRequestURL)
         //loops through 5 day array outputs data on page
         for(let i = 0; i < fiveDay.length; i++) {
             //set value for content output
-            let o_icon = 'https://openweathermap.org/img/w${fiveDate[i].wIcon}.png';
+            let o_icon =   `https://openweathermap.org/img/w/${fiveDate[i].wIcon}.png`;
             let o_desc = fiveDay[i].wDesc;
             let o_temp = fiveDay[i].wTemp;
             let o_date = fiveDay[i].wDate;
@@ -113,10 +113,10 @@ fetch(fiveDayRequestURL)
             let dayTh = document.createElement('th');
 
             //creates weather info content
-            let weatherInfo = '<td class="forecast-info">
+            let weatherInfo = `<td class="forecast-info">
                 <img src="${o_icon}" alt="${o_desc}" class ="w-icon">
                 <span>${o_temp} &#176;F</span>
-            </td>';
+            </td>`;
 
             //add content to elements
             dayTh.textContent = calcDayOfWeek(o_date);
@@ -128,7 +128,7 @@ fetch(fiveDayRequestURL)
         }
 
         //returns long string of day of week based on date
-        fuction calcDayOfWeek(date) {
+        function calcDayOfWeek(date) {
             let dayOfWeek = new Date(date).toLocaleDateString('en-us', {weekday: 'long'});
         }
     });
