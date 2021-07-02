@@ -500,11 +500,8 @@ input#submit {
     padding: 12px;
 }
 
-.home-article-url {
-    text-decoration: none;
-    font-weight: 700;
-    padding-left: 8px;
-    color: white;
+img.soda .home-towns {
+    margin-left: 20px;
 }
 
 section {
@@ -512,21 +509,14 @@ section {
     border: 2px solid #666;
 }
 
-.home-towns p, h4 {
-    margin: 0;
-}
-
 .home-towns {
     background-color: transparent;
     border: none;
     height: 478px;
     margin-top: 20px;
-    margin-right: auto;
     text-align: center;
-    margin-left: -100px;
     display: flex;
     flex-direction: row;
-    align-items: center;
     width: 1000px;
 }
 
@@ -534,10 +524,11 @@ section {
     width: 300px;
     height: 200px;
     padding-top: 15px;
+    margin: 0px 0px 0px 0px;
     filter: drop-shadow(0px 0px 3px #444);
 }
 
-.home-towns h2, h4 {
+.preston-in .fish-in .spring-in {
     color: white;
     width: 300px;
     font-size: 20px;
@@ -547,27 +538,21 @@ section {
     padding-bottom: 8px;
 }
 
-.town-div {
-    border: 2px solid #666;
-    margin-bottom: 15px;
+.soda .preston .fish {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
-.town-img {
-    width: 100%;
+.home-towns {
+    width: 300px;
     max-width: 350px;
+    height: 200px;
     padding: 15px;
     filter: drop-shadow(0px 0px 3px #444);
 }
 
-.text-div {
-    width: 100%;
-}
-
-.town-p {
+.town-p .fish-p .soda-p {
     text-align: center;
     margin-top: 5px;
     font-size: 14px;
@@ -575,9 +560,10 @@ section {
 
 h2 {
     margin-bottom: 10px;
+    color: white;
 }
 
-.town-h2 {
+.fish-h2 .preston-h2 .soda-h2 {
     color: white;
     width: 100%;
     font-size: 16px;
@@ -587,7 +573,7 @@ h2 {
     padding-bottom: 8px;
 }
 
-.town-motto {
+.fish-motto .preston-motto .soda-motto {
     text-align: center;
     font-size: 16px;
     padding-left: 30px;
