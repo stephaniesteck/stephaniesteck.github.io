@@ -510,7 +510,6 @@ section {
     border: none;
     height: 478px;
     margin-top: 20px;
-    text-align: center;
     display: flex;
     flex-direction: row;
     width: 1000px;
@@ -522,13 +521,13 @@ section {
     padding-top: 15px;
     margin: 0px 0px 0px 0px;
     filter: drop-shadow(0px 0px 3px #444);
+    float: left;
 }
 
 .preston-in .fish-in .spring-in {
     color: white;
     width: 300px;
     font-size: 20px;
-    text-align: center;
     margin-bottom: 0;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -546,40 +545,41 @@ section {
     height: 200px;
     padding: 15px;
     filter: drop-shadow(0px 0px 3px #444);
+    float: left;
 }
 
 .town-p .fish-p .soda-p {
-    text-align: center;
     margin-top: 5px;
     font-size: 14px;
 }
 
 .fishphoto {
-    margin-right: auto;
-    margin-left: auto;
+    float: right;
 }
 
+.prestonphoto .sodaphoto {
+    margin-right: 0;
+}
+
+
 h2 {
+    text-align: center;
     margin-bottom: 10px;
     color: white;
-    text-align: center;
 }
 
 .fish-h2 .preston-h2 .soda-h2 {
     color: white;
     width: 100%;
     font-size: 16px;
-    text-align: center;
     margin-bottom: 10px;
     padding-top: 8px;
     padding-bottom: 8px;
 }
 
 .fish-motto .preston-motto .soda-motto {
-    text-align: center;
     font-size: 16px;
     padding-left: 30px;
     padding-right: 30px;
     margin-bottom: 12px;
-
 }
