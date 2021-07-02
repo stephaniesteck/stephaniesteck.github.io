@@ -38,11 +38,11 @@ fetch(requestURL)
 
     const towns = jsonObject['towns'];
 
-    h2.textContent = towns[2].name;
-    motto.textContent = towns[2].motto;
-    yearFounded.textContent = 'Year Founded ' + towns[2].yearFounded;
-    currentPopulation.textContent = 'Current Population: ' + towns[2].currentPopulation;
-    averageRainfall.textContent = "Average Rainfall: " + towns[2].averageRainfall;
+    h2.textContent = towns[0].name;
+    motto.textContent = towns[0].motto;
+    yearFounded.textContent = 'Year Founded ' + towns[0].yearFounded;
+    currentPopulation.textContent = 'Current Population: ' + towns[0].currentPopulation;
+    averageRainfall.textContent = "Average Rainfall: " + towns[0].averageRainfall;
 
     soda.appendChild(h2).appendChild(motto).appendChild(yearFounded).appendChild(currentPopulation).appendChild(averageRainfall);
 
@@ -104,11 +104,11 @@ fetch(requestURL)
 
     const towns = jsonObject['towns'];
 
-    h2.textContent = towns[2].name;
-    motto.textContent = towns[2].motto;
-    yearFounded.textContent = 'Year Founded ' + towns[2].yearFounded;
-    currentPopulation.textContent = 'Current Population: ' + towns[2].currentPopulation;
-    averageRainfall.textContent = "Average Rainfall: " + towns[2].averageRainfall;
+    h2.textContent = towns[6].name;
+    motto.textContent = towns[6].motto;
+    yearFounded.textContent = 'Year Founded ' + towns[6].yearFounded;
+    currentPopulation.textContent = 'Current Population: ' + towns[6].currentPopulation;
+    averageRainfall.textContent = "Average Rainfall: " + towns[6].averageRainfall;
 
     preston.appendChild(h2).appendChild(motto).appendChild(yearFounded).appendChild(currentPopulation).appendChild(averageRainfall);
 
