@@ -558,9 +558,15 @@ section {
     font-size: 14px;
 }
 
+.fishphoto {
+    margin-right: auto;
+    margin-left: auto;
+}
+
 h2 {
     margin-bottom: 10px;
     color: white;
+    text-align: center;
 }
 
 .fish-h2 .preston-h2 .soda-h2 {

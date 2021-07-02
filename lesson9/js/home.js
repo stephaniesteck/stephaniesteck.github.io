@@ -40,7 +40,7 @@ fetch(requestURL)
 
     h2.textContent = towns[2].name;
     motto.textContent = towns[2].motto;
-    yearFounded.textContent = 'Year Founded' + towns[2].yearFounded;
+    yearFounded.textContent = 'Year Founded ' + towns[2].yearFounded;
     currentPopulation.textContent = 'Current Population: ' + towns[2].currentPopulation;
     averageRainfall.textContent = "Average Rainfall: " + towns[2].averageRainfall;
 
@@ -73,7 +73,7 @@ fetch(requestURL)
 
     h2.textContent = towns[2].name;
     motto.textContent = towns[2].motto;
-    yearFounded.textContent = 'Year Founded' + towns[2].yearFounded;
+    yearFounded.textContent = 'Year Founded ' + towns[2].yearFounded;
     currentPopulation.textContent = 'Current Population: ' + towns[2].currentPopulation;
     averageRainfall.textContent = "Average Rainfall: " + towns[2].averageRainfall;
 
@@ -106,7 +106,7 @@ fetch(requestURL)
 
     h2.textContent = towns[2].name;
     motto.textContent = towns[2].motto;
-    yearFounded.textContent = 'Year Founded' + towns[2].yearFounded;
+    yearFounded.textContent = 'Year Founded ' + towns[2].yearFounded;
     currentPopulation.textContent = 'Current Population: ' + towns[2].currentPopulation;
     averageRainfall.textContent = "Average Rainfall: " + towns[2].averageRainfall;
 
