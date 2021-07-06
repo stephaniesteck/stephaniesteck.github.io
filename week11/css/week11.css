@@ -46,7 +46,8 @@ header, footer{
     background-color: #66CC88;
     color: #666666;
     text-align: center;
-    min-height: 250px;
+    min-height: 100px;
+    
 }
 
 h1, h2, h3, h5, h4{
