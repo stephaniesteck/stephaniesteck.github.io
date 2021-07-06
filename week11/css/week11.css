@@ -25,6 +25,10 @@ header img {
     position: absolute;
 }
 
+.hero-img {
+    background-color: #FDFCD8;
+}
+
 header h1 {
     text-shadow: #FFFF00 2px 2px;
     font-size: 1.8em;
@@ -153,7 +157,13 @@ table {
     min-height: 50px;
     margin-right: auto;
     margin-left: auto;
+    
 }
+
+td.info {
+    color:#666666;
+}
+
 .lake-weather {
     background-color: #FFFF00;
     text-align: center;
@@ -215,6 +225,11 @@ div .lake-weather {
 table img {
     max-width: 100px;
 }
+
+table .weathersummary {
+    color: #666666;
+}
+
 #summary {
     margin-top: 20px;
     margin-bottom: 0;
@@ -251,7 +266,7 @@ table img {
 }
 
 .article p {
-    max-width: 550px;
+    max-width: 800px;
 }
 
 .article img {
@@ -270,7 +285,7 @@ table img {
     float: right;
 }
 
-.contactinfo{
+.contactinfo {
     display: flex;
     flex-direction: row-reverse;
     background-color: white;
@@ -307,9 +322,14 @@ table img {
 #gallery-h1{
     color: #56B0E1;
 }
+
 .gallery {
     display: block;
     
+}
+
+.pic1 .pic2 .pic3 .pic4 .pic5 .pic6 .pic7 .pic8 .pic9 {
+    max-width: 200px;
 }
 
 .gallery img {
@@ -459,6 +479,7 @@ input#submit {
     border: none;
 }
 
+
 .home-article h3 {
     color: white;
     text-align: center;
@@ -503,6 +524,16 @@ img.soda .home-towns {
 section {
     background-color: #56B0E1;
     border: 2px solid #666;
+}
+
+.welcome-banner {
+    color: #555;
+    background-color: #66CC88;
+}
+
+.home-title {
+    background-color: #56B0E1;
+    font-size: 30px;
 }
 
 .home-towns {
@@ -582,4 +613,41 @@ h2 {
     padding-left: 30px;
     padding-right: 30px;
     margin-bottom: 12px;
+}
+
+/* Fish Haven */
+#container {
+   width: 800px; 
+}
+
+#fishy #soda #preston-img {
+    float: right;
+}
+
+#preston-img {
+    width: 300px;
+    float: right;
+}
+
+ #soda {
+    float: right;
+    width: 200px;
+}
+
+.p2 {
+    display: inline-block;
+}
+
+#h3 {
+    font-size: 30px;
+    margin: 0;
+}
+
+#h5 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.home-image {
+    width: 800px;
 }

@@ -1,5 +1,4 @@
 document.addEventListener('DOMContentLoaded', function() {        
-    // get and format current date 
     let getDate = new Date();
     let dayOptions = {
         weekday: 'long',
@@ -7,21 +6,18 @@ document.addEventListener('DOMContentLoaded', function() {
         day: 'numeric' ,
         month: 'long'
     };
-    
+
     let todaysDate = getDate.toLocaleDateString('en-GB', dayOptions);
 
-    // calls the pancake banner if the day is Friday
     if (todaysDate.split(',')[0] == 'Friday') {
         pancakeBanner();
     } else {
-        console.log('No pancakes for you!')
-    };
+        console.log('No pancakes for you!');
+    }
 
-    // update the last modified date and time
-    document.querySelector('#last-updated').textContent = todaysDate;   
+    document.querySelector('#lastmod').textContent = todaysDate;   
 }, false); 
 
-// allows the banner to display on Fridays
 function pancakeBanner() {
     document.getElementsByClassName('banner')[0].classList.remove('hidden');
 }
@@ -30,8 +26,8 @@ function toggleMenu() {
     document.getElementsByClassName('headermenu')[0].classList.toggle('responsive');
 }
 
-const currentRequestURL = 'https://api.openweathermap.org/data/2.5/weather?id=5604473&units=imperial&appid=b71ce55e24508e70ddc75b03913dddc2';
-const fiveDayRequestURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&units=imperial&appid=b71ce55e24508e70ddc75b03913dddc2';
+const currentRequestURL = 'https://api.openweathermap.org/data/2.5/weather?id=5585010&units=imperial&appid=b71ce55e24508e70ddc75b03913dddc2';
+const fiveDayRequestURL = 'https://api.openweathermap.org/data/2.5/forecast?id=5585010&units=imperial&appid=b71ce55e24508e70ddc75b03913dddc2';
 
 fetch(currentRequestURL)
 .then((response) => response.json())
