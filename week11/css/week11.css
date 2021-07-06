@@ -637,7 +637,7 @@ h2 {
    width: 800px; 
 }
 
-#fishy #soda #preston-img {
+#fishy {
     float: right;
 }
 
@@ -667,4 +667,26 @@ h2 {
 
 .home-image {
     width: 800px;
+}
+
+/* Events */
+.events {
+    display: block;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.events h2 {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+
+.events .event-list p {
+    padding: 15px;
+    margin: 0;
+}
+
+.events .event-list p i {
+    padding-right: 8px;
 }
