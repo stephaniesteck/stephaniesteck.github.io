@@ -13,6 +13,11 @@ figure {
     margin-inline-end: 0;
 }
 
+figure img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
 #logo {
     filter: none;
 }
