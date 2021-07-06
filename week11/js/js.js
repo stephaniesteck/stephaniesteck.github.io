@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
         console.log('No pancakes for you!')
     };
 
-    document.querySelector('#last-updated').textContent = todaysDate;   
+    document.querySelector('#lastmod').textContent = todaysDate;   
 }, false); 
 
 function pancakeBanner() {
