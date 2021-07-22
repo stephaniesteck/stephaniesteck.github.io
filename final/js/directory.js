@@ -1,4 +1,4 @@
-const requestURL = '';
+const requestURL = 'https://stephaniesteck.github.io/businesses.json';
 
 fetch(requestURL)
   .then(function (response) {
