@@ -201,9 +201,14 @@ table img {
     border: #9BC1BC solid 4px;
 }
 
+table.forecast {
+    display: block;
+}
+
 table .hosp-weather {
     display: block;
     position: absolute;
+    color: #5D576B;
 }
 
 #weather-im {
@@ -373,7 +378,7 @@ div.personal {
 }
 .info {
     margin-top: 20px;
-    color: white;
+    color: #5D576B;
 }
 
 .button {
@@ -468,3 +473,11 @@ input#submit {
 }
 
 /* Directory Page */
+#directory-h2 {
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}

@@ -1,8 +1,10 @@
-const currentRequestURL = 'https://api.openweathermap.org/data/2.5/weather?id=5538927&units=imperial&appid=b71ce55e24508e70ddc75b03913dddc2';
-const threeDayRequestURL = 'https://api.openweathermap.org/data/2.5/onecall?lat=39.15&lon=111.81&exclude=hourly,dailyappid=b71ce55e24508e70ddc75b03913dddc2';
+const apiKey ='b71ce55e24508e70ddc75b03913dddc2';
+const latLon ='lat=39.1552, lon=111.8183';
+const ex = 'exclude=hourly,minutely';
+const requestURL = `https://api.openweathermap.org/data/2.5/onecall?${latLon}&${ex}&units=imperial&appid=${apiKey}`;
 
 
-fetch(currentRequestURL)
+fetch(requestURL)
 .then((response) => response.json())
 .then((jsObject) => {
     //current codition
@@ -46,7 +48,7 @@ function windChill() {
     document.querySelector('#d-wind-c').textContent - windChill;
     }
 
-fetch(threeDayRequestURL)
+fetch(requestURL)
     .then((response) => response.json())
     .then((jsObject) => {
         let forecast =jsObject.list;

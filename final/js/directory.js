@@ -1,6 +1,6 @@
-const requestURL = 'https://stephaniesteck.github.io/businesses.json';
+const direct = 'https://stephaniesteck.github.io/businesses.json';
 
-fetch(requestURL)
+fetch(direct)
   .then(function (response) {
     return response.json();
   })
@@ -13,9 +13,8 @@ fetch(requestURL)
         console.log(business[i]);
         let card = document.createElement('section');
         let h2 = document.createElement('h2');
-        let phonenum = document.createElement('p');
-        let address = document.createElement('p');
-        let city = document.createElement('p');
+        let birth = document.createElement('p');
+        let place = document.createElement('p');
         let img = document.createElement('img');
         
         h2.textContent = `${business[i].name} ${business[i].phonenum}`;
