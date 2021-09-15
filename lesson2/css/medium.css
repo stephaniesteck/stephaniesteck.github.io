@@ -1,8 +1,0 @@
-@media only screen and (min-width: 32.5em){
-   
-    
-    #content {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
