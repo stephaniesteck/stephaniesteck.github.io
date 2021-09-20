@@ -1,4 +1,9 @@
-const daynames = [
+const year =document.querySelector("#copyright")
+	year.innerHTML = new Date().getFullYear();
+
+const lastmod =document.querySelector("#lastmod");
+
+const days = [
 	"Sunday",
 	"Monday",
 	"Tuesday",
@@ -21,17 +26,11 @@ const months = [
 	"November",
 	"December"
 ];
-const d = new Date();
-const dayName = daynames[d.getDay()];
-const monthName = months[d.getMonth()];
-const year = d.getFullYear();
+const d = new Date(document.lastModified);
 //const fulldate = dayName + ", " + monthName + " " + d.getDate() +", " + year;
-const fulldate = `${dayName}, ${d.getDate()} ${monthName} ${year}`;
-document.getElementById("lastmod").textContent = fulldate;
-// ****************************
-try {
-  const options = {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'};
-  document.querySelector('copyright').textContent = new Date().toLocaleDateString('en-US', options);
-} catch (e) {
-  alert('Error with code or your browser does not support Locale');
-}
+const date = `${days[d.getDay()]}, ${months[d.getMonth()]} ${d.getDate()}, ${d.getFullYear()}`;
+const last = document.querySelector("#lastmod");
+const dayNames = days[d.getDay()];
+const monthNames = months[d.getMonth()];
+const y = d.getFullYear();
+lastmod.innerHTML =date;

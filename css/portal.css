@@ -1,7 +1,45 @@
 body {
-    max-width: 200px;
+    max-width: 800px;
     margin: 0 auto;
+    color: #344966;
 }
-ul li {
-    text-decoration: none;
+
+img {
+    float: right;
+    margin-right: 25px;
+    margin-top: 25px;
+    box-shadow: #344966 2px 2px 2px 2px;
+    border-radius: 2px;
+}
+
+h2, li, footer {
+    font-family: 'Poppins', sans-serif;
+}
+
+ul, li {
+    list-style-type: none;
+    
+}
+
+header {
+    height: 100px;
+}
+h1 {
+    font-family: 'Gluten', cursive;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+header, footer{
+    background-color: #00AFB9;
+    color: #FDFCDC;
+    text-align: center;
+    padding-top: 25px;
+    border: #FDFCDC double 10px;
+    border-radius: 5px;
+    
+}
+
+footer{ 
+    height: 75px;
 }
