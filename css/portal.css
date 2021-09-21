@@ -10,6 +10,7 @@ img {
     margin-top: 25px;
     box-shadow: #344966 2px 2px 2px 2px;
     border-radius: 2px;
+    width: 200px;
 }
 
 h2, li, footer {
