@@ -1,7 +1,8 @@
 body {
     max-width: 800px;
-    margin: 0 auto;
     color: #344966;
+    background-color: #FDFCDC;
+    margin: auto 0;
 }
 
 img {
@@ -15,6 +16,7 @@ img {
 
 h2, li, footer {
     font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
 }
 
 ul, li {
@@ -36,9 +38,10 @@ header, footer{
     color: #FDFCDC;
     text-align: center;
     padding-top: 25px;
-    border: #FDFCDC double 10px;
+    border: white double 10px;
     border-radius: 5px;
-    
+    text-shadow: #344966 2px 2px 2px;
+    box-shadow: #344966 2px 2px 2px 2px;
 }
 
 footer{ 
