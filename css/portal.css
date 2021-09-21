@@ -1,5 +1,6 @@
 body {
-    margin: auto 0;
+    margin-right: auto;
+    margin-left: auto;
     max-width: 800px;
     color: #344966;
     background-color: #FDFCDC;
