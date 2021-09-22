@@ -40,12 +40,12 @@ h1 {
 
 header, footer{
     background-color: #00AFB9;
-    color: #FDFCDC;
+    color: black;
     text-align: center;
     padding-top: 25px;
     border: white double 10px;
     border-radius: 5px;
-    text-shadow: #344966 2px 2px 2px;
+    text-shadow: white 2px 2px 2px;
     box-shadow: #344966 2px 2px 2px 2px;
 }
 
