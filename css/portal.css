@@ -1,6 +1,7 @@
 body {
     margin: 0 auto;
     max-width: 800px;
+    min-width: 200px;
     color: #344966;
     background-color: #FDFCDC;
     
@@ -34,6 +35,7 @@ h1 {
     font-family: 'Gluten', cursive;
     font-size: 40px;
     font-weight: 200;
+    overflow-x: hidden;
 }
 
 header, footer{
