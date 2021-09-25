@@ -1,0 +1,28 @@
+body {
+    background-color: #FDFCDC;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+h1, h2 {
+    background-color: #00AFB9;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    width: 1200px;
+}
+
+.column {
+    width: 400px;
+    float: left;
+    flex-direction: column;
+    flex: content;
+    padding-right: 50px;
+}
+
+img {
+    width: 400px;
+}
