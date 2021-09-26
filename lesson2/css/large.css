@@ -3,6 +3,9 @@
         max-width: 100%;
     }
 
+    .link .column-2 {
+        padding-bottom: 20px;
+    }
 
     .column {
         width: 100%;
@@ -12,11 +15,22 @@
         flex-wrap: nowrap;
     }
 
+    .links, h2 {
+        width: 350px;
+        text-align: center;
+    }
+
+    .links {
+        padding-bottom: none;
+        
+    }
+
     p {
         font-size: 20px;
     }
 
     img {
+        padding-top: 20px;
         width: 100%;
     }
 

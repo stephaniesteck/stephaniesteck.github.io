@@ -31,7 +31,7 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-around; 
-    
+    flex-wrap: wrap;
 }
 
 .column-1, .column-2, .column-3 {
