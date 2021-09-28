@@ -7,7 +7,7 @@ body {
 }
 
 h1, h2 {
-    background-color: #00AFB9;
+    background-color: #00969E;
     color: white;
     text-align: center;
     padding: 50px;
@@ -36,7 +36,7 @@ h1 {
 }
 
 .columns {
-    border:#00AFB9 solid 5px;
+    border:#00969E solid 5px;
     border-radius: 5px;
     margin-top: 20px;
     margin-right: auto;
@@ -71,7 +71,7 @@ footer a:link {
 
 footer {
     color: white;
-    background-color: #00AFB9;
+    background-color: #00969E;
     padding: 50px;
     height: 100px;
     margin-top: auto;
