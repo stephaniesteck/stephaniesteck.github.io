@@ -1,5 +1,4 @@
 body {
-    margin: 0 auto;
     max-width: 800px;
     min-width: 200px;
     color: #344966;
@@ -11,6 +10,10 @@ a:link {
     color: black;
 }
 
+.content {
+    margin: auto 0;
+    
+}
 
 img {
     margin-right: 25px;
@@ -41,15 +44,19 @@ h1 {
     overflow-x: hidden;
 }
 
+#footer-link {
+    color: white;
+}
+
 header, footer{
     background-color: #00AFB9;
-    color: black;
+    color: white;
     text-align: center;
     padding-top: 25px;
     border: white double 10px;
     border-radius: 5px;
-    text-shadow: white 2px 2px 2px;
-    box-shadow: #344966 2px 2px 2px 2px;
+    text-shadow:#000000 2px 2px 2px;
+    box-shadow: #000000 2px 2px 2px 2px;
 }
 
 footer{ 

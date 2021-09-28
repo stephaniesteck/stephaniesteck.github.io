@@ -1,24 +1,21 @@
 @media only screen and (min-width: 32.5em) {
-    .column {
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    .columns h2, .content{
+        width: 100%;
     }
 
-    .links, h2 {
-        width: 50%;
+    .columns {
+        margin-right: 20px;
+        margin-left: 20px;
     }
 
-    .column-1, .column-2, .column-3 {
-        display: flex;
-        flex-direction: column;
-        justify-content:space-between;
-        flex-wrap: wrap;
+
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
 
     img {
-        width: 50%;
+        width: 100%;
     }
 
 } 
