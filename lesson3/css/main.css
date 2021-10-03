@@ -1,0 +1,93 @@
+
+h1, h2, h3 {
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    margin: auto;
+    color: #FFEC99;
+    background-color: #004466;
+    padding: 20px;
+}
+
+h1, header, footer {
+    border: solid 5px #5DDEF8;
+    background-color: #004466;
+    margin: auto;
+    padding-bottom: 20px;
+    color: #FFEC99;
+}
+
+footer {
+    color: #FFEC99;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #FFEC99;
+    font-size: 20px;
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.heads {
+    border: solid 5px #5DDEF8;
+}
+
+.icons {
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 30px;
+}
+
+p, a, div, li, h4 {
+    font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li a {
+    display: block;
+    background-color: #5DDEF8;
+    text-align: center;
+    padding: 0.75em;
+    text-decoration: none;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+p {
+    padding: 20px;
+}
