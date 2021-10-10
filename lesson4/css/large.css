@@ -1,0 +1,30 @@
+@media only screen and (min-width: 40.5em) {
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    nav ul li a {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+
+    nav ul li a {
+        border-top: none;
+        width: 125px;
+        text-align: center;
+    }
+    
+    .navigation li:first-child{
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+    }
+
+}

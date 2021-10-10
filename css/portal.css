@@ -2,8 +2,7 @@ body {
     max-width: 800px;
     min-width: 200px;
     color: #344966;
-    background-color: #FDFCDC;
-    
+    background-color: #FDFCDC; 
 }
 
 a:link {
@@ -11,7 +10,7 @@ a:link {
 }
 
 .content {
-    margin: auto 0;
+    margin: auto;
     
 }
 

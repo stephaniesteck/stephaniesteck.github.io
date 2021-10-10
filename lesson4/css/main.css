@@ -1,0 +1,125 @@
+h1, h2, h3 {
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    margin: auto;
+    color: #FFEC99;
+    background-color: #004466;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+#logo {
+    width: 200px;
+    float: left;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 5px #5DDEF8;
+    background-color: #004466;
+    padding-bottom: 20px;
+    color: #FFEC99;
+}
+
+nav {
+    background-color: #5DDEF8;
+    color: #004466;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav ul {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    width: 100%;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: #004466;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav ul li.active a {
+    background-color: rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.button {
+    margin: 0.2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    color: #004466;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+
+.responsive li {
+    display: block;
+}
+
+footer{
+    border: solid 5px #5DDEF8;
+    background-color: #004466;
+    margin: auto;
+    padding-bottom: 20px;
+    color: #FFEC99;
+}
+
+p, a, div, li, h4 {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.content {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px dotted black;
+}
+
+a, footer {
+    color:#FFEC99;
+}
+
+footer {
+    color: #FFEC99;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
