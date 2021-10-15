@@ -1,0 +1,28 @@
+.bom {
+    background-color: lightcoral;
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Ephesis', cursive;
+    color:lightgoldenrodyellow;
+    text-shadow: black 2px 2px 2px;
+}
+
+label {
+    color:lightgoldenrodyellow;
+    text-shadow: black 2px 2px 2px;
+}
+
+.input {
+    text-align: center;
+}
+
+label, input, button {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
