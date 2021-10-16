@@ -103,7 +103,6 @@ p, a, div, li, h4 {
     background-color: lightgray;
     padding: 20px;
     text-align: center;
-    width: 50%;
     margin: auto;
     margin-top: 20px;
     border: 2px dotted black;
@@ -119,7 +118,6 @@ footer {
     font-size: 20px;
     text-align: center;
     padding: 20px;
-    width: 50%;
     margin: auto;
     margin-top: 20px;
 }
