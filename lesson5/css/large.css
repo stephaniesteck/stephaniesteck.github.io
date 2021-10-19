@@ -31,9 +31,20 @@
         display: block;
     }
 
-    .content, footer {
-        width: 50%;
+    .content, footer, .hero-pl {
+        max-width: 50%;
     }
 
+    
 
+/* week 5
+    */
+    #hero-img {
+        max-width: 800px;
+    }
+
+    .article {
+        height: 200px;
+        max-width: 50%;
+    }
 }

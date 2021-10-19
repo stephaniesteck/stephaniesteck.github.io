@@ -1,0 +1,273 @@
+h1, h2, h3 {
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    margin: auto;
+    color: #FFEC99;
+    background-color: #004466;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+#logo {
+    width: 200px;
+    float: left;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 5px #5DDEF8;
+    background-color: #004466;
+    padding-bottom: 20px;
+    color: #FFEC99;
+}
+/* Hamburger Menu */
+
+nav {
+    background-color: #5DDEF8;
+    color: #004466;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav ul {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    width: 100%;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: #004466;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li.active a {
+    background-color: #004466;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: #004466;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.button {
+    margin: 0.2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    color: #004466;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+
+.responsive li {
+    display: block;
+}
+
+footer{
+    border: solid 5px #5DDEF8;
+    background-color: #004466;
+    margin: auto;
+    padding-bottom: 20px;
+    color: #FFEC99;
+}
+
+p, a, div, li, h4 {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+/* week 5 updates */
+
+.content, .hero-pl {
+    
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    
+}
+
+.content {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+thead {
+    color: #FFEC99;
+}
+
+.hero-pl {
+    position: relative;
+    z-index: 0;
+    min-width: 100px;;
+}
+
+
+#hero-img {
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    min-width: 50px;
+}
+
+th {
+    background-color: transparent;
+    color: #FFEC99;
+    text-shadow: #004466 2px 2px 2px;
+    font-family: 'Merienda', cursive;
+}
+
+.ws-table {
+    position: absolute;
+    bottom: 20px;
+    top: 40px;
+    width: 40%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 3; 
+}
+
+.title-data {
+    width: 50%;
+    text-align: right;
+}
+
+.sum-data {
+    width: 50%;
+    padding-left: 5px;
+}
+
+thead, .title-data, .sum-data, td {
+    background-color: rgb(93, 222, 248, 0.8);
+    color: #004466;
+    padding: 6px;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+table {
+    border-spacing: 0;
+    
+}
+
+.five-day {
+    margin: auto;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: #5DDEF8;
+    border: #004466 solid 2px;
+}
+
+.pancakes {
+    background-color: #FFEC99;
+    color: #004466;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.weather-icon {
+    width: 150px;
+}
+
+#grandma {
+    width: 200px;
+    float: right;
+    display: block;
+}
+
+.article {
+    margin: auto;
+    border: #004466 solid 4px;
+    background-color: #FFEC99;
+    color: #004466;
+}
+
+.contact {
+    width: 50%;
+    margin: auto;
+    background-color: #FFEC99;
+    height: 400px;
+    color: #004466;
+    border: #004466 solid 4px;
+    
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    min-width: 100px;
+}
+
+.contact-ws {
+    font-size: 20px;
+    font-family: 'Merienda', cursive;
+    padding-bottom: 40px;
+}
+
+iframe {
+    grid-column: 1;
+    padding-right: 20px;
+    min-width: 100px;
+}
+
+.social-img {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.contact-address {
+    grid-column: 2;
+    grid-row: 1;
+    width: 200px;
+}
+
+/* Footer info */
+
+a, footer {
+    color:#FFEC99;
+    
+}
+
+footer {
+    color: #FFEC99;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
