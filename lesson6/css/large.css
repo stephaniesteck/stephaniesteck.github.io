@@ -53,6 +53,7 @@
         background-color: #5DDEF8;
         border: 2px solid #004466;
         max-width: 50%;
+        max-width: 760px;
     }
     
     .hero-place {
@@ -64,7 +65,7 @@
     }
 
     .weather-icon {
-        max-width: 150px;
+        max-width: 100px;
     }
     
     #hero-img {
@@ -107,10 +108,13 @@
         padding-left: 5px;
     }
     
-
     .article {
         min-height: 200px;
         max-width: 50%;
+    }
+
+    .contact, .article, table {
+        width: 760px;
     }
 
     .contact-info {
