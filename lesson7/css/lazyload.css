@@ -17,13 +17,12 @@ picture {
     margin-top: 20px;
 }
 
-img[data-src] {
-    filter: blur(0.5em);
-    
+data-src {
+    filter: blur(0.8em);
+    transition: filter 10s;
 }
 
 img {
     filter: blur(0em);
     transition: filter 5s;
-    min-height: 100px;
 }
