@@ -1,0 +1,29 @@
+* {
+    margin: auto;
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    text-shadow: black 2px 2px 2px;
+}
+
+picture {
+    display: flex;
+    flex-direction:row;
+    margin-top: 20px;
+}
+
+img[data-src] {
+    filter: blur(0.5em);
+    
+}
+
+img {
+    filter: blur(0em);
+    transition: filter 5s;
+    min-height: 100px;
+}
