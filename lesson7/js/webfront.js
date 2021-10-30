@@ -1,7 +1,7 @@
 WebFont.load({
-    google: {
-      families: [
-        'Source Sans Pro'
-      ]
-    }
-  });
+  google: {
+    families: [
+       'Merienda', 'Didact Gothic'
+    ]
+  }
+});

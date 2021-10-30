@@ -1,0 +1,168 @@
+@media only screen and (min-width: 40.5em) {
+
+    body {
+        width: 100%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    nav ul li a {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+
+    nav ul li a {
+        border-top: none;
+        width: 125px;
+        text-align: center;
+    }
+    
+    .navigation li:first-child{
+        display: none;
+    }
+
+    .responsive li {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+    }
+
+    footer, .hero-place {
+        max-width: 50%;
+    }
+
+    
+
+/* week 5
+    */
+
+    thead {
+        color: #FFEC99;
+    }
+
+    .five-day {
+        margin: auto;
+        background-color: #5DDEF8;
+        border: 2px solid #004466;
+        max-width: 50%;
+        max-width: 760px;
+    }
+    
+    .hero-place {
+        margin: auto;
+        text-align: center;
+        width: 50%;  
+        position: relative;
+        z-index: 0;
+    }
+
+    .weather-icon {
+        max-width: 100px;
+    }
+    
+    #hero-img {
+        margin-top: 20px;
+        position: relative;
+        max-width: 822px;
+    }
+    
+    th {
+        background-color: transparent;
+        color: #FFEC99;
+        text-shadow: #004466 2px 2px 2px;
+        font-family: 'Merienda', cursive;
+    }
+    
+    .ws-h {
+        border-bottom: 2px solid #004466;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    
+    .ws-table {
+        position: absolute;
+        bottom: 20px;
+        top: 40px;
+        width: 40%;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        z-index: 3; 
+    }
+    
+    .title-data {
+        width: 50%;
+        text-align: right;
+    }
+    
+    .sum-data {
+        width: 50%;
+        padding-left: 5px;
+    }
+    
+    .article {
+        min-height: 200px;
+        max-width: 50%;
+    }
+
+    .contact, .article, table {
+        width: 760px;
+    }
+
+    .contact-info {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+    }
+
+    iframe {
+        margin-top: 20px;
+        grid-column: 1;
+        padding-right: 20px;
+        width: 400px;
+        height: 200px;
+    }
+
+    .social-img {
+        grid-column: 2;
+        grid-row: 2;
+        margin-left: 90px;
+    }
+
+    .contact-address {
+        margin-top: 20px;
+        grid-column: 2;
+        grid-row: 1;
+        width: 200px;
+        text-align: right;
+        margin-left: 50px;
+    }
+
+    /* Gallery Page */
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .cards {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+    }
+
+    .cards:hover {
+        box-shadow: 0 0 50px #004466;
+    }
+    
+}
