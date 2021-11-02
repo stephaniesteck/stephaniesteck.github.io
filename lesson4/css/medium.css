@@ -1,5 +1,7 @@
 @media only screen and (min-width: 32.5em) {
     
-    
+    .content {
+        width: 100%;
+    }
         
 } 
