@@ -116,7 +116,7 @@ thead {
 }
 
 #hero-img {
-    min-width: 200px;
+    width: 200px;
 }
 
 th {
@@ -197,11 +197,12 @@ table {
 }
 
 .five-day {
-    min-width: 200px;
+    border:#004466 solid 4px;
+    min-width: 50px;
 }
 
 .weather-icon {
-    min-width: 50px;
+    width: 50px;
 }
 
 .article {
@@ -241,7 +242,7 @@ table {
 iframe {
     grid-column: 1;
     padding-right: 20px;
-    min-width: 50px;
+    width: 100px;
     
 }
 
