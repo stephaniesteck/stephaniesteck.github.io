@@ -1,0 +1,22 @@
+@media only screen and (min-width: 32.5em) {
+    
+    .hero-place {
+        margin-left: 0;
+    }  
+    
+    .cards {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    /* --------------------Storm Center --------------------------------------*/
+    form {
+        width: 100%;
+    }
+
+    /*-------------------Thank You Page --------------------------------------*/
+    .thank-you {
+        width: 100%;
+    }
+} 

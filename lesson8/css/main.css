@@ -1,0 +1,385 @@
+h1, h2, h3 {
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    margin: auto;
+    color: #FFEC99;
+    background-color: #004466;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+#logo {
+    width: 200px;
+    float: left;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 5px #5DDEF8;
+    background-color: #004466;
+    padding-bottom: 20px;
+    color: #FFEC99;
+}
+/* -------------------------------Hamburger Menu ----------------------------------------------*/
+
+nav {
+    background-color: #5DDEF8;
+    color: #004466;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav ul {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li{
+    width: 100%;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: #004466;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li.active a {
+    background-color: #004466;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+nav ul li a:hover {
+    background-color: #004466;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.button {
+    margin: 0.2rem 2%;
+    background-color: transparent;
+    border: none;
+    font-size: 1.2rem;
+    color: #004466;
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+footer{
+    border: solid 5px #5DDEF8;
+    background-color: #004466;
+    margin: auto;
+    padding-bottom: 20px;
+    color: #FFEC99;
+}
+
+p, a, div, li, h4 {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+/* --------------------------------week 5 updates ------------------------------*/
+
+thead {
+    color: #FFEC99;
+}
+
+.hero-place {
+    margin-left: 0;
+    text-align: center; 
+    min-width: 100px;
+}
+
+#hero-img {
+    min-width: 200px;
+}
+
+th {
+    background-color: transparent;
+    color: #FFEC99;
+    text-shadow: #004466 2px 2px 2px;
+    font-family: 'Merienda', cursive;
+}
+
+.ws-h {
+    border-bottom: 2px solid #004466;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.ws-table {
+    bottom: 20px;
+    top: 40px;
+    margin-left: 40px;
+    width: 100%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.title-data {
+    width: 50%;
+    text-align: right;
+}
+
+.sum-data {
+    width: 50%;
+    padding-left: 5px;
+}
+
+thead, .title-data, .sum-data, td {
+    background-color: rgb(93, 222, 248, 0.8);
+    color: #004466;
+    padding: 6px;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+table {
+    border-spacing: 0;
+}
+
+.head-5 {
+    padding: 20px;
+}
+
+.week-day {
+    border-top: 2px solid #004466;
+}
+
+.t-right {
+    border-right: 2px solid #004466;
+}
+
+.t-temp {
+    background-color:rgba(255, 236, 153, 1);
+}
+
+.t-para {
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.pancakes {
+    background-color: #FFEC99;
+    color: #004466;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.five-day {
+    min-width: 200px;
+}
+
+.weather-icon {
+    min-width: 50px;
+}
+
+.article {
+    margin: auto;
+    border: #004466 solid 4px;
+    background-color: #FFEC99;
+    color: #004466;
+    padding-bottom: 50px;   
+}
+
+#grandma {
+    width: 200px;
+    float: right;
+    display: block;
+}
+
+.contact {
+    width: 50%;
+    margin: auto;
+    background-color: #FFEC99;
+    height: 400px;
+    color: #004466;
+    border: #004466 solid 4px;
+    max-height: fit-content;
+}
+
+.contact-info {
+    min-width: 100px;
+}
+
+.contact-ws {
+    font-size: 20px;
+    font-family: 'Merienda', cursive;
+    padding-bottom: 40px;
+}
+
+iframe {
+    grid-column: 1;
+    padding-right: 20px;
+    min-width: 50px;
+    
+}
+
+.contact-address {
+    grid-row-start: 1;
+    
+}
+
+.social-img {
+    display: block;
+}
+
+/* ---------------------Footer info --------------------------------------------*/
+
+a, footer {
+    color:#FFEC99;
+    
+}
+
+footer {
+    color: #FFEC99;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* ----------------------------Gallery Page ------------------------------------------*/
+
+.cards {
+    background-color:#FFEC99;
+    color: #004466;
+    min-width: 500px;
+    min-height: 100px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.lastvisit{
+    background-color: #5DDEF8;
+    color: #004466;
+    text-align: center;
+    padding: 20px;
+}
+
+/* -----------------------Storm Center Form Page -------------------------------------*/
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: auto;
+    background-color: #FFEC99;
+    padding: 10px;
+    font-family: 'Didact Gothic', sans-serif;
+    color: #004466;
+}
+
+input {
+    width: 100%;
+}
+
+#region, datalist {
+    width: 100%;
+}
+
+.bar {
+    width: 100%;
+    -webkit-appearance: none;
+    background-color: #5DDEF8;
+    opacity: 0.7;
+    -webkit-transition: .2s; 
+    transition: opacity .2s;
+}
+
+.bar:hover{
+    opacity: 1;
+}
+
+.bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background-color: #004466;
+    cursor: pointer;
+}
+
+.input-section {
+    padding: 10px;
+}
+
+.input-section, input {
+    margin-right: 40px;
+}
+
+.additional {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.additional-com {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.select-btn {
+    width: 50%;
+    background: #5DDEF8;
+    padding: 10px;
+    margin: auto;
+    color: white;
+    text-shadow: #004466 2px 2px 2px;
+}
+
+.danger {
+    flex-direction: column;
+    width: 100%;
+}
+
+input {
+    display: block;
+}
+
+/*--------------------------------------Thank you Page------------------------------------------------------------*/
+
+.thank-you {
+    background-color: #FFEC99;
+    color: #004466;
+    padding: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
