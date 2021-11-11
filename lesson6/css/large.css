@@ -35,8 +35,12 @@
         display: block;
     }
 
-    footer, .hero-place {
-        max-width: 36em;
+    footer {
+        max-width: 37em;
+    }
+
+    .hero-place {
+        max-width: 48.125em;
     }
 
     
@@ -53,14 +57,11 @@
         border: 2px solid #004466;
         max-width: 760px;
     }
-
-    h3 {
-        width: 36em;
-    }
     
     .hero-place {
+        margin: auto;
         text-align: center;
-        width: 36em;  
+        width: 48.125em;  
         position: relative;
         z-index: 0;
     }
@@ -113,10 +114,9 @@
         min-height: 200px;
     }
 
-    .contact, .article, table {
-        width: 36em;
+    .contact, .article, .five-day {
+        width: 48.125em;
     }
-
     .contact-info {
         display: grid;
         grid-template-columns: 50% 50%;

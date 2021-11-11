@@ -3,7 +3,11 @@
     .hero-place {
         margin-left: 0;
         width: 100%;
-    }   
+    }  
+    
+    .ws-table {
+        margin-left: 0;
+    }
     
     footer {
         width: 100%;
