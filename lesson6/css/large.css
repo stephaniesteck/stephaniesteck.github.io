@@ -41,7 +41,7 @@
 
     
 
-/*------------------ week 5-------------------------------------------------------*/
+/*------------------ week 6-------------------------------------------------------*/
 
     thead {
         color: #FFEC99;
@@ -51,12 +51,14 @@
         margin: auto;
         background-color: #5DDEF8;
         border: 2px solid #004466;
-        max-width: 50%;
         max-width: 760px;
+    }
+
+    h3 {
+        width: 36em;
     }
     
     .hero-place {
-        margin: auto;
         text-align: center;
         width: 36em;  
         position: relative;
@@ -70,7 +72,7 @@
     #hero-img {
         margin-top: 20px;
         position: relative;
-        width: 822px;
+        margin: auto;
     }
     
     th {
@@ -109,11 +111,10 @@
     
     .article {
         min-height: 200px;
-        max-width: 50%;
     }
 
     .contact, .article, table {
-        width: 760px;
+        width: 36em;
     }
 
     .contact-info {
@@ -126,7 +127,7 @@
         margin-top: 20px;
         grid-column: 1;
         padding-right: 20px;
-        width: 400px;
+        width: 15em;
         height: 200px;
     }
 
