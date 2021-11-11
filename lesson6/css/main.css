@@ -29,7 +29,7 @@ header {
     padding-bottom: 20px;
     color: #FFEC99;
 }
-/* Hamburger Menu */
+/*---------------------------- Hamburger Menu ---------------------------------------------------------------*/
 
 nav {
     background-color: #5DDEF8;
@@ -103,7 +103,7 @@ p, a, div, li, h4 {
     font-family: 'Didact Gothic', sans-serif;
 }
 
-/* week 5 updates */
+/*--------------------------------- week 6 updates ----------------------------------------*/
 
 thead {
     color: #FFEC99;
@@ -112,11 +112,11 @@ thead {
 .hero-place {
     margin-left: 0;
     text-align: center; 
-    min-width: 100px;
+    width: 100%;
 }
 
 #hero-img {
-    width: 200px;
+    width: 100%;
 }
 
 th {
@@ -219,8 +219,11 @@ table {
     display: block;
 }
 
+.contact, .article, .five-day {
+    width: 100%;
+}
+
 .contact {
-    width: 50%;
     margin: auto;
     background-color: #FFEC99;
     height: 400px;
@@ -255,11 +258,10 @@ iframe {
     display: block;
 }
 
-/* Footer info */
+/* ----------------------------Footer info -----------------------------------*/
 
 a, footer {
     color:#FFEC99;
-    
 }
 
 footer {
@@ -270,4 +272,5 @@ footer {
     padding: 20px;
     margin: auto;
     margin-top: 20px;
+    width: 100%;
 }
