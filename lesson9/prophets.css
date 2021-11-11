@@ -9,7 +9,7 @@ body {
 }
 
 section {
-    width: 350px;
+    width: 250px;
     background-color: #16697A;
     margin-bottom: 20px;
     margin-top: 20px;
@@ -32,7 +32,7 @@ h2 {
 p {
     text-align: center;
     margin-bottom: 10px;
-    font-family: 'Red Hat Mono', monospace;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 h1, h2 {
@@ -67,5 +67,5 @@ header, footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
