@@ -1,4 +1,4 @@
-@media only screen and (min-width: 40.5em) {
+@media only screen and (min-width: 64.5em) {
 
     body {
         width: 100%;
@@ -35,14 +35,17 @@
         display: block;
     }
 
-    footer, .hero-place {
-        max-width: 50%;
+    footer {
+        max-width: 37em;
+    }
+
+    .hero-place {
+        max-width: 48.125em;
     }
 
     
 
-/* week 5
-    */
+/*------------------ week 6-------------------------------------------------------*/
 
     thead {
         color: #FFEC99;
@@ -52,14 +55,13 @@
         margin: auto;
         background-color: #5DDEF8;
         border: 2px solid #004466;
-        max-width: 50%;
         max-width: 760px;
     }
     
     .hero-place {
         margin: auto;
         text-align: center;
-        width: 50%;  
+        width: 48.125em;  
         position: relative;
         z-index: 0;
     }
@@ -71,7 +73,7 @@
     #hero-img {
         margin-top: 20px;
         position: relative;
-        max-width: 822px;
+        margin: auto;
     }
     
     th {
@@ -110,13 +112,11 @@
     
     .article {
         min-height: 200px;
-        max-width: 50%;
     }
 
-    .contact, .article, table {
-        width: 760px;
+    .contact, .article, .five-day {
+        width: 48.125em;
     }
-
     .contact-info {
         display: grid;
         grid-template-columns: 50% 50%;
@@ -127,7 +127,7 @@
         margin-top: 20px;
         grid-column: 1;
         padding-right: 20px;
-        width: 400px;
+        width: 15em;
         height: 200px;
     }
 
@@ -146,7 +146,7 @@
         margin-left: 50px;
     }
 
-    /* Gallery Page */
+    /* --------------------------Gallery Page ---------------------------------------------*/
 
     .grid {
         display: grid;

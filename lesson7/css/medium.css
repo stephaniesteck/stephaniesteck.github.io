@@ -2,7 +2,25 @@
     
     .hero-place {
         margin-left: 0;
+        width: 100%;
     }  
+    
+    .ws-table {
+        margin-left: 0;
+    }
+    
+    footer {
+        width: 100%;
+    }
+
+    .five-day, .article, .contact {
+        width: 100%;
+    }
+
+    iframe {
+        width: 50%;
+    }
+
     
     .cards {
         display: grid;

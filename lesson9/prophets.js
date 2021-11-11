@@ -20,7 +20,7 @@ const requestURL ='https://byui-cit230.github.io/lessons/lesson-09/data/latter-d
 
         h2.textContent = `${prophets[i].name} ${prophets[i].lastname}`;
         birth.textContent = `Date Of Birth: ${prophets[i].birthdate}`;
-        place.textContent = `Place of Birth ${prophets[i].birthplace}`;
+        place.textContent = `Place of Birth: ${prophets[i].birthplace}`;
         img.src = prophets[i].imageurl;
         img.alt = `${prophets[i].name} ${prophets[i].lastname} - ${prophets[i].order}`;
 
