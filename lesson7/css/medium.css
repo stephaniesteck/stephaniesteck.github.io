@@ -20,11 +20,26 @@
     iframe {
         width: 50%;
     }
-
+ /* ------------------------------ Gallery Page -------------------------------------------*/
     
-    .cards {
+    .grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-gap: none;
+    }
+
+    figure, img{
+        width: 400px;
+    }
+
+    .cards {
+        margin-left: 0;
+        margin-right: 2px;
+        padding: none;
+        width: 500px;
+    }
+
+    .cards:hover {
+        box-shadow: 0 0 50px #004466;
     }
 } 

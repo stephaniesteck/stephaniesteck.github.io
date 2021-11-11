@@ -151,14 +151,14 @@
     .grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
     }
 
     .cards {
-        display: flex;
         align-items: center;
         justify-content: center;
         padding-top: 20px;
+        height: 350px;
+        margin: 20px;
     }
 
     .cards:hover {

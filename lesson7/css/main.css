@@ -91,14 +91,6 @@ nav ul li a:hover {
     display: block;
 }
 
-footer{
-    border: solid 5px #5DDEF8;
-    background-color: #004466;
-    margin: auto;
-    padding-bottom: 20px;
-    color: #FFEC99;
-}
-
 p, a, div, li, h4 {
     font-family: 'Didact Gothic', sans-serif;
 }
@@ -265,30 +257,28 @@ a, footer {
     color:#FFEC99;
 }
 
-footer {
-    color: #FFEC99;
+footer{
     font-family: 'Didact Gothic', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    padding: 20px;
+    border: solid 5px #5DDEF8;
+    background-color: #004466;
     margin: auto;
     margin-top: 20px;
-    width: 100%;
+    padding: 20px;
+    text-align: center;
+    color: #FFEC99;
+    font-size: 20px;
 }
 
-/*----------------- Gallery Page -------------------------------*/
+/*----------------------------- Gallery Page -------------------------------*/
 
 .cards {
     background-color:#FFEC99;
     color: #004466;
-    min-width: 500px;
-    min-height: 100px;
-    margin: 20px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin: 0;
     text-align: center;
     border-radius: 10px;
+    padding: 0;
+    width: 411px;
 }
 
 .lastvisit{
@@ -296,4 +286,12 @@ footer {
     color: #004466;
     text-align: center;
     padding: 20px;
+}
+
+figure, img {
+    width: 300px;
+}
+
+.cards:hover {
+    box-shadow: 0 0 50px #004466;
 }
