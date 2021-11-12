@@ -1,0 +1,24 @@
+/* ---------------------------------------Wireframe Page -------------------------------------------------------*/
+h2.small, h2.medium, h2.large, img.small {
+    width: 400px;
+}
+
+.small, .medium, .large {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img.small, img.medium, img.large {
+    box-shadow: 2px 2px 2px 2px #004466;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+img.large{
+    width: 50%;
+}
+
+img.medium {
+    width: 30%;
+}

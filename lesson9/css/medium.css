@@ -1,0 +1,55 @@
+@media only screen and (min-width: 32.5em) {
+    
+    .hero-place {
+        margin-left: 0;
+        width: 100%;
+    }  
+    
+    .ws-table {
+        margin-left: 0;
+    }
+    
+    footer {
+        width: 100%;
+    }
+
+    .five-day, .article, .contact {
+        width: 100%;
+    }
+
+    iframe {
+        width: 50%;
+    }
+ /* ------------------------------ Gallery Page -------------------------------------------*/
+    
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: none;
+    }
+
+    figure, img{
+        width: 400px;
+    }
+
+    .cards {
+        margin-left: 0;
+        margin-right: 2px;
+        padding: none;
+        width: 500px;
+    }
+
+    .cards:hover {
+        box-shadow: 0 0 50px #004466;
+    }
+
+    /* --------------------Storm Center --------------------------------------*/
+    form {
+        width: 100%;
+    }
+
+    /*-------------------Thank You Page --------------------------------------*/
+    .thank-you {
+        width: 100%;
+    }
+} 

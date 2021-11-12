@@ -35,13 +35,17 @@
         display: block;
     }
 
-    footer, .hero-place {
-        max-width: 50%;
+    footer {
+        max-width: 37em;
+    }
+
+    .hero-place {
+        max-width: 48.125em;
     }
 
     
 
-/* ----------------------------------------------week 5-----------------------------*/
+/*------------------ week 6-------------------------------------------------------*/
 
     thead {
         color: #FFEC99;
@@ -51,14 +55,13 @@
         margin: auto;
         background-color: #5DDEF8;
         border: 2px solid #004466;
-        max-width: 50%;
         max-width: 760px;
     }
     
     .hero-place {
         margin: auto;
         text-align: center;
-        width: 50%;  
+        width: 48.125em;  
         position: relative;
         z-index: 0;
     }
@@ -70,7 +73,7 @@
     #hero-img {
         margin-top: 20px;
         position: relative;
-        max-width: 822px;
+        margin: auto;
     }
     
     th {
@@ -109,13 +112,11 @@
     
     .article {
         min-height: 200px;
-        max-width: 50%;
     }
 
-    .contact, .article, table {
-        width: 760px;
+    .contact, .article, .five-day {
+        width: 48.125em;
     }
-
     .contact-info {
         display: grid;
         grid-template-columns: 50% 50%;
@@ -126,7 +127,7 @@
         margin-top: 20px;
         grid-column: 1;
         padding-right: 20px;
-        width: 400px;
+        width: 15em;
         height: 200px;
     }
 
@@ -145,55 +146,54 @@
         margin-left: 50px;
     }
 
-    /*---------------------------------------------- Gallery Page ------------------------*/
+    /* --------------------------Gallery Page ---------------------------------------------*/
 
     .grid {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
     }
 
     .cards {
-        display: flex;
         align-items: center;
         justify-content: center;
         padding-top: 20px;
+        height: 350px;
+        margin: 20px;
     }
 
     .cards:hover {
         box-shadow: 0 0 50px #004466;
     }
+        /* ---------------------Storm Center ---------------------------------------*/
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+        }
+        
+        input {
+            width: 50%;
+        }
+        
+        #region {
+            width: 50%;
+        }
+        
+        .bar {
+            width: 40%;
+        }
     
-    /* ---------------------Storm Center ---------------------------------------*/
-    form {
-        display: flex;
-        flex-direction: column;
-        width: 40%;
-    }
+        .select-btn {
+            width: 30%;
+        }
     
-    input {
-        width: 50%;
-    }
+        .danger {
+            width: 70%;
+        }
     
-    #region {
-        width: 50%;
-    }
-    
-    .bar {
-        width: 40%;
-    }
-
-    .select-btn {
-        width: 30%;
-    }
-
-    .danger {
-        width: 70%;
-    }
-
-    .thank-you {
-        max-width: 50%;
-        margin: auto;
-        font-size: 20px;
-    }
+        .thank-you {
+            max-width: 50%;
+            margin: auto;
+            font-size: 20px;
+        }
 }
