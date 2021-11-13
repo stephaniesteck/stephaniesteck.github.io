@@ -196,4 +196,37 @@
             margin: auto;
             font-size: 20px;
         }
+
+        /*-------------------------------------Home Page----------------------------------------*/
+        .home-art {
+            width: 48.125em;
+            margin: auto;
+        }
+
+        .hero-pl-9 {
+            width: 48.125em;
+        }
+
+        img.hero-pl-9 {
+            width: 770px;
+        }
+
+        .towns-id {
+            width: 48.125em;
+            display: flex;
+            flex-direction: row;
+        }
+
+        .town-img {
+            width: 200px;
+            margin: 5px;
+        }
+
+        p.motto {
+            width: 200px;
+        }
+
+        div.town-div {
+            width: 260px;
+        }
 }

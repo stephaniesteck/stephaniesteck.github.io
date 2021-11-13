@@ -238,17 +238,20 @@ table {
 iframe {
     grid-column: 1;
     padding-right: 20px;
-    width: 100px;
+    width: 50%;
     
 }
 
 .contact-address {
     grid-row-start: 1;
-    
 }
 
 .social-img {
     display: block;
+}
+
+.social {
+    width: 50px;
 }
 
 /* ----------------------------Footer info -----------------------------------*/
@@ -385,4 +388,27 @@ input {
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
+}
+/*--------------------------------Home Page ----------------------------------------*/
+.home-art {
+    background-color: #FFEC99;
+    color: #004466;
+    border: solid 4px #004466;
+}
+
+.hero-pl-9 {
+    margin: auto;
+    width: 100%;
+}
+
+.towns-id {
+    margin: auto;
+    width: 100%;
+    background-color: #FFEC99;
+    color: #004466;
+    border: solid 4px #004466;
+}
+
+.home-list {
+    list-style-type: none;
 }
