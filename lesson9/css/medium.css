@@ -57,13 +57,8 @@
         width: 100%;
     }
 
-   /* .town-img {
-        width: 50%;
-        height: 150px;
-    }
-
     .towns-id {
-        width: 100%;   
+        width: 100%;
     }
 
     .town-div {
@@ -74,5 +69,24 @@
 
     .town-div:nth-child(odd) {
         flex-direction: row-reverse;
-    } */
+    }
+
+    img.town-div:nth-child(odd) {
+        position: relative;
+    }
+
+    img.town-div:nth-child(even) {
+        float: left;
+    }
+
+   .town-img {
+        width: 50%;
+        
+    }
+
+    .text-div {
+        width: 50%;
+    }
+
+   
 } 

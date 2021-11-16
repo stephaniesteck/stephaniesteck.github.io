@@ -11,22 +11,26 @@ fetch(townURL)
 
     const townList = ["Soda Springs", "Fish Haven", "Preston"];
 
+    townList.sort(function(a, b){ return b.value - a.value});
+    console.log(townList);
+    
     for (let i = 0; i <towns.length; i++) {
         if(townList.includes(towns[i].name)) {
             let townImage;
 
             switch (towns[i].name) {
+                case 'Preston':
+                    townImage ='./images/preston.jpg';
+                break;
                 case 'Soda Springs': 
                 townImage = './images/sodasprings.jpg';
                 break;
                 case 'Fish Haven':
                     townImage ='./images/fishhaven.jpg';
                 break;
-                case 'Preston':
-                    townImage ='./images/preston.jpg';
-                break;
+                
             }
-
+            
 
             let townDiv = document.createElement('div');
             let textDiv = document.createElement('div');

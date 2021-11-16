@@ -36,7 +36,7 @@
     }
 
     footer {
-        max-width: 37em;
+        max-width: 38em;
     }
 
     .hero-place {
@@ -115,7 +115,7 @@
     }
 
     .contact, .article, .five-day {
-        width: 48.125em;
+        width: 50em;
     }
     .contact-info {
         display: grid;
@@ -199,34 +199,36 @@
 
         /*-------------------------------------Home Page----------------------------------------*/
         .home-art {
-            width: 48.125em;
+            width: 50em;
             margin: auto;
         }
 
         .hero-pl-9 {
-            width: 48.125em;
+            width: 50em;
         }
 
         img.hero-pl-9 {
-            width: 770px;
+            width: 800px;
         }
 
         .towns-id {
-            width: 48.125em;
+            width: 50em;
             display: flex;
-            flex-direction: row;
+            flex-direction: row; 
+        }
+
+        .text-div {
+            width: 100%;
         }
 
         .town-img {
-            width: 200px;
-            margin: 5px;
+            width: 90%;
+            height: 160px;
+            margin-bottom: 20px;
         }
 
-        p.motto {
-            width: 200px;
-        }
-
-        div.town-div {
-            width: 260px;
+        .town-div {
+            width: 280px;
+            display: block;
         }
 }

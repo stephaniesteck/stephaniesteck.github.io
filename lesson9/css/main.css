@@ -407,6 +407,11 @@ input {
     background-color: #FFEC99;
     color: #004466;
     border: solid 4px #004466;
+    text-align: center;
+}
+
+.town-div {
+    border: solid 2px #004466;
 }
 
 .home-list {
