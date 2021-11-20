@@ -45,106 +45,107 @@
 
     
 
-/*------------------ week 6-------------------------------------------------------*/
+/*------------------Preston Page-------------------------------------------------------*/
 
-    thead {
-        color: #FFEC99;
-    }
+thead { 
+    color: #FFEC99;
+}
 
-    .five-day {
-        margin: auto;
-        background-color: #5DDEF8;
-        border: 2px solid #004466;
-        max-width: 760px;
-    }
-    
-    .hero-place {
-        margin: auto;
-        text-align: center;
-        width: 48.125em;  
-        position: relative;
-        z-index: 0;
-    }
+.five-day {
+    margin: auto;
+}
 
-    .weather-icon {
-        max-width: 100px;
-    }
-    
-    #hero-img {
-        margin-top: 20px;
-        position: relative;
-        margin: auto;
-    }
-    
-    th {
-        background-color: transparent;
-        color: #FFEC99;
-        text-shadow: #004466 2px 2px 2px;
-        font-family: 'Merienda', cursive;
-    }
-    
-    .ws-h {
-        border-bottom: 2px solid #004466;
-        padding-bottom: 20px;
-        padding-top: 20px;
-    }
-    
-    .ws-table {
-        position: absolute;
-        bottom: 20px;
-        top: 40px;
-        width: 40%;
-        padding-top: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
-        z-index: 3; 
-    }
-    
-    .title-data {
-        width: 50%;
-        text-align: right;
-    }
-    
-    .sum-data {
-        width: 50%;
-        padding-left: 5px;
-    }
-    
-    .article {
-        min-height: 200px;
-    }
+.hero-place {
+    margin: auto;
+    text-align: center;
+    width: 48.125em;  
+    position: relative;
+    z-index: 0;
+}
 
-    .contact, .article, .five-day {
-        width: 50em;
-    }
-    .contact-info {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-template-rows: 50% 50%;
-    }
+.weather-icon {
+    max-width: 100px;
+}
 
-    iframe {
-        margin-top: 20px;
-        grid-column: 1;
-        padding-right: 20px;
-        width: 15em;
-        height: 200px;
-    }
+#hero-img {
+    margin-top: 20px;
+    position: relative;
+    margin: auto;
+}
 
-    .social-img {
-        grid-column: 2;
-        grid-row: 2;
-        margin-left: 90px;
-    }
+th {
+    background-color: transparent;
+    color: #FFEC99;
+    text-shadow: #004466 2px 2px 2px;
+    font-family: 'Merienda', cursive;
+}
 
-    .contact-address {
-        margin-top: 20px;
-        grid-column: 2;
-        grid-row: 1;
-        width: 200px;
-        text-align: right;
-        margin-left: 50px;
-    }
+.ws-h {
+    border-bottom: 2px solid #004466;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.ws-table {
+    position: absolute;
+    bottom: 20px;
+    top: 40px;
+    width: 40%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: 3; 
+}
+
+.title-data {
+    width: 50%;
+    text-align: right;
+}
+
+.sum-data {
+    width: 50%;
+    padding-left: 5px;
+}
+
+.article {
+    min-height: 200px;
+}
+
+.contact, .article, .five-day {
+    width: 50em;
+}
+.contact-info {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+iframe {
+    margin-top: 20px;
+    grid-column: 1;
+    padding-right: 20px;
+    width: 15em;
+    height: 200px;
+}
+
+.mon, .tues, .wed, .thurs, .fri {
+    width: 9.75em;
+}
+
+.social-img {
+    grid-column: 2;
+    grid-row: 2;
+    margin-left: 90px;
+}
+
+.contact-address {
+    margin-top: 20px;
+    grid-column: 2;
+    grid-row: 1;
+    width: 200px;
+    text-align: right;
+    margin-left: 50px;
+}
 
     /* --------------------------Gallery Page ---------------------------------------------*/
 

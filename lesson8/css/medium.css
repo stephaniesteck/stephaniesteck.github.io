@@ -8,6 +8,14 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+/*-------------------------------Preston Page-------------------------------------------*/
+    .week-day {
+        width: 100%;
+    }
+
+    .mon, .tues, .wed, .thurs, .fri {
+        width: 195px;
+    }
 
     /* --------------------Storm Center --------------------------------------*/
     form {

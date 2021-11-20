@@ -260,6 +260,10 @@ iframe {
     display: block;
 }
 
+.social {
+    width: 50px;
+}
+
 /* ----------------------------Footer info -----------------------------------*/
 
 a, footer {
