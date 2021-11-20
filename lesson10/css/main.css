@@ -91,21 +91,13 @@ nav ul li a:hover {
     display: block;
 }
 
-footer{
-    border: solid 5px #5DDEF8;
-    background-color: #004466;
-    margin: auto;
-    padding-bottom: 20px;
-    color: #FFEC99;
-}
-
 p, a, div, li, h4 {
     font-family: 'Didact Gothic', sans-serif;
 }
 
-/*--------------------------------- Preston Page ----------------------------------------*/
+/*--------------------------------- week 6 updates ----------------------------------------*/
 
-thead { 
+thead {
     color: #FFEC99;
 }
 
@@ -169,21 +161,20 @@ table {
     padding: 20px;
 }
 
-.mon, .tues, .wed, .thurs, .fri {
-    border: 2px solid #004466;
-    width: 100px;
-}
-
 .week-day {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    text-align: center;
+    border-top: 2px solid #004466;
 }
 
-.day {
+.t-right {
+    border-right: 2px solid #004466;
+}
+
+.t-temp {
     background-color:rgba(255, 236, 153, 1);
-    padding: 20px;
+}
+
+.t-para {
+    font-family: 'Didact Gothic', sans-serif;
 }
 
 .pancakes {
@@ -199,8 +190,8 @@ table {
 }
 
 .five-day {
-    background-color: #5DDEF8;
-    border: 2px solid #004466;
+    border:#004466 solid 4px;
+    min-width: 50px;
 }
 
 .weather-icon {
@@ -247,17 +238,20 @@ table {
 iframe {
     grid-column: 1;
     padding-right: 20px;
-    width: 100px;
+    width: 50%;
     
 }
 
 .contact-address {
     grid-row-start: 1;
-    
 }
 
 .social-img {
     display: block;
+}
+
+.social {
+    width: 50px;
 }
 
 /* ----------------------------Footer info -----------------------------------*/
@@ -266,13 +260,160 @@ a, footer {
     color:#FFEC99;
 }
 
-footer {
-    color: #FFEC99;
+footer{
     font-family: 'Didact Gothic', sans-serif;
-    font-size: 20px;
-    text-align: center;
-    padding: 20px;
+    border: solid 5px #5DDEF8;
+    background-color: #004466;
     margin: auto;
     margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    color: #FFEC99;
+    font-size: 20px;
+}
+
+/*----------------------------- Gallery Page -------------------------------*/
+
+.cards {
+    background-color:#FFEC99;
+    color: #004466;
+    margin: 0;
+    text-align: center;
+    border-radius: 10px;
+    padding: 0;
+    width: 411px;
+}
+
+.lastvisit{
+    background-color: #5DDEF8;
+    color: #004466;
+    text-align: center;
+    padding: 20px;
+}
+
+figure, img {
+    width: 300px;
+}
+
+.cards:hover {
+    box-shadow: 0 0 50px #004466;
+}
+
+/* -----------------------Storm Center Form Page -------------------------------------*/
+
+form {
+    display: flex;
+    flex-direction: column;
     width: 100%;
+    margin: auto;
+    background-color: #FFEC99;
+    padding: 10px;
+    font-family: 'Didact Gothic', sans-serif;
+    color: #004466;
+}
+
+input {
+    width: 100%;
+}
+
+#region {
+    width: 100%;
+}
+
+.bar {
+    width: 100%;
+    -webkit-appearance: none;
+    background-color: #5DDEF8;
+    opacity: 0.7;
+    -webkit-transition: .2s; 
+    transition: opacity .2s;
+}
+
+.bar:hover{
+    opacity: 1;
+}
+
+.bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background-color: #004466;
+    cursor: pointer;
+}
+
+.input-section {
+    padding: 10px;
+}
+
+.input-section, input {
+    margin-right: 40px;
+}
+
+.additional {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.additional-com {
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.select-btn {
+    width: 50%;
+    background: #5DDEF8;
+    padding: 10px;
+    margin: auto;
+    color: white;
+    text-shadow: #004466 2px 2px 2px;
+}
+
+.danger {
+    flex-direction: column;
+    width: 100%;
+}
+
+input {
+    display: block;
+}
+
+/*--------------------------------------Thank you Page------------------------------------------------------------*/
+
+.thank-you {
+    background-color: #FFEC99;
+    color: #004466;
+    padding: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+/*--------------------------------Home Page ----------------------------------------*/
+.home-art {
+    background-color: #FFEC99;
+    color: #004466;
+    border: solid 4px #004466;
+}
+
+.hero-pl-9 {
+    margin: auto;
+    width: 100%;
+}
+
+.towns-id {
+    margin: auto;
+    width: 100%;
+    background-color: #FFEC99;
+    color: #004466;
+    border: solid 4px #004466;
+    text-align: center;
+}
+
+.town-div {
+    border: solid 2px #004466;
+}
+
+.home-list {
+    list-style-type: none;
 }

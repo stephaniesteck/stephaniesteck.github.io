@@ -17,7 +17,15 @@
         width: 100%;
     }
 
-    iframe {
+    iframe { 
         width: 50%;
+    }
+
+    .week-day {
+        width: 100%;
+    }
+
+    .mon, .tues, .wed, .thurs, .fri {
+        width: 195px;
     }
 } 
