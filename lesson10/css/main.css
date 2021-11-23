@@ -133,11 +133,6 @@ thead {
 }
 
 .title-data {
-    text-align: right;
-}
-
-
-.title-data, .sum-data {
     background-color: rgb(93, 222, 248, 0.8);
     color: #004466;
     padding: 6px;
