@@ -15,22 +15,22 @@ if (d.getDay() !== 5) {
 } 
 
 
-document.addEventListener('DOMContentLoaded', function() {
-    let a = new Date();
-    let b = new Date();
-        console.log(b - a);
-            localStorage.a = a;
-            localStorage.b = b;
-        a = Date.parse(localStorage.a);
-        b = Date.parse(localStorage.b);
-            c = (b - a);
-            if (c < 0) {
-                output = c;
-            }
-            else {
-                output = 0;
-            }
+//document.addEventListener('DOMContentLoaded', function() {
+  //  let a = new Date();
+    //let b = new Date();
+      //  console.log(b - a);
+        //    localStorage.a = a;
+          //  localStorage.b = b;
+        //a = Date.parse(localStorage.a);
+        // b = Date.parse(localStorage.b);
+        // c = (b - a);
+          //  if (c < 0) {
+            //    output = c;
+            //}
+            //else {
+              //  output = 0;
+            //}
 
-    document.querySelector('.lastvisit').value = output;
+    //document.querySelector('.lastvisit').value = output;
    
-})
+//})

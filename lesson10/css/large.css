@@ -73,38 +73,25 @@ thead {
     margin: auto;
 }
 
-th {
-    background-color: transparent;
-    color: #FFEC99;
-    text-shadow: #004466 2px 2px 2px;
-    font-family: 'Merienda', cursive;
-}
-
 .ws-h {
     border-bottom: 2px solid #004466;
+    width: 100%;
     padding-bottom: 20px;
     padding-top: 20px;
+    padding-left: 0;
 }
 
 .ws-table {
     position: absolute;
     bottom: 20px;
-    top: 40px;
     width: 40%;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
     z-index: 3; 
+    margin-left: 40px;
+    height:fit-content;
 }
 
 .title-data {
-    width: 50%;
-    text-align: right;
-}
-
-.sum-data {
-    width: 50%;
-    padding-left: 5px;
+    text-align: center;
 }
 
 .article {
@@ -128,7 +115,7 @@ iframe {
     height: 200px;
 }
 
-.mon, .tues, .wed, .thurs, .fri {
+.days {
     width: 9.75em;
 }
 

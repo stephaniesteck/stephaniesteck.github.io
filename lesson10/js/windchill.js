@@ -1,7 +1,7 @@
-document.addEventListener('DOMContentLoaded', function() {
+function windchill() {
     
-    let temp = parseInt(document.querySelector('#d-temp').textContent);
-    let windSpeed = parseInt(document.querySelector('#d-wind-s').textContent);
+    let temp = parseInt(document.querySelector('#temp').textContent);
+    let windSpeed = parseInt(document.querySelector('#windy').textContent);
     // var for wind chill
     let windChill = '';
     
@@ -18,4 +18,4 @@ document.addEventListener('DOMContentLoaded', function() {
     
     document.querySelector('#d-wind-c').textContent = windChill;
 
- }, false);
+ };
