@@ -43,27 +43,16 @@
             <source media="(min-width: 420px)" srcset="./images/hero-medium.jpg">
             <img src="images/hero-small.jpg" alt="hero image" id="hero-img">
         </picture>
-        <table class="ws-table">
-            <tbody>
-            <thead><th colspan="2" class="ws-h">Weather Summary</th></thead>
+        <div class="ws-table">
             
-                <tr>
-                    <td class="title-data">Currently:</td><td class="sum-data">Cloudy</td>
-                </tr>
-                <tr>
-                    <td class="title-data">High:</td><td class="sum-data"><span id="d-temp"> 50 </span>&#176; F</td>
-                </tr>
-                <tr>
-                    <td class="title-data">Wind Chill:</td><td class="sum-data"><span id="d-wind-c"></span>&#176; F</td>
-                </tr>
-                <tr>
-                    <td class="title-data">Humidity:</td><td class="sum-data"> <span id="d-humid">24</span>%</td>
-                </tr>
-                <tr>
-                    <td class="title-data">Wind Speed:</td><td class="sum-data"><span id="d-wind-s">40</span >mph</td>
-                </tr>
-            </tbody>
-        </table>
+            <h3 class="ws-h">Weather Summary</h3>
+            
+                <p class="title-data">Currently: <span id="currently"></span> <span id="temp"></span>20 &#176; F</p>
+                <p class="title-data">High: <span id="high"> </span>50 &#176; F</p>
+                <p class="title-data">Wind Chill: <span id="d-wind-c"></span> &#176; F</p>
+                <p class="title-data">Humidity: <span id="humid"></span>30%</p>
+                <p class="title-data">Wind Speed: <span id="windy"></span >30 mph</p>
+            </div>
     </section>
     <section class="five-day">
         
