@@ -29,17 +29,17 @@
     }
 
     figure, img{
-        width: 400px;
+        max-width: 200px;
     }
 
     .cards {
         margin-left: 0;
         margin-right: 2px;
-        padding: none;
-        width: 500px;
+        padding: 0;
+        max-width: 300px;
     }
 
     .cards:hover {
-        box-shadow: 0 0 50px #004466;
+        box-shadow: 0 0 50px #004466; 
     }
 } 

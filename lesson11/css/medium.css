@@ -1,0 +1,91 @@
+@media only screen and (min-width: 32.5em) {
+    
+    .hero-place {
+        margin-left: 0;
+        width: 100%;
+    }  
+    
+    .ws-table {
+        margin-left: 0;
+    }
+    
+    footer {
+        width: 100%;
+    }
+
+    .five-day, .article, .contact {
+        width: 100%;
+    }
+
+    iframe {
+        width: 25%;
+    }
+ /* ------------------------------ Gallery Page -------------------------------------------*/
+    
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0;
+    }
+
+    figure, img{
+        width: 400px;
+    }
+
+    .cards {
+        margin-left: 0;
+        margin-right: 2px;
+        width: 500px;
+    }
+
+    .cards:hover {
+        box-shadow: 0 0 50px #004466;
+    }
+
+    /* --------------------Storm Center --------------------------------------*/
+    form {
+        width: 100%;
+    }
+
+    /*-------------------Thank You Page --------------------------------------*/
+    .thank-you {
+        width: 100%;
+    }
+
+    img.hero-pl-9 {
+        width: 100%;
+    }
+
+    .towns-id {
+        width: 100%;
+    }
+
+    .town-div {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .town-div:nth-child(odd) {
+        flex-direction: row-reverse;
+    }
+
+    img.town-div:nth-child(odd) {
+        position: relative;
+    }
+
+    img.town-div:nth-child(even) {
+        float: left;
+    }
+
+   .town-img {
+        width: 50%;
+        
+    }
+
+    .text-div {
+        width: 50%;
+    }
+
+   
+} 

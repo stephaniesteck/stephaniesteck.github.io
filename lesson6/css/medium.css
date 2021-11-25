@@ -8,12 +8,8 @@
     .ws-table {
         margin-left: 0;
     }
-    
-    footer {
-        width: 100%;
-    }
 
-    .five-day, .article, .contact {
+    .five-day, .article, .contact, footer {
         width: 100%;
     }
 

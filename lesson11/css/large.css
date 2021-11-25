@@ -1,0 +1,219 @@
+@media only screen and (min-width: 64.5em) {
+
+    body {
+        width: 100%;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    nav ul li a {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+
+    nav ul li a {
+        border-top: none;
+        width: 125px;
+        text-align: center;
+    }
+    
+    .navigation li:first-child{
+        display: none;
+    }
+
+    .responsive li {
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+    }
+
+    footer {
+        max-width: 38em;
+    }
+
+    .hero-place {
+        max-width: 48.125em;
+    }
+
+    
+
+/*------------------Preston Page-------------------------------------------------------*/
+
+
+.five-day {
+    margin: auto;
+}
+
+.hero-place {
+    margin: auto;
+    text-align: center;
+    width: 48.125em;  
+    position: relative;
+    z-index: 0;
+}
+
+.weather-icon {
+    max-width: 100px;
+}
+
+#hero-img {
+    margin-top: 20px;
+    position: relative;
+    margin: auto;
+}
+
+.ws-h {
+    border-bottom: 2px solid #004466;
+    width: 100%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 0;
+}
+
+.ws-table {
+    position: absolute;
+    bottom: 20px;
+    width: 40%;
+    z-index: 3; 
+    margin-left: 40px;
+    height:fit-content;
+}
+
+.title-data {
+    text-align: center;
+}
+
+.article {
+    min-height: 200px;
+}
+
+.contact, .article, .five-day {
+    width: 50em;
+}
+.contact-info {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+iframe {
+    margin-top: 20px;
+    grid-column: 1;
+    padding-right: 20px;
+    width: 15em;
+    height: 200px;
+}
+
+.days {
+    width: 9.75em;
+}
+
+.social-img {
+    grid-column: 2;
+    grid-row: 2;
+    margin-left: 90px;
+}
+
+.contact-address {
+    margin-top: 20px;
+    grid-column: 2;
+    grid-row: 1;
+    width: 200px;
+    text-align: right;
+    margin-left: 50px;
+}
+
+    /* --------------------------Gallery Page ---------------------------------------------*/
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .cards {
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+        height: 350px;
+        margin: 20px;
+    }
+
+    .cards:hover {
+        box-shadow: 0 0 50px #004466;
+    }
+        /* ---------------------Storm Center ---------------------------------------*/
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+        }
+        
+        input {
+            width: 50%;
+        }
+        
+        #region {
+            width: 50%;
+        }
+        
+        .bar {
+            width: 40%;
+        }
+    
+        .select-btn {
+            width: 30%;
+        }
+    
+        .danger {
+            width: 70%;
+        }
+    
+        .thank-you {
+            max-width: 50%;
+            margin: auto;
+            font-size: 20px;
+        }
+
+        /*-------------------------------------Home Page----------------------------------------*/
+        .home-art {
+            width: 50em;
+            margin: auto;
+        }
+
+        .hero-pl-9 {
+            width: 50em;
+        }
+
+        img.hero-pl-9 {
+            width: 800px;
+        }
+
+        .towns-id {
+            width: 50em;
+            display: flex;
+            flex-direction: row; 
+        }
+
+        .text-div {
+            width: 100%;
+        }
+
+        .town-img {
+            width: 90%;
+            height: 160px;
+            margin-bottom: 20px;
+        }
+
+        .town-div {
+            width: 280px;
+            display: block;
+        }
+}

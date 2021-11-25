@@ -278,7 +278,7 @@ footer{
     text-align: center;
     border-radius: 10px;
     padding: 0;
-    width: 411px;
+    max-width: 411px;
 }
 
 .lastvisit{
@@ -293,5 +293,5 @@ figure, img {
 }
 
 .cards:hover {
-    box-shadow: 0 0 50px #004466;
+    box-shadow: 0 0 50px #004466; 
 }
