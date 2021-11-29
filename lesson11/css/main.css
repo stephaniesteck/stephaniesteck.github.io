@@ -355,8 +355,7 @@ input {
     background: #5DDEF8;
     padding: 10px;
     margin: auto;
-    color: white;
-    text-shadow: #004466 2px 2px 2px;
+    color: #004466;
 }
 
 .danger {

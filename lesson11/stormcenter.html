@@ -37,28 +37,34 @@
 
     <form name="storm-form" action="thankyou.html">
         <div class="input-section">
-            <label>Full Name</label>
-            <input pattern="(.*[A-Za-z]){5}" type="text" name="fullName" placeholder="Full Name" required>
+            <label>Full Name
+            <input pattern="(.*[A-Za-z]){5}" type="text" name="fullname" placeholder="Full Name" required>
+            </label>
         </div>
         <div class="input-section">
-            <label>Email</label>
+            <label>Email
             <input type="text" name="email" placeholder="email@address.com" minlength="3" maxlength="64" required>
+        </label>
         </div>
         <div class="input-section">
-            <label>Phone Number</label>
+            <label>Phone Number
             <input type="tel" name="phoneNumber" placeholder="000-000-0000" required>
+        </label>
         </div>
         <div class="input-section">
-            <label>Zip Code</label>
+            <label>Zip Code
             <input type="number" name="zipCode" placeholder="00000" required>
+            </label>
         </div>
         <div class="input-section">
-            <label>Storm Date</label>
+            <label>Storm Date
             <input type="date" name="stormDate" value="2021-12-01" class="storm-date">
+        </label>
         </div>
         <div class="input-section">
-            <label>Storm Type</label>
+            <label>Storm Type
             <input type="text" list="storm-type" name="storm" placeholder="Select here">
+            </label>
             <datalist id="storm-type">
                 <option value="Flash Flood"></option>
                 <option value="Hail"></option>
@@ -69,8 +75,9 @@
             </datalist>
         </div>
         <div class="input-section">
-            <label>Storm Severity</label>
-            <input type="range" name="storm-sev" step="0.5" min="1" max="10" class="bar">
+            <label>Storm Severity
+            <input type="range" name="stormsev" step="0.5" min="1" max="10" class="bar">
+            </label>
         </div>
         <div class="input-section">
             <label>Storm Region</label>
@@ -84,18 +91,19 @@
         <div class="input-section">
             <fieldset>
             <legend>User In Danger</legend>
-            <input type="radio" name="danger" value="yes">
-            <label class="danger">Yes</label>
-            <input type="radio" name="danger" value="maybe">
-            <label class="danger">Maybe</label>
-            <input type="radio" name="danger" value="no">
-            <label class="danger">No</label>
+            
+            <label class="danger">Yes<input type="radio" name="yes" value="yes"></label>
+            
+            <label class="danger">Maybe<input type="radio" name="maybe" value="maybe"></label>
+           
+            <label class="danger">No<input type="radio" name="no" value="no"></label>
             </fieldset>
         </div>
         <div class="input-section additional">
-            <label>Addition Information:</label>
-            <textarea class="additional-com"></textarea>
+            <label>Addition Information:
+            <textarea class="additional-com"></textarea></label>
             <input type="submit" value="Submit" class="select-btn">
+        
         </div>
     </form>
     <footer> &copy; <span id="copyright"></span> | Stephanie Steck | Utah | <a id="footer-link" href="byui.edu" target="_blank">BYUI Online Learning </a> <br><span id="lastmod"></span>
