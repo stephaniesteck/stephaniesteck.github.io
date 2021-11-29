@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <!--- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Merienda:wght@700&display=swap" rel="stylesheet"> 
+-->
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <title>Soda Springs Page</title>
+</head>
+<body>
+    <header>
+    <div class="top">
+        <img src="images/cloudy.png" alt="Weather Sunny logo" id="logo">
+        <h1>Weather Sunny</h1>
+        <h3>"Weather" or not it is sunny or cold, you will always be prepared.</h3>
+    </div>
+    </header>
+    <div class="lastvisit"> </div>
+    <nav>
+        <ul class="navigation responsive">
+            <li class="ham-menu"><a href="#" onclick="toggleMenu()">
+                <span class="button">&#9776; Menu</span></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html" >Preston</a></li>
+            <li><a href="sodasprings.html" class="active">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <section class="town-name"><h3>Soda Springs</h3></section>
+    <section class="hero-place">
+        <picture>
+            <source media="(min-width: 650px)" srcset="./images/hero-large.jpg">
+            <source media="(min-width: 420px)" srcset="./images/hero-medium.jpg">
+            <img src="images/hero-small.jpg" alt="hero image" id="hero-img">
+        </picture>
+        <div class="ws-table">
+            
+            <h3 class="ws-h">Weather Summary</h3>
+            
+                <p class="title-data">Currently: <span id="currently"></span> <span id="temp"></span>&#176; F</p>
+                <p class="title-data">High: <span id="high"> </span>&#176; F</p>
+                <p class="title-data">Wind Chill: <span id="d-wind-c"></span>&#176; F</p>
+                <p class="title-data">Humidity: <span id="humid"></span>%</p>
+                <p class="title-data">Wind Speed: <span id="windy"></span >mph</p>
+            </div>
+    </section>
+    <section class="five-day">
+        
+        <h3 class="head-5">5 Day Forecast</h3>
+            <div class="week-day">
+                <div class="days">
+                <p class="week-d" id="dayofweek1"></p>
+                <p><img id="icon1" src="#" alt="#"><br><span id="forecast1">&#176;F</span></p>
+                </div>
+                <div class="days">
+                <p class="week-d" id="dayofweek2"></p>
+                <p><img id="icon2" src="#" alt="#"><br><span id="forecast2">&#176;F</span></p>
+                </div>
+                <div class="days">
+                <p class="week-d" id="dayofweek3"></p>
+                <p><img id="icon3" src="#" alt="#"><br><span id="forecast3">&#176;F</span></p>
+                </div>
+                <div class="days">
+                <p class="week-d" id="dayofweek4"></p>
+                <p><img id="icon4" src="#" alt="#"><br><span id="forecast4">&#176;F</span></p>
+                </div>
+                <div class="days">
+                <p class="week-d" id="dayofweek5"></p>
+                <p><img id="icon5" src="#" alt="#"><br><span id="forecast5">&#176;F</span></p>
+                </div>
+            </div>
+            
+    </section>
+    <section class="town-events">
+        <h3>Upcoming Events</h3>
+        <ul class="event-list">
+
+        </ul>
+    </section>
+    <div class="article">
+    <h3>Soda Springs Geyser - Beyond Utah Adventure</h3>
+    <p class="article-p"><img src="./images/geyser.jpg" alt="geyser" id="geyser"> Each year it is a family tradition to take a trip to Bear Lake to enjoy many of the outdoor activities in and around the lake. Beside the lake itself, there are many other activities nearby, such as natural caves, high mountain lakes, hot springs, and even a geyser.
+
+        Soda Springs Geyser
+        One summer weekend we decided to take a drive from Bear Lake to Lava Hot Springs to enjoy a float on the Portneuf River, and soak in the hot springs afterwards. One of the small towns we passed through on this drive is Soda Springs, Idaho. This town is famous for its hundreds of natural springs that bubble carbonated water to the earths surface, but we had no idea there was a geyser located here as well.
+        
+        The Soda Springs Captive Geyser was accidentally created by man. This is not a natural geyser like those found in Yellowstone National Park; nonetheless, this geyser is unique and has some great history tied to it as well.
+        
+        In 1937, several local businessmen attempted to divert water from the Pyramid Hot Spring in hopes to create a commercial bathhouse and a tourist attraction. As the drilling reached 315 feet in depth, the drill hit a gas chamber, and shortly afterwards hot water began gushing up the hole and was shooting 40 feet in the air.
+        
+        The next day as the 3500lb drill bit was extracted, the ground began to shake as if it was going to split open, and a roaring gusher of hot water shot 70 feet into the air. After several days, the water began to cool and become laden with minerals, which was unsuitable for a bath house. Two weeks later the gusher was capped.
+        
+        Soda Springs Geyser
+        Although, the Soda Springs Captive Geyser never turned into a major tourist attraction, it did get some attention in its early years. Within weeks of its creation, the Secatery of Interior sent a telegram to the city of Soda Springs asking them to turn off the geyser. This request was due to the fact it was throwing the world famous “Old Faithful Geyser” off schedule, which is located in Yellow Stone National Park. Today the Captive Geyser is equipped with a timer valve that allows the geyser to erupt every hour on the hour throughout the year without interrupting the “Old Faithful Geyser”.
+        
+        On windless days this man made geyser has been reported to reach heights between 100 and 150 feet. The mineral laden water has built up over time creating a beautiful light brown rock formation around the geyser. There is a walkway with interpretive signs built around the geyser that allows visitors to explore the area. Article from: <a href="https://www.utahoutdooractivities.com/soda-springs-captive-geyser.html" class="link">www.utahoutdooractivities.com</a></p>
+    </div>
+    <div class="contact"><h3>Contact Information</h3><div class="contact-info">
+        <div class="social-img"><p><img src="./images/ifacebook.png" alt="facebook" class="social"> 
+            <img src="./images/instagram.png" alt="instagram" class="social"> 
+            <img src="./images/tiktok.png" alt="tik tok" class="social"> 
+        <img src="./images/twitter.png" alt="twitter" class="social"></div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.773853438026!2d-111.91534443111685!3d42.09974162639047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1635035740846!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+       <div class="contact-address"><span class="contact-ws"> Weather Sunny </span> <br> 2000 East 4000 South<br>Preston Idaho, 83263</div>
+    </div></div>
+
+    <footer> &copy; <span id="copyright"></span> | Stephanie Steck | Utah | <a id="footer-link" href="byui.edu" target="_blank">BYUI Online Learning </a> <br><span id="lastmod"></span>
+    </footer>
+    <script src="./js/footer.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="./js/webfront.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/weatherapi.js"></script>
+    <script src="js/sodasprings.js"></script>
+</body>
+</html>

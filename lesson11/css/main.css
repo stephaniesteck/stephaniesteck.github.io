@@ -64,6 +64,10 @@ nav ul li.active a {
     color: white;
 }
 
+nav ul li a:active {
+    background-color: #FFEC99;
+}
+
 nav ul li a:hover {
     background-color: #004466;
     padding-top: 5px;
@@ -196,7 +200,7 @@ p, a, div, li, h4 {
     display: block;
 }
 
-.contact, .article, .five-day {
+.contact, .article, .five-day, .town-events, .town-name {
     width: 100%;
 }
 
@@ -381,6 +385,11 @@ input {
     border: solid 4px #004466;
 }
 
+.home-heading {
+    margin: auto;
+    width: 100%;
+}
+
 .hero-pl-9 {
     margin: auto;
     width: 100%;
@@ -401,4 +410,24 @@ input {
 
 .home-list {
     list-style-type: none;
+}
+
+.event-list {
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #FFEC99;
+    border: solid 4px #004466;
+    color:#004466;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.link {
+    color: #004466;
+}
+
+#geyser, #lake, #preston {
+    width: 400px;
+    float: right;
+    display: block;
 }

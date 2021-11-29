@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <!--- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Merienda:wght@700&display=swap" rel="stylesheet"> 
+-->
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <title>Preston Page</title>
+</head>
+<body>
+    <div class="pancakes">Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion.</div>
+    <header>
+    <div class="top">
+        <img src="images/cloudy.png" alt="Weather Sunny logo" id="logo">
+        <h1>Weather Sunny</h1>
+        <h3>"Weather" or not it is sunny or cold, you will always be prepared.</h3>
+    </div>
+    </header>
+    <div class="lastvisit"> </div>
+    <nav>
+        <ul class="navigation responsive">
+            <li class="ham-menu"><a href="#" onclick="toggleMenu()">
+                <span class="button">&#9776; Menu</span></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preston.html" class="active">Preston</a></li>
+            <li><a href="sodasprings.html">Soda Springs</a></li>
+            <li><a href="fishhaven.html">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <section class="town-name"><h3>Preston</h3></section>
+    <section class="hero-place">
+        <picture>
+            <source media="(min-width: 650px)" srcset="./images/hero-large.jpg">
+            <source media="(min-width: 420px)" srcset="./images/hero-medium.jpg">
+            <img src="images/hero-small.jpg" alt="hero image" id="hero-img">
+        </picture>
+        <div class="ws-table">
+            
+            <h3 class="ws-h">Weather Summary</h3>
+            
+                <p class="title-data">Currently: <span id="currently"></span> <span id="temp"></span>&#176; F</p>
+                <p class="title-data">High: <span id="high"> </span>&#176; F</p>
+                <p class="title-data">Wind Chill: <span id="d-wind-c"></span>&#176; F</p>
+                <p class="title-data">Humidity: <span id="humid"></span>%</p>
+                <p class="title-data">Wind Speed: <span id="windy"></span >mph</p>
+            </div>
+    </section>
+    <section class="five-day">
+        
+        <h3 class="head-5">5 Day Forecast</h3>
+            <div class="week-day">
+                <div class="days">
+                <p class="week-d" id="dayofweek1"></p>
+                <p><img id="icon1" src="#" alt="#"><br><span id="forecast1">&#176;F</span></p>
+                </div>
+                <div class="days">
+                <p class="week-d" id="dayofweek2"></p>
+                <p><img id="icon2" src="#" alt="#"><br><span id="forecast2">&#176;F</span></p>
+                </div>
+                <div class="days">
+                <p class="week-d" id="dayofweek3"></p>
+                <p><img id="icon3" src="#" alt="#"><br><span id="forecast3">&#176;F</span></p>
+                </div>
+                <div class="days">
+                <p class="week-d" id="dayofweek4"></p>
+                <p><img id="icon4" src="#" alt="#"><br><span id="forecast4">&#176;F</span></p>
+                </div>
+                <div class="days">
+                <p class="week-d" id="dayofweek5"></p>
+                <p><img id="icon5" src="#" alt="#"><br><span id="forecast5">&#176;F</span></p>
+                </div>
+            </div>
+            
+    </section>
+    <section class="town-events">
+        <h3>Upcoming Events</h3>
+        <ul class="event-list">
+
+        </ul>
+    </section>
+    <div class="article">
+    <h3>Preston, Idaho residents look back on 'Napoleon Dynamite'</h3>
+    <p class="article-p"><img src="./images/prestonart.jpg" alt="Small town" id="preston"> Twelve years ago, Preston was a town like any other, a relatively quiet part of southern Idaho with a population of just under 5,000 people. Known for That Famous Preston Night Rodeo and its close proximity to the site of the Bear River Massacre, most of the United States would likely have been unable to locate it on a map.
+
+        Things would change for the small Franklin County town with the release of "Napoleon Dynamite" in 2004. The quotable comedy film written and directed by Preston native Jared Hess became a surprise hit, earning $46.1 million at the box office on a budget of only $400,000. As the site of the film, Preston gained a foothold in pop culture, the Herald Journal reported.
+        
+        "Some people worry that the movie gives us a bad name," Preston resident Rhonda Gregerson said. "But really, it gives us a great name. The movie put us right on the map; it's our golden goose." "All over the world" • Overnight, fans from all over the world descended onto Preston to tour all the places where the movie had been filmed, from the houses of the main characters to the multicolored lockers at Preston High School. Even 12 years past the movie's wide theatrical release, Gregerson said, every summer at least 50 groups of fans walk into the office of The Preston Citizen, the local newspaper where she works as the circulation manager, wanting to know more about the film.
+
+        "They come from all over the place," Gregerson said. "In the beginning it was just from the state, but as the movie became more popular, they started coming from all over the world. Germany, England, New Zealand, Korea, Japan, China . they've all come in and have been serious fans."
+        
+        Although The Preston Citizen wasn't used as a film site, the newsroom nevertheless continues to serve as something of a hub for visiting fans as they tour the settings of their favorite scenes. Until recently, the office sold souvenirs from the movie, including "Vote for Pedro" T-shirts, tubes of ChapStick, boondoggles and more.
+        
+        "I think we've had fans from all 50 states stop by at one time or another," Gregerson explained. "They all get so excited. I remember one gentleman spent about $200 on souvenirs without batting an eye."
+        
+        In the years immediately following the film, Preston held a festival celebrating Napoleon Dynamite organized by the city's Chamber of Commerce. Gregerson recalled its popularity, drawing large numbers of fans each year for character lookalike contests, tater-tot eating contests, dancing contests, and the opportunity to meet Preston residents who played small roles in the film. "If you talk to a lot of people in Preston, you'll find a lot of people who have become a bit sick of it," Gregerson said. "I still think it's great that there's still so much interest in the town this long after the movie."
+
+        Gregerson said she believed the film's popularity would wane as the years have gone on. Instead, she said, more visitors than ever before are stopping in Preston, primarily as a side trip as they make their way to Yellowstone National Park. As a fan of the movie with a personal connection to it — Gregerson's son-in-law is the brother of director Jared Hess — Gregerson is always happy to meet with visitors, lamenting that there no longer is a store in the city selling souvenirs related to the film.
+        
+        "We've been hinting that someone else in the area should really pick it up," Gregerson said. "There is clearly still a demand for it, and I hate turning people away."
+        
+        "Always making movies" • The movie's low budget meant most of the extras and bit parts featured Preston residents, some of them longtime friends of Hess. Thedora Petterborg, who played one of the secretaries at Preston High School in the film, was one such resident, having been one of Hess' neighbors as he grew up in Preston with his five brothers.
+        
+        "Jared was always making movies," Petterborg said. "He and my grandson were always doing crazy things with a camera. It wasn't uncommon to hear about them making something big."
+        
+        Hess has said many of the scenes and dialogue from the film were drawn from his own life as he grew up in Preston, which Petterborg could confirm from experience. "A lot of what you see on the screen are the things he and his brothers would get up to all the time," she said. "They would actually slap each other and then run off. One of them really did drag action figures out the window of the school bus. They were all great kids, though."
+
+        Read the rest of the article: <a href="https://archive.sltrib.com/article.php?id=4022003&itype=CMSID" class="link">SLTRIB.com</a></p>
+    </div>
+    <div class="contact"><h3>Contact Information</h3><div class="contact-info">
+        <div class="social-img"><p><img src="./images/ifacebook.png" alt="facebook" class="social"> 
+            <img src="./images/instagram.png" alt="instagram" class="social"> 
+            <img src="./images/tiktok.png" alt="tik tok" class="social"> 
+        <img src="./images/twitter.png" alt="twitter" class="social"></div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47365.773853438026!2d-111.91534443111685!3d42.09974162639047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8754f78c7cda6c31%3A0xf1b3b4fc465a4a3f!2sPreston%2C%20ID%2083263!5e0!3m2!1sen!2sus!4v1635035740846!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+       <div class="contact-address"><span class="contact-ws"> Weather Sunny </span> <br> 2000 East 4000 South<br>Preston Idaho, 83263</div>
+    </div></div>
+
+    <footer> &copy; <span id="copyright"></span> | Stephanie Steck | Utah | <a id="footer-link" href="byui.edu" target="_blank">BYUI Online Learning </a> <br><span id="lastmod"></span>
+    </footer>
+    <script src="./js/footer.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script src="./js/webfront.js"></script>
+    <script src="js/windchill.js"></script>
+    <script src="js/weatherapi.js"></script>
+    <script src="js/preston.js"></script>
+</body>
+</html>

@@ -48,7 +48,7 @@
 /*------------------Preston Page-------------------------------------------------------*/
 
 
-.five-day {
+.five-day, .town-name {
     margin: auto;
 }
 
@@ -95,9 +95,14 @@
     min-height: 200px;
 }
 
-.contact, .article, .five-day {
+.contact, .article, .five-day, .town-events, .town-name {
     width: 50em;
 }
+
+.town-events {
+    margin: auto;
+}
+
 .contact-info {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -186,6 +191,10 @@ iframe {
         .home-art {
             width: 50em;
             margin: auto;
+        }
+
+        .home-heading {
+            width: 48em;
         }
 
         .hero-pl-9 {
