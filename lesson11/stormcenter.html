@@ -5,9 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
-    <!---------<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Merienda:wght@700&display=swap" rel="stylesheet"> ------>
     <link href="css/main.css" rel="stylesheet">
     <link href="css/medium.css" rel="stylesheet">
     <link href="css/large.css" rel="stylesheet">
@@ -40,27 +37,27 @@
 
     <form name="storm-form" action="thankyou.html">
         <div class="input-section">
-            <label pattern="(.*[A-Za-z]){5}" for="full-name">Full Name</label>
-            <input type="text" name="fullName" placeholder="Full Name" required>
+            <label>Full Name</label>
+            <input pattern="(.*[A-Za-z]){5}" type="text" name="fullName" placeholder="Full Name" required>
         </div>
         <div class="input-section">
-            <label for="email">Email</label>
+            <label>Email</label>
             <input type="text" name="email" placeholder="email@address.com" minlength="3" maxlength="64" required>
         </div>
         <div class="input-section">
-            <label for="phone-number">Phone Number</label>
+            <label>Phone Number</label>
             <input type="tel" name="phoneNumber" placeholder="000-000-0000" required>
         </div>
         <div class="input-section">
-            <label for="zip-code">Zip Code</label>
+            <label>Zip Code</label>
             <input type="number" name="zipCode" placeholder="00000" required>
         </div>
         <div class="input-section">
-            <label for="date">Storm Date</label>
-            <input type="date" name="stormDate" value="2021/12/01" class="storm-date">
+            <label>Storm Date</label>
+            <input type="date" name="stormDate" value="2021-12-01" class="storm-date">
         </div>
         <div class="input-section">
-            <label for="storm-type">Storm Type</label>
+            <label>Storm Type</label>
             <input type="text" list="storm-type" name="storm" placeholder="Select here">
             <datalist id="storm-type">
                 <option value="Flash Flood"></option>
@@ -72,34 +69,32 @@
             </datalist>
         </div>
         <div class="input-section">
-            <label for="storm-sev">Storm Severity</label>
+            <label>Storm Severity</label>
             <input type="range" name="storm-sev" step="0.5" min="1" max="10" class="bar">
         </div>
         <div class="input-section">
-            <label for="storm-region">Storm Region</label>
-            <select type="text" list="storm-region" name="region" placeholder="Select one...">
-            <datalist id="region">
+            <label>Storm Region</label>
+            <select name="region" id="region">
                 <option selected="selected" disabled>Select Region</option>
                 <option value="Preston">Preston</option>
                 <option value="Soda Springs">Soda Springs</option>
                 <option value="Fish Haven">Fish Haven</option>
-            </datalist>
             </select>
         </div>
         <div class="input-section">
             <fieldset>
             <legend>User In Danger</legend>
             <input type="radio" name="danger" value="yes">
-            <label for="yes" class="danger">Yes</label>
+            <label class="danger">Yes</label>
             <input type="radio" name="danger" value="maybe">
-            <label for="maybe" class="danger">Maybe</label>
+            <label class="danger">Maybe</label>
             <input type="radio" name="danger" value="no">
             <label class="danger">No</label>
             </fieldset>
         </div>
         <div class="input-section additional">
-            <label for="comments">Addition Information:</label>
-            <textarea type="comments" class="additional-com"></textarea>
+            <label>Addition Information:</label>
+            <textarea class="additional-com"></textarea>
             <input type="submit" value="Submit" class="select-btn">
         </div>
     </form>
