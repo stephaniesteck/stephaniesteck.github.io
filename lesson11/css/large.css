@@ -148,11 +148,16 @@ iframe {
         justify-content: center;
         padding-top: 20px;
         height: 350px;
+        max-width: 400px;
         margin: 20px;
     }
 
+    figure, img{
+        max-width: 300px;
+    }
+
     .cards:hover {
-        box-shadow: 0 0 50px #004466;
+        box-shadow: 0 0 50px #004466; 
     }
         /* ---------------------Storm Center ---------------------------------------*/
         form {
@@ -188,7 +193,7 @@ iframe {
         }
 
         .additional-com {
-            width: 400px;
+            width: 100%;
         }
 
         /*-------------------------------------Home Page----------------------------------------*/

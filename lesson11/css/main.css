@@ -47,6 +47,8 @@ nav ul {
 nav ul li{
     width: 100%;
     margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 nav ul li a {
@@ -58,21 +60,14 @@ nav ul li a {
 }
 
 nav ul li.active a {
-    background-color: #004466;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: white;
-}
-
-nav ul li a:active {
     background-color: #FFEC99;
+    padding: 5px;
 }
 
 nav ul li a:hover {
     background-color: #004466;
-    padding-top: 5px;
-    padding-bottom: 5px;
     color: white;
+    padding: 5px;
 }
 
 .button {
@@ -270,7 +265,7 @@ footer{
     text-align: center;
     border-radius: 10px;
     padding: 0;
-    width: 411px;
+    max-width: 411px;
 }
 
 .lastvisit{
@@ -285,7 +280,7 @@ figure, img {
 }
 
 .cards:hover {
-    box-shadow: 0 0 50px #004466;
+    box-shadow: 0 0 50px #004466; 
 }
 
 /* -----------------------Storm Center Form Page -------------------------------------*/
@@ -347,6 +342,7 @@ input {
 
 .additional-com {
     height: 100px;
+    width: 100%;
     margin-bottom: 20px;
 }
 
@@ -419,6 +415,7 @@ input {
     color:#004466;
     list-style-type: none;
     font-size: 20px;
+    padding: 20px;
 }
 
 .link {

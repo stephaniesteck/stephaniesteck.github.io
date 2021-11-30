@@ -22,28 +22,33 @@
     }
  /* ------------------------------ Gallery Page -------------------------------------------*/
     
-    .grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 0;
-    }
+ .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: none;
+}
 
-    figure, img{
-        width: 400px;
-    }
+figure, img{
+    max-width: 200px;
+}
 
-    .cards {
-        margin-left: 0;
-        margin-right: 2px;
-        width: 500px;
-    }
+.cards {
+    margin-left: 0;
+    margin-right: 2px;
+    padding: 0;
+    max-width: 300px;
+}
 
-    .cards:hover {
-        box-shadow: 0 0 50px #004466;
-    }
+.cards:hover {
+    box-shadow: 0 0 50px #004466; 
+}
 
     /* --------------------Storm Center --------------------------------------*/
     form {
+        width: 100%;
+    }
+
+    .additional-com {
         width: 100%;
     }
 
