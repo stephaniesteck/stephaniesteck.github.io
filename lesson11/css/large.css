@@ -49,7 +49,8 @@
 }
 
 .hero-place {
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
     text-align: center;
     width: 48.125em;  
     position: relative;
@@ -222,5 +223,10 @@ iframe {
         .town-div {
             width: 280px;
             display: block;
+        }
+
+        main {
+            margin: auto;
+            width: 48em;
         }
 }
