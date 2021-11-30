@@ -97,12 +97,7 @@ p, a, div, li, h4 {
 /*--------------------------------- Preston Page ----------------------------------------*/
 
 .hero-place {
-    margin-left: 0;
     text-align: center; 
-    width: 100%;
-}
-
-#hero-img {
     width: 100%;
 }
 
@@ -275,10 +270,6 @@ footer{
     padding: 20px;
 }
 
-figure, img {
-    width: 300px;
-}
-
 .cards:hover {
     box-shadow: 0 0 50px #004466; 
 }
@@ -384,6 +375,7 @@ input {
     margin: auto;
     width: 100%;
 }
+
 
 .hero-pl-9 {
     margin: auto;

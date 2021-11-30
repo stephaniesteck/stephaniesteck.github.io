@@ -39,10 +39,6 @@
         max-width: 38em;
     }
 
-    .hero-place {
-        max-width: 48.125em;
-    }
-
     
 
 /*------------------Preston Page-------------------------------------------------------*/
@@ -148,17 +144,18 @@ iframe {
         justify-content: center;
         padding-top: 20px;
         height: 350px;
-        max-width: 400px;
+        max-width: 500px;
         margin: 20px;
     }
 
-    figure, img{
+    figure.cards, img.cards {
         max-width: 300px;
     }
 
     .cards:hover {
         box-shadow: 0 0 50px #004466; 
     }
+
         /* ---------------------Storm Center ---------------------------------------*/
         form {
             display: flex;
@@ -204,14 +201,6 @@ iframe {
 
         .home-heading {
             width: 48em;
-        }
-
-        .hero-pl-9 {
-            width: 50em;
-        }
-
-        img.hero-pl-9 {
-            width: 800px;
         }
 
         .towns-id {
