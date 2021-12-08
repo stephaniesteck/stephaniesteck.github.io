@@ -1,0 +1,27 @@
+{
+    "events": [{
+        "name" : "Light Parade",
+        "place" : "Main Street 200 S to 200 N",
+        "day" : "December 10th",
+        "time" : "6:00 PM"
+    },
+    {
+            "name" : "Christmas Eve Parade",
+            "place" : "Main Street 300 S to 100 N",
+            "day" : "December 24th",
+            "time" : "6:00 PM"
+    },
+    {
+            "name" : "New Years Eve Teen Party",
+            "place" : "The BLDG 178 178 S Main Street",
+            "day" : "December 31",
+            "time" : "7:00 PM to 12:00 AM"
+    },
+    {
+            "name" : "Valentine's Day Date Night",
+            "place" : "The BLDG 178 178 S Main Street",
+            "day" : "February 13 & February 14",
+            "time" : "6:00 PM to 8:00 PM"
+    }
+]
+}

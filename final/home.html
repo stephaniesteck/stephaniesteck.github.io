@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gunnison Commerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/whitelogo.jpg" alt="Gunnison City Logo">
+        <h1 class="title-head">Gunnison Chamber of Commerce</h1>
+    </header>
+    <main>
+        <nav>
+            <ul class="navigation responsive">
+                <li class="ham-menu"><a href="#" onclick="toggleMenu()">
+                    <span class="button">&#9776; Menu</span></a></li>
+                <li class="active"><a href="home.html">Home</a></li>
+                <li><a href="city.html">City</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+        <div class="town-events">
+            <h2 class="events-h">Upcoming Events</h2>
+        </div>
+        <div class="weather-a"> </div>
+        
+            <div class="join">
+                <h4>Join Us Today!</h4>
+                <button><a href="join.html" class="join-butt">Click Here</a></button>
+            </div>
+            <picture>
+                <source media="(min-width: 48.125em)" srcset="./images/theater.jpeg">
+                <source media="(min-width: 26.25em)" srcset="./images/theater-medium.jpg">
+                <img src="images/theater-small.jpg" alt="Movie theater" class="theater">
+            </picture>
+        <div class="weather-pur">
+            <h2 class="purpose">Our Purpose</h2>
+            <p class="purpose-p">To bring our local businesses together, to support one another. Help bring our community together and help bring in more businesses. Help us grow and develop our city to be a better place for our businesses and our residents.</p>
+            <h2 class="weather">Weather</h2>
+            <div class="week-day">
+                <div class="days">
+                <p class="week-d" id="dayofweek1"></p>
+                <p><img id="icon1" src="#" alt="#"><br><span id="forecast1">&#176;F</span></p>
+                </div>
+                <div class="days">
+                <p class="week-d" id="dayofweek2"></p>
+                <p><img id="icon2" src="#" alt="#"><br><span id="forecast2">&#176;F</span></p>
+                </div>
+                <div class="days">
+                <p class="week-d" id="dayofweek3"></p>
+                <p><img id="icon3" src="#" alt="#"><br><span id="forecast3">&#176;F</span></p></div>
+        </div>
+        </div>
+        <h2 class="business">Our Businesses</h2>
+        <!--3 businesses-->
+        <h2 class="contact">Contact Us</h2>
+        <div class="contact-box">
+            <div class="address"><h3>Gunnison Commerce</h3><p>123 E Main St <br>Gunnison, Utah 84634</p></div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49501.87443521447!2d-111.84717345449376!3d39.15500310997467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874b8043547b86fb%3A0x42652397cb7fcf8f!2sGunnison%2C%20UT!5e0!3m2!1sen!2sus!4v1638919007780!5m2!1sen!2sus" width="450" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <div class="social-img"><img src="./images/ifacebook.png" alt="facebook">
+                <img src="images/instagram.png" alt="instagram">
+                <img src="images/tiktok.png" alt="tik tok">
+                <img src="images/twitter.png" alt="twitter"></div>
+        </div>
+    </div>
+    </main>
+    <footer>&copy; <span id="copyright"></span> | Stephanie Steck | Utah | <a id="footer-link" href="byui.edu" target="_blank">BYUI Online Learning </a> <br>Last Modified: <span id="lastmod"></span>
+    </footer>
+    <script src="js/footer.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/weatherapi.js"></script>
+    <script src="events.json"></script>
+    <script src="js/events.js"></script>
+</body>
+</html>
