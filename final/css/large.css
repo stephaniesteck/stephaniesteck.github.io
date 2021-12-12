@@ -32,14 +32,13 @@
 
     .content {
         margin: auto;
-        width: 50em;
+        width: 60em;
     }
 
     .join {
         font-size: 30px;
         margin-top: 20px;
         margin-bottom: 20px;
-        margin-left: 30px;
     }
 
     .theater {
@@ -84,6 +83,63 @@
     }
 
     .days {
+        font-size: 20px;
+    }
+
+    .town-events {
+        display: flex;
+        flex-direction: row;
+    }
+ 
+    /*----------------------------------Business Page-------------------------*/
+    .business-pg {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+    }
+
+    img.bldg, img.the-theatre, img.market, img.youngwelding {
+        width: 200px;
+    }
+
+    .business-el {
+        width: 395px;
+    }
+
+    .three-bus {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    /*-----------------------------Directory page---------------------------*/
+    .join-h, .member-h3, .form-h3, .thank-youh {
+        font-size: 30px;
+    }
+
+    .membership-name {
+        font-size: 25px;
+    }
+
+    .member-outter {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .form-fill, .membership {
+        width: 50%;
+    }
+
+    input, textarea, select {
+        width: 90%;
+    }
+
+    .thank-youp {
         font-size: 20px;
     }
 }

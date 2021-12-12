@@ -14,6 +14,7 @@
     <link href="css/normalize.css" rel="stylesheet">
 </head>
 <body>
+    <p class="weather-a">Weather Alerts from: https://www.willyweather.com/ut/sanpete-county/gunnison.html</p>
     <header>
         <img src="images/whitelogo.jpg" alt="Gunnison City Logo">
         <h1 class="title-head">Gunnison Chamber of Commerce</h1>
@@ -31,13 +32,14 @@
             </ul>
         </nav>
         <div class="content">
-        <div class="town-events">
+        
             <h2 class="events-h">Upcoming Events</h2>
-        </div>
-        <div class="weather-a"> </div>
+            <div class="town-events">
+                
+            </div>
         
             <div class="join">
-                <h4>Join Us Today!</h4>
+                <h4 class="join-head">Join Us Today!</h4>
                 <button><a href="join.html" class="join-butt">Click Here</a></button>
             </div>
             <picture>
@@ -64,7 +66,24 @@
         </div>
         </div>
         <h2 class="business">Our Businesses</h2>
-        <!--3 businesses-->
+            <div class="three-bus">
+                <div>
+                    <h3 class="bus-h">The BLDG</h3>
+                    <p>The BLDG is place to schedule all events, from weddings to family get togethers. What a fun place to rent!</p>
+                    <img src="images/bldg178.jpeg" alt="BLDG 178 window" class="bldg">
+                </div>
+                <div>
+                    <h3 class="bus-h">Casino Star Threatre</h3>
+                    <p>Casino Star Theatre is a place to watch movies and enjoy a historial threatre, they also still do some live events!</p>
+                    <img src="images/updatedtheater.jpeg" alt="renovated Theatre" class="the-theatre">
+                </div>
+                <div>
+                    <h3 class="bus-h">Gunnison Market</h3>
+                    <p>Gunnison Market is a place to buy groceries locally without bringing in the big guys and keeps our local economy going.</p>
+                    <img src="images/gunnisonmarket.jpg" alt="gunnison Market" class="market"><br>
+                    
+                </div>
+            </div>
         <h2 class="contact">Contact Us</h2>
         <div class="contact-box">
             <div class="address"><h3>Gunnison Commerce</h3><p>123 E Main St <br>Gunnison, Utah 84634</p></div>
@@ -83,4 +102,5 @@
     <script src="js/weatherapi.js"></script>
     <script src="js/events.js"></script>
 </body>
+<script src="https://cdnres.willyweather.com/widget/warning/loadView.html?id=140865" type="application/javascript"></script>
 </html>

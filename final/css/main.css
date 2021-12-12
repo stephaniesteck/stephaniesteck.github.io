@@ -4,7 +4,7 @@ h1, h2, h3, h4 {
     color: #283D3B;
 }
 
-p, footer {
+p, footer, ul li {
     font-family: 'Roboto Condensed', sans-serif;
     color: #283D3B;
 }
@@ -50,20 +50,20 @@ header {
 
 footer {
     background-color: #197278;
-    color: #EDDDD4;
+    color: white;
     text-align: center;
     padding: 20px;
 }
 
 a, footer {
-    color: #EDDDD4;
+    color: white;
 }
 
 .title-head {
     display: flex;
     align-items: center;
     justify-content: center;
-    color:#EDDDD4;
+    color: white;
 }
 
 header img {
@@ -74,24 +74,31 @@ header img {
 .events-h, .purpose, .weather, .business, .contact {
     text-align: center;
     background-color: #772E25;
+    border-bottom: #197278 solid 5px;
+    border-top: #197278 solid 5px;
     color: #EDDDD4;
     border-radius: 10px;
     padding: 15px;
     margin-bottom: 0;
 }
 
-/*.town-events {
-    border: #283D3B 5px;
-}*/
-
 a.join-butt {
     text-decoration: none;
 }
 
 button {
-    background-color: #283D3B;
+    background-color: #197278;
     color:#EDDDD4;
     padding: 10px;
+}
+
+.town-events {
+    border: #772E25 2px solid;
+    border-radius: 10px;
+}
+
+section p, section h3 {
+    color:#772E25;
 }
 
 .purpose-p {
@@ -108,8 +115,157 @@ button {
     padding-bottom: 10px;
 }
 
-.contact-box, .purpose-p, .week-day {
+.join-head {
+    background-color: #C44536;
+    border-bottom: #197278 solid 5px;
+    border-top: #197278 solid 5px;
+    color:#EDDDD4;
+    width: 300px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.contact-box, .purpose-p, .week-day, .business-el, .three-bus {
     border: #283D3B 2px solid;
     border-radius: 10px;
     text-align: center;
+}
+
+.weather-a {
+    background-color: #C44536;
+    padding: 20px;
+    color: #EDDDD4;
+}
+
+/*------------------------Directory page--------------------------------*/
+a.business-butt {
+    text-decoration: none;
+}
+
+.button-bus {
+    margin-bottom: 20px;
+}
+
+.business-name, .bus-h {
+    background-color: #C44536;
+    text-align: center;
+    color: #EDDDD4;
+    border-bottom: #197278 solid 5px;
+    border-top: #197278 solid 5px;
+}
+
+.heading {
+    background-color: #772E25;
+    color: #EDDDD4;
+    text-align: center;
+}
+
+/*-------------------City Page---------------------*/
+.city-link {
+    color: #283D3B;
+}
+
+.city-h {
+    background-color: #C44536;
+    text-align: center;
+    color: #EDDDD4;
+    border-bottom: #197278 solid 5px;
+    border-top: #197278 solid 5px;
+}
+
+img.main-st {
+    width: 400px;
+}
+/*---------------------Join form Page------------------*/
+form {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #283D3B;
+    
+}
+
+label {
+    color:white;
+    padding-bottom: 10px;
+}
+
+input, textarea, select {
+    padding: 5px;
+}
+
+
+.select-btn {
+    background-color: #197278;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+.join-h {
+    background-color: #C44536;
+    color: #EDDDD4;
+    padding: 20px;
+    margin-top: 0;
+    text-align: center;
+    border-radius: 10px;
+    border-top: #197278 solid 5px;
+    border-bottom: #197278 solid 5px;
+}
+
+.join-p {
+    background-color: #197278;
+    color: #EDDDD4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.membership, .form-fill {
+    border: #197278 solid 5px;
+    border-radius: 10px;
+}
+
+.membership-name {
+    border-bottom: #C44536 solid 5px;
+    color: #197278;
+    text-align: center;
+}
+
+ul.level-perks {
+    list-style-type: none;
+}
+
+.member-h3 {
+    background-color: #C44536;
+    color:#EDDDD4;
+    padding: 20px;
+    text-align: center;
+}
+
+.input-section {
+    text-align: center;
+    padding: 5px;
+}
+
+.form-fill {
+    background-color: #C44536;
+    border-radius: 10px;
+}
+
+.form-h3 {
+    color: white;
+    text-align: center;
+}
+
+.thank-youh {
+    text-align: center;
+    background-color: #C44536;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.thank-youp {
+    background-color: #197278;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
 }
