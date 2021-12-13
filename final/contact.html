@@ -30,7 +30,44 @@
                     <li class="active"><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-
+        <div class="content">
+            <h2 class="contact">Contact Us</h2>
+            <div class="contact-pg">
+            
+            <div class="contact-box-pg">
+                <div class="address"><h3>Gunnison Commerce</h3><p>123 E Main St <br>Gunnison, Utah 84634 <br>435-528-0000</p></div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49501.87443521447!2d-111.84717345449376!3d39.15500310997467!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x874b8043547b86fb%3A0x42652397cb7fcf8f!2sGunnison%2C%20UT!5e0!3m2!1sen!2sus!4v1638919007780!5m2!1sen!2sus" max-width="600" max-height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="social-img"><img src="./images/ifacebook.png" alt="facebook">
+                    <img src="images/instagram.png" alt="instagram">
+                    <img src="images/tiktok.png" alt="tik tok">
+                    <img src="images/twitter.png" alt="twitter"></div>
+            </div>
+            
+            <div class="contact-form">
+                <h3 class="contact-h3">Have some questions? Fill this out!</h3>
+                <form name="contact-form" action="thankyou.html">
+                    <div class="input-section">
+                        <label pattern="(.*[A-Za-z]{5}" for="full-name">Full Name</label><br>
+                        <input type="text" name="fullName" placeholder="Full Name" required>
+                    </div>
+                    <div class="input-section">
+                        <label for="email">Email</label><br>
+                        <input type="text" name="email" placeholder="email@address.com" minlength="3" maxlength="64" required>
+                    </div>
+                    <div class="input-section">
+                        <label for="phone-number">Phone Number</label><br>
+                        <input type="tel" name="phoneNumber" placeholder="000-000-0000">
+                    </div>
+                    <div class="input-section">
+                        <label for="comments">Additional Comments?</label><br>
+                        <textarea name="comments" id="comments"></textarea><br>
+                        <input type="submit" value="Submit" class="contact-btn">
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+        </div>
     </main>
     <footer>&copy; <span id="copyright"></span> | Stephanie Steck | Utah | <a id="footer-link" href="byui.edu" target="_blank">BYUI Online Learning </a> <br>Last Modified: <span id="lastmod"></span>
     </footer>

@@ -50,6 +50,10 @@
         grid-template-columns: 1fr 1fr;
     }
 
+    .join-head {
+        width: 300px;
+    }
+
     .purpose {
         grid-row: 1 / 1;
         
@@ -98,8 +102,8 @@
        flex-wrap: wrap;
     }
 
-    img.bldg, img.the-theatre, img.market, img.youngwelding {
-        width: 200px;
+    img.bldg {
+        max-width: 200px;
     }
 
     .business-el {
@@ -115,9 +119,15 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+        width: 60em;
+        padding: 10px;
     }
 
-    /*-----------------------------Directory page---------------------------*/
+    .gallery-img {
+        margin: 40px;
+    }
+
+    /*-----------------------------Directory page & Join ---------------------------*/
     .join-h, .member-h3, .form-h3, .thank-youh {
         font-size: 30px;
     }
@@ -133,6 +143,7 @@
 
     .form-fill, .membership {
         width: 50%;
+        
     }
 
     input, textarea, select {
@@ -141,5 +152,15 @@
 
     .thank-youp {
         font-size: 20px;
+    }
+    /*-------------------Contact Page-------------------------*/
+    .contact-pg {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contact-form, .contact-box-pg {
+        width: 50%;
+       
     }
 }

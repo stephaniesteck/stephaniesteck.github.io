@@ -5,7 +5,7 @@ h1, h2, h3, h4 {
 }
 
 p, footer, ul li {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif; 
     color: #283D3B;
 }
 
@@ -23,6 +23,18 @@ nav ul li a {
     flex-direction: row;
     text-decoration: none;
     font-size: 20px;
+    background-color: #C44536;
+}
+
+header {
+    background-color: #197278;
+    color: #EDDDD4;
+    text-align: center;
+    height: 200px; 
+}
+
+body {
+    background-color: #EDDDD4;
 }
 
 nav ul li.active a {
@@ -32,20 +44,9 @@ nav ul li.active a {
 
 nav ul li a:hover {
     background-color: #EDDDD4;
-    color: #772E25;
-    padding: 5px;
-}
-
-body {
-    background-color: #EDDDD4;
-}
-
-header {
-    background-color: #197278;
-    color: #EDDDD4;
+    color: #772E25; 
     text-align: center;
-    height: 200px;
-   
+    padding: 5px;
 }
 
 footer {
@@ -95,6 +96,7 @@ button {
 .town-events {
     border: #772E25 2px solid;
     border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 section p, section h3 {
@@ -120,7 +122,6 @@ section p, section h3 {
     border-bottom: #197278 solid 5px;
     border-top: #197278 solid 5px;
     color:#EDDDD4;
-    width: 300px;
     margin: auto;
     margin-bottom: 20px;
 }
@@ -131,10 +132,14 @@ section p, section h3 {
     text-align: center;
 }
 
+.bldg, .the-theatre, .market {
+    width: 200px;
+}
+
 .weather-a {
     background-color: #C44536;
     padding: 20px;
-    color: #EDDDD4;
+    color: white;
 }
 
 /*------------------------Directory page--------------------------------*/
@@ -158,6 +163,7 @@ a.business-butt {
     background-color: #772E25;
     color: #EDDDD4;
     text-align: center;
+    border-radius: 10px;
 }
 
 /*-------------------City Page---------------------*/
@@ -171,6 +177,7 @@ a.business-butt {
     color: #EDDDD4;
     border-bottom: #197278 solid 5px;
     border-top: #197278 solid 5px;
+    border-radius: 10px;
 }
 
 img.main-st {
@@ -268,4 +275,39 @@ ul.level-perks {
     color: white;
     padding: 20px;
     border-radius: 10px;
+}
+
+.form-fill, .membership {
+    margin-bottom: 20px;
+}
+
+/*-----------------------Contact Page--------------------*/
+
+.contact-form, .contact-box-pg {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.contact-form {
+    background-color: #197278;
+    border-radius: 10px;
+}
+
+.contact-h3 {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.contact-btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #C44536;
+    color: white;
+}
+
+.contact-box-pg {
+    border: #283D3B 2px solid;
+    border-radius: 10px;
+    text-align: center;
 }

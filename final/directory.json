@@ -1,0 +1,47 @@
+{
+    "businesses": [
+        {
+        "name" : "The BLDG 178",
+        "imageurl" : "https://www.facebook.com/thebldg178/photos/a.101733435167980/101735785167745",
+        "description" : "The BLDG is place to schedule all events, from weddings to family get togethers. What a fun place to rent!",
+        "pageurl" : "https://www.facebook.com/thebldg178/"
+        },
+        {
+            "name" : "Casino Star Threatre",
+            "imageurl" : "https://m.facebook.com/121099894580713/photos/a.151587574865278/2192173094140039/?type=3",
+            "description" : "Casino Star Theatre is a place to watch movies and enjoy a historial threatre, they also still do some live events!",
+            "pageurl" : "http://www.casinostartheatre.com/"
+        },
+        {
+            "name" : "Gunnison Market",
+            "imageurl" : "https://www.facebook.com/GunnisonMarketplace/photos/a.466668873354897/466669060021545/",
+            "description" : "Gunnison Market is a place to buy groceries locally without bringing in the big guys and keeps our local economy going.",
+            "pageurl" : "https://www.gunnisonmarket.com/"
+        },
+        {
+            "name" : "Donaldson Insurance Agency Copy Station",
+            "imageurl" : "https://www.facebook.com/CopyStation3800/photos/a.578664622201825/1489585747776370/",
+            "description" : "The Copy Station is a place to find crafts from local residents, as well as to print pictures, for any projects you have.",
+            "pageurl" : "https://www.donaldsonins-ut.com/copy-station"
+        },
+        {
+            "name" : "Donaldson Insurance Agency",
+            "imageurl" : "https://www.facebook.com/714953428536349/photos/a.937255966306093/937255972972759/",
+            "description" : "Donaldson Insurance Agency is there for all of your insurance needs, from commerical needs, as well as personal needs.",
+            "pageurl" : "https://www.donaldsonins-ut.com/"
+        },
+        {
+            "name" : "Satterwhite Log Homes",
+            "imageurl" : "https://www.pinterest.com/pin/544443042429222642/",
+            "description" : "Satterwhite Log Homes provides lumber for your home, or log homes, you can find homes that have used Satterwhite all around the world!",
+            "pageurl" : "https://www.satterwhite-log-homes.com/"
+        },
+        {
+            "name" : "Lyle Young Welding",
+            "imageurl" : "https://www.facebook.com/lyleyoungwelding/photos/a.2097933187131090/2097959920461750/",
+            "description" : "Lyle Young Welding does many projects from swing sets for your backyard to farming needs. Anything you need welded they can do!",
+            "pageurl" : "https://www.lyleyoungweld.com/"
+        }
+
+    ]
+}
