@@ -1,0 +1,47 @@
+{
+    "businesses": [
+        {
+        "name" : "The BLDG 178",
+        "address" : "178 S Main Street Gunnison, Utah",
+        "phone" : "4352019977",
+        "pageurl" : "https://www.facebook.com/thebldg178/"
+        },
+        {
+            "name" : "Casino Star Threatre",
+            "address" : "78 S Main Street Gunnison, Utah",
+            "phone" : "4355287827",
+            "pageurl" : "http://www.casinostartheatre.com/"
+        },
+        {
+            "name" : "Gunnison Market",
+            "address" : "520 S Main Street Gunnison, Utah",
+            "phone" : "4355283060",
+            "pageurl" : "https://www.gunnisonmarket.com/"
+        },
+        {
+            "name" : "Donaldson Insurance Agency Copy Station",
+            "address" : "558 S Main Street Gunnison, Utah",
+            "phone" : "4355283800",
+            "pageurl" : "https://www.donaldsonins-ut.com/copy-station"
+        },
+        {
+            "name" : "Donaldson Insurance Agency",
+            "address" : "558 S Main Street Gunnison, Utah",
+            "phone" : "4355287253",
+            "pageurl" : "https://www.donaldsonins-ut.com/"
+        },
+        {
+            "name" : "Satterwhite Log Homes",
+            "address" : "911 US-89 Gunnison, Utah",
+            "phone" : "4355285001",
+            "pageurl" : "https://www.satterwhite-log-homes.com/"
+        },
+        {
+            "name" : "Lyle Young Welding",
+            "address" : "1700 US-89 Gunnison, Utah",
+            "phone" : "4355283938",
+            "pageurl" : "https://www.lyleyoungweld.com/"
+        }
+
+    ]
+}
