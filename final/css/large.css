@@ -146,6 +146,26 @@
         
     }
 
+    .cards {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .biz-div {
+        width: 50%;
+    }
+
+    .address, .biz-h3, .phone {
+        text-align: left;
+    }
+
+    .biz-btn {
+        margin: auto;
+    }
+
+
     input, textarea, select {
         width: 90%;
     }
