@@ -10,9 +10,8 @@ fetch(directory)
         const business = jsonObject["businesses"];
 
         const businessList = ["The BLGD 178", "Casino Star Theatre", "Gunnison Market", "Donaldson Insurance Agency Copy Station", "Donaldson Insurance Agency", "Satterwhite Log Homes", "Lyle Young Welding"];
-
-       // businessList.sort(fuction(a,b){ return b.value - a.value});
         console.log(businessList);
+
 
         for (let i = 0; i <business.length; i++) {
             if(businessList.includes(business[i].name)) {
@@ -20,58 +19,65 @@ fetch(directory)
 
             switch (business[i].name) {
                 case 'The BLDG 178':
-                    bizImage ='../images/bldg1.jpg';
+                    bizImage ='../final/images/bldg1.jpg';
                 break;
                 case 'Casino Star Theatre': 
-                    bizImage = '../images/casino.jpg';
+                    bizImage = '../final/images/casino.jpg';
                 break;
                 case 'Gunnison Market':
-                    bizImage ='../images/gunnisonm.jpg';
+                    bizImage ='../final/images/gunnisonm.jpg';
                 break;
                 case 'Donaldson Insurance Agency Copy Station':
-                    bizImage ='../images/copys.jpg';
+                    bizImage ='../final/images/copys.jpg';
                 break;
                 case 'Donaldson Insurance Agency': 
-                    bizImage = '../images/don.jpg';
+                    bizImage = '../final/images/don.jpg';
                 break;
                 case 'Satterwhite Log Homes':
-                    bizImage ='../images/satter.jpg';
+                    bizImage ='../final/images/satter.jpg';
                 break;
                 case 'Lyle Young Welding':
-                    bizImage ='../images/young.jpg';
+                    bizImage ='../final/images/young.jpg';
                 break;
                 
             }
+
+            
             let bizDiv = document.createElement('div');
             let textDiv = document.createElement('div');
+            let pageurl = document.createElement('div')
             let bizH3 = document.createElement('h3');
             let address = document.createElement('p');
             let phone = document.createElement('p');
-            let bizUrl = document.createElement('a');
-            let bImg = document.createElement('img');
+            let bizImg = document.createElement('img');
+            
 
+            
             bizDiv.classList.add('biz-div');
             textDiv.classList.add('text-div');
+            pageurl.classList.add('btn-div');
             bizH3.classList.add('biz-h3');
             address.classList.add('address');
             phone.classList.add('phone');
-            bizUrl.classList.add('biz-btn');
-            bImg.classList.add('biz-img');
-
+            bizImg.classList.add('biz-img');
+            
+            
             bizH3.textContent = business[i].name;
             address.textContent = business[i].address;
             phone.textContent = business[i].phone;
-            bizUrl.textContent = business[i].pageurl;
-            bImg.src =bizImage;
-            bImg.alt = `image of business ${business[i].name}`;
+            bizImg.src =bizImage;
+            bizImg.alt = `image of business ${business[i].name}`;
+            pageurl.textContent = business[i].pageurl;
+            
             
             textDiv.appendChild(bizH3);
             textDiv.appendChild(address);
             textDiv.appendChild(phone);
-            textDiv.appendChild(bizUrl);
+            pageurl.appendChild(textDiv);
             bizDiv.appendChild(textDiv);
-            bizDiv.appendChild(bImg);
-
+            bizDiv.appendChild(bizImg);
+            textDiv.appendChild(pageurl);
+            
             document.querySelector('.cards').appendChild(bizDiv);
             }
         }

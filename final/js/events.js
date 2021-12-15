@@ -1,4 +1,4 @@
-const events = 'https://stephaniesteck.github.io/final/events.json';
+const events = 'https://stephaniesteck.github.io/final/json/events.json';
 
 fetch(events)
     .then(function (response) {

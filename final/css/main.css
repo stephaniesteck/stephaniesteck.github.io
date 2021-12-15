@@ -151,12 +151,35 @@ a.business-butt {
     margin-bottom: 20px;
 }
 
-.business-name, .bus-h {
+.address, .phone {
+    color: white;
+}
+
+.cards {
+    margin-bottom: 20px;
+}
+
+.biz-h3 {
     background-color: #C44536;
     text-align: center;
     color: #EDDDD4;
-    border-bottom: #197278 solid 5px;
-    border-top: #197278 solid 5px;
+}
+
+img.biz-img {
+    width: 100px;
+}
+
+.btn-div {
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+
+.biz-div {
+    border: #283D3B solid 2px;
+    border-radius: 10px;
+    background-color: #197278;
 }
 
 .heading {
