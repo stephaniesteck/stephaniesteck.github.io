@@ -71,44 +71,44 @@
                 <h4 class="form-h3">Membership Form</h4>
             <form name="join-form" action="thankyou.html">
                 <div class="input-section">
-                    <label pattern="(.*[A-Za-z]{5}" for="first-name">First Name</label><br>
-                    <input type="text" name="firstName" placeholder="First Name" required>
+                    <label  for="first-name">First Name</label><br>
+                    <input pattern="( .*[A-Za-z]{5}" type="text" name="first-name" id="first-name" placeholder="First Name" required>
                 </div>
                 <div class="input-section">
-                    <label pattern="(.*[A-Za-z]{5}" for="last-name">Last Name</label><br>
-                    <input type="text" name="lastName" placeholder="Last Name" required>
+                    <label for="last-name">Last Name</label><br>
+                    <input pattern="(.*[A-Za-z]{5}" type="text" name="lastName" id="last-name" placeholder="Last Name" required>
                 </div>
                 <div class="input-section">
-                    <label pattern="(.*[A-Za-z]{5}" for="title">Title</label><br>
-                    <input type="text" name="title" placeholder="Title" required>
+                    <label for="title">Title</label><br>
+                    <input pattern="(.*[A-Za-z]{5}" type="text" name="title" id="title" placeholder="Title" required>
                 </div>
                 <div class="input-section">
                     <label for="email">Email</label><br>
-                    <input type="text" name="email" placeholder="email@address.com" minlength="3" maxlength="64" required>
+                    <input type="text" name="email" id="email" placeholder="email@address.com" minlength="3" maxlength="64" required>
                 </div>
                 <div class="input-section">
                     <label for="cell-number">Cell Number</label><br>
-                    <input type="tel" name="cellNumber" placeholder="000-000-0000">
+                    <input type="tel" name="cellNumber" id="cell-number" placeholder="000-000-0000">
                 </div>
                 <div class="input-section">
-                    <label pattern="(.*[A-Za-z]){5}" for="business-name">Business Name</label><br>
-                    <input type="text" name="businessName" placeholder="Business Name" required>
+                    <label for="business-name">Business Name</label><br>
+                    <input pattern="(.*[A-Za-z]){5}" type="text" name="businessName" id="business-name" placeholder="Business Name" required>
                 </div>
                 <div class="input-section">
-                    <label pattern="(.*[A-Za-z]){5}" for="business-address">Business Address</label><br>
-                    <input type="text" name="businessAddress" placeholder="Business Address">
+                    <label for="business-address">Business Address</label><br>
+                    <input pattern="(.*[A-Za-z]){5}" type="text" name="businessAddress" id="business-address" placeholder="Business Address">
                 </div>
                 <div class="input-section">
-                    <label for="website">Business Website</label> <br>
-                    <input type="url" name="businessWebsite" placeholder="Business Website">
+                    <label for="business-website">Business Website</label> <br>
+                    <input type="url" name="businessWebsite"  id="business-website" placeholder="Business Website">
                 </div>
                 <div class="input-section">
                     <label for="description">Business Description</label><br>
-                    <textarea name="description" id="desciption"></textarea>
+                    <textarea name="description" id="description"></textarea>
                 </div>
                 <div class="input-section">
                     <label for="membership">Membership Level</label><br>
-                    <select type="text" list="membership-level" name="membership" placeholder="Select one...">
+                    <select name="membership" id="membership">
                         <option selected="selected" disabled>Select Membership Level</option>
                         <option value="nonprofit">Nonprofit $100</option>
                         <option value="bronze">Bronze $200</option>
